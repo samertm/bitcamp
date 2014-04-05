@@ -33,18 +33,48 @@ public class UnboundedKnapsack {
     //Item constraints= new Item("price",80,60,20,200,50);
     //Item constraints= new Item("price",200,60,20,200,50);
     Item bestcalitem= new Item("best",0,0,0,0,0);
+    Item bestfatitem= new Item("best",0,0,0,0,0);
+    Item bestsoditem= new Item("best",0,0,0,0,0);
+    Item bestsugitem= new Item("best",0,0,0,0,0);
+    
     
     int  []  maxItcal = new int [n];  // maximum number of items for cal constraint
+    int  []  maxItfat = new int [n];
+    int  []  maxItsod = new int [n];
+    int  []  maxItsug = new int [n];
+    
+    
     int  []    ical = new int [n];  // current indexes of items for cal
+    int  []    ifat = new int [n];
+    int  []    isod = new int [n];
+    int  []    isug = new int [n];
+    
+    
     int  [] bestcal = new int [n];  // best amounts for cal
+    int  [] bestfat = new int [n];
+    int  [] bestsod = new int [n];
+    int  [] bestsug = new int [n];
+    
  
     public UnboundedKnapsack() {
         // initializing:
         for (int i = 0; i < n; i++) {
             maxItcal [i] = Math.min(
-                           (int)(2000 / items[i].getCal()),//2000 is the cal constraint
-                           (int)(50 / items[i].getCost())// 50 in the cost contraint
+                           (int)(constraints.getCal() / items[i].getCal()),//2000 is the cal constraint
+                           (int)(constraints.getCost() / items[i].getCost())// 50 in the cost contraint
                         );
+            maxItfat [i] = Math.min(
+                    (int)(constraints.getFat() / items[i].getFat()),//2000 is the cal constraint
+                    (int)(constraints.getCost() / items[i].getCost())// 50 in the cost contraint
+                 );
+            maxItsod [i] = Math.min(
+                    (int)(constraints.getSodium() / items[i].getSodium()),//2000 is the cal constraint
+                    (int)(constraints.getCost() / items[i].getCost())// 50 in the cost contraint
+                 );
+            maxItsug [i] = Math.min(
+                    (int)(constraints.getSugar() / items[i].getSugar()),//2000 is the cal constraint
+                    (int)(constraints.getCost() / items[i].getCost())// 50 in the cost contraint
+                 );
            
         } // for (i)
  
@@ -57,11 +87,24 @@ public class UnboundedKnapsack {
         System.out.print("This is achieved by carrying (one solution): ");
         for (int i = 0; i < n; i++) {
             System.out.print(bestcal[i] + " " + items[i].getName() + ", ");
+            System.out.print(bestfat[i] + " " + items[i].getName() + ", ");
+            System.out.print(bestsod[i] + " " + items[i].getName() + ", ");
+            System.out.print(bestsug[i] + " " + items[i].getName() + ", ");
+            
         }
         System.out.println();
         System.out.println("The calories you will have is: " + nf.format(bestcalitem.getCal()) +
                            "   and the total amount used is: " + nf.format(bestcalitem.getCost())
                           );
+        System.out.println("The calories you will have is: " + nf.format(bestfatitem.getCal()) +
+                "   and the total amount used is: " + nf.format(bestfatitem.getCost())
+               );
+        System.out.println("The calories you will have is: " + nf.format(bestsoditem.getCal()) +
+                "   and the total amount used is: " + nf.format(bestsoditem.getCost())
+               );
+        System.out.println("The calories you will have is: " + nf.format(bestsugitem.getCal()) +
+                "   and the total amount used is: " + nf.format(bestsugitem.getCost())
+               );
  
     }
  
@@ -78,8 +121,8 @@ public class UnboundedKnapsack {
                 int currVol = 0; // current Volume
                 int totalcost=0;
                 for (int j = 0; j < n; j++) {
-                    currVal += ical[j] * items[j].getCal();// bug here!!!!!
-                    currWei += ical[j] * items[j].getCal();//bug here!!!!!
+                    currVal += ical[j] * items[j].getCal();
+                    currWei += ical[j] * items[j].getCal();
                     currVol += ical[j] * items[j].getCost();
                 }
  
@@ -88,11 +131,110 @@ public class UnboundedKnapsack {
                     currVol <= constraints.getCost()
                 )
                 {
-                    bestcalitem.setCal (currVal);// bug here!!!!!
-                    bestcalitem.setCal(currWei);// bug here!!!!!
+                    bestcalitem.setCal (currVal);
+                    bestcalitem.setCal(currWei);
                     bestcalitem.setCost(currVol);
                     totalcost= bestcalitem.cost;
                     for (int j = 0; j < n; j++) bestcal[j] = ical[j];
+                } // if (...)
+            } // else
+        } // for (i)
+        
+        
+        
+    	
+        for (int i = 0; i <= maxItfat[item]; i++) {
+            ifat[item] = i;
+            if (item < n-1) {
+                calcWithRecursion(item+1);
+            } else {
+                int    currVal = 0;   // current value
+                int currWei = 0; // current weight
+                int currVol = 0; // current Volume
+                
+                for (int j = 0; j < n; j++) {
+                    currVal += ifat[j] * items[j].getFat();
+                    currWei += ifat[j] * items[j].getFat();
+                    currVol += ifat[j] * items[j].getCost();
+                }
+ 
+                if (currVal > constraints.getCost()
+                    &&
+                    currVol <= constraints.getCost()
+                )
+                {
+                    bestfatitem.setFat (currVal);
+                    bestfatitem.setFat(currWei);
+                    bestfatitem.setCost(currVol);
+                    
+                    for (int j = 0; j < n; j++) bestfat[j] = ifat[j];
+                } // if (...)
+            } // else
+        } // for (i)
+        
+        
+        
+        
+          
+          
+        
+        for (int i = 0; i <= maxItsod[item]; i++) {
+            isod[item] = i;
+            if (item < n-1) {
+                calcWithRecursion(item+1);
+            } else {
+                int    currVal = 0;   // current value
+                int currWei = 0; // current weight
+                int currVol = 0; // current Volume
+                int totalcost=0;
+                for (int j = 0; j < n; j++) {
+                    currVal += isod[j] * items[j].getSodium();
+                    currWei += isod[j] * items[j].getSodium();
+                    currVol += isod[j] * items[j].getCost();
+                }
+ 
+                if (currVal > constraints.getCost()
+                    &&
+                    currVol <= constraints.getCost()
+                )
+                {
+                    bestsoditem.setSodium (currVal);
+                    bestsoditem.setSodium(currWei);
+                    bestsoditem.setCost(currVol);
+                    totalcost= bestsoditem.cost;
+                    for (int j = 0; j < n; j++) bestsod[j] = isod[j];
+                } // if (...)
+            } // else
+        } // for (i)
+        
+        
+        
+        
+        for (int i = 0; i <= maxItsug[item]; i++) {
+            isug[item] = i;
+            if (item < n-1) {
+                calcWithRecursion(item+1);
+            } else {
+                int    currVal = 0;   // current value
+                int currWei = 0; // current weight
+                int currVol = 0; // current Volume
+                int totalcost=0;
+                for (int j = 0; j < n; j++) {
+                    currVal += isug[j] * items[j].getSugar();
+                    currWei += isug[j] * items[j].getSugar();
+                    currVol += isug[j] * items[j].getCost();
+                }
+ 
+                if (currVal > constraints.getCost()
+                    &&
+                    currVol <= constraints.getCost()
+                )
+                {
+                    bestsugitem.setSugar (currVal);
+                    bestsugitem.setSugar(currWei);
+                    bestsugitem.setCost(currVol);
+                    totalcost= bestsugitem.cost;
+                    for (int j = 0; j < n; j++) bestsug[j] = isug[j];
                 } // if (...)
             } // else
         } // for (i)

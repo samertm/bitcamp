@@ -6,15 +6,15 @@ public class Item {
     public int cal;
     public int fat;
     public int sugar;
-    public int carbs;
+    public int sodium;
     public int cost;
 
-	public Item(String name, int cal, int fat, int sugar, int carbs, int cost) {
+	public Item(String name, int cal, int fat, int sodium, int sugar, int cost) {
         this.name = name;
         this.cal = cal;
         this.fat = fat;
         this.sugar=sugar;
-        this.carbs=carbs;
+        this.sodium=sodium;
         this.cost=cost;
      }
         
@@ -58,12 +58,12 @@ public class Item {
     		this.sugar = sugar;
     	}
 
-    	public int getCarbs() {
-    		return carbs;
+    	public int getSodium() {
+    		return sodium;
     	}
 
-    	public void setCarbs(int carbs) {
-    		this.carbs = carbs;
+    	public void setSodium(int sodium) {
+    		this.sodium = sodium;
     	}
     
  
