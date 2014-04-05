@@ -1,24 +1,28 @@
 package foodstore
 
+import (
+	"database/sql"
+	_ "github.com/mattn/go-sqlite3"
+	"log"
+)
+
 type Food struct {
 	Name string
-	// Price per serving
-	Price float
-	// Serving in grams
-	ServingSize float
-	// Calories per serving
-	Calories int
-	// All the rest of these are per serving
-	// in mg (milligrams)
-	Fat          int
-	SaturatedFat int
-	TransFat     int
-	Cholesterol  int
-	DietaryFiber int
-	Sugar        int
-	Protein      int
+	// All of the following are per serving. Sizes are in grams.
+	Price         float64
+	Fiber         int
+	Calories      int
+	Sugar         int
+	Fat           int
+	Sodium        int
+	Carbohydrates int
+	Serving       int
+	Cholesterol   int
+	Protein       int
 }
 
+// Map from food names to food. The key and Name field are
+// always equal.
 type FoodStore map[string]Food
 
 func New() FoodStore {
@@ -26,33 +30,42 @@ func New() FoodStore {
 	return f
 }
 
-func NewDebug () FoodStore {
-	f := make(FoodStore)
-		f["rice"] = Food{
-		"rice",
-		3.0,
-		202,
-		211,
-		0,
-		0,
-		209,
-		5500,
-		2000,
-		100,
-		5000,
+func NewFromDb() FoodStore {
+	dbName := "./apifetcher/foods.db"
+	db, err := sql.Open("sqlite3", dbName)
+	if err != nil {
+		log.Fatal(err)
 	}
-	f["beans"] = Food{
-		"beans",
-		2.0,
-		502,
-		511,
-		0,
-		0,
-		509,
-		3500,
-		1000,
-		500,
-		6000,
-	}		
-	return f
+	defer db.Close()
+	rows, err := db.Query(`
+select name, price, fiber, calories, sugar, fat, sodium, carbohydrates, serving, cholesterol, protein from foods
+`)
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer rows.Close()
+	var store FoodStore = New()
+	for rows.Next() {
+		var name string
+		var price float64
+		var fiber, calories, sugar, fat, sodium,
+			carbohydrates, serving, cholesterol, protein int
+		rows.Scan(&name, &price, &fiber, &calories, &sugar, &fat,
+			&sodium, &carbohydrates, &serving, &cholesterol,
+			&protein)
+		store[name] = Food{
+			name,
+			price,
+			fiber,
+			calories,
+			sugar,
+			fat,
+			sodium,
+			carbohydrates,
+			serving,
+			cholesterol,
+			protein,
+		}
+	}
+	return store
 }

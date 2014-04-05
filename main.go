@@ -1,7 +1,11 @@
 package main
 
-import "bitcamp/server"
+import (
+	"github.com/samertm/bitcamp/foodstore"
+	"github.com/samertm/bitcamp/server"
+)
 
 func main() {
-	server.ListenAndServe(":8000")
+	f := foodstore.NewFromDb()
+        server.ListenAndServe(":8889", f)
 }
