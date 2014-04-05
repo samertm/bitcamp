@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "bitcamp/server"
 
 func main() {
-	fmt.Println("Hello, go")
+	server.ListenAndServe(":8000")
 }
