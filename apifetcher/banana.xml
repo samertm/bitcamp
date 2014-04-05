@@ -1,0 +1,420 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='13'
+    datatypes='ExpandedFood'
+    timedout=''
+    timedoutpods=''
+    timing='7.081'
+    parsetiming='0.184'
+    parsetimedout='false'
+    recalculate=''
+    id='MSPa16101f7ifb7h02cbbid40000165g48bc83a02ig9'
+    host='http://www3.wolframalpha.com'
+    server='23'
+    related='http://www3.wolframalpha.com/api/v2/relatedQueries.jsp?id=MSPa16111f7ifb7h02cbbid400002665i13882a39cgb&amp;s=23'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>banana | amount | 1 banana</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP16121f7ifb7h02cbbid4000068575i3f5a4e1a0b?MSPStoreType=image/gif&amp;s=23'
+       alt='banana | amount | 1 banana'
+       title='banana | amount | 1 banana'
+       width='248'
+       height='32' />
+  </subpod>
+ </pod>
+ <pod title='Nutrition facts'
+     scanner='Data'
+     id='NutritionLabelSingle:ExpandedFoodData'
+     position='200'
+     error='false'
+     numsubpods='1'
+     primary='true'>
+  <subpod title=''>
+   <plaintext>serving size 1 banana (118 g)
+total calories  105 | fat calories  3
+% daily value^* |  
+  total fat  389 mg | 1%
+       saturated fat  132 mg | 1%
+       trans fat   | 
+  cholesterol  0 g | 0%
+  sodium  1 mg | 0%
+  total carbohydrates  27 g | 9%
+       dietary fiber  3 g | 12%
+       sugar  14 g | 
+  protein  1 g | 3%
+   vitamin A  2%    |    vitamin C  17%   
+   calcium  1%    |    iron  2%   
+   vitamin E  1%    |    thiamin  2%   
+   riboflavin  5%    |    niacin  4%   
+   vitamin B6  22%    |    folate  6%   
+   phosphorus  3%    |    magnesium  8%   
+   zinc  1%    | 
+*percent daily values are based on a 2000 calorie diet</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP16131f7ifb7h02cbbid400005e5220ffdec2590h?MSPStoreType=image/gif&amp;s=23'
+       alt='serving size 1 banana (118 g)
+total calories  105 | fat calories  3
+% daily value^* |  
+  total fat  389 mg | 1%
+       saturated fat  132 mg | 1%
+       trans fat   | 
+  cholesterol  0 g | 0%
+  sodium  1 mg | 0%
+  total carbohydrates  27 g | 9%
+       dietary fiber  3 g | 12%
+       sugar  14 g | 
+  protein  1 g | 3%
+   vitamin A  2%    |    vitamin C  17%   
+   calcium  1%    |    iron  2%   
+   vitamin E  1%    |    thiamin  2%   
+   riboflavin  5%    |    niacin  4%   
+   vitamin B6  22%    |    folate  6%   
+   phosphorus  3%    |    magnesium  8%   
+   zinc  1%    | 
+*percent daily values are based on a 2000 calorie diet'
+       title='serving size 1 banana (118 g)
+total calories  105 | fat calories  3
+% daily value^* |  
+  total fat  389 mg | 1%
+       saturated fat  132 mg | 1%
+       trans fat   | 
+  cholesterol  0 g | 0%
+  sodium  1 mg | 0%
+  total carbohydrates  27 g | 9%
+       dietary fiber  3 g | 12%
+       sugar  14 g | 
+  protein  1 g | 3%
+   vitamin A  2%    |    vitamin C  17%   
+   calcium  1%    |    iron  2%   
+   vitamin E  1%    |    thiamin  2%   
+   riboflavin  5%    |    niacin  4%   
+   vitamin B6  22%    |    folate  6%   
+   phosphorus  3%    |    magnesium  8%   
+   zinc  1%    | 
+*percent daily values are based on a 2000 calorie diet'
+       width='302'
+       height='472' />
+  </subpod>
+ </pod>
+ <pod title='Daily value ranking'
+     scanner='Data'
+     id='DailyValuesRanking:ExpandedFoodData'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | value | % daily value
+vitamin B6 | 433 g | 22%
+vitamin C | 10 mg | 17%
+potassium | 422 mg | 12%
+ | (vertical ellipsis) | 
+vitamin B12 | 0 g | 0%
+cholesterol | 0 g | 0%</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP16141f7ifb7h02cbbid4000011e4875a88b7h987?MSPStoreType=image/gif&amp;s=23'
+       alt=' | value | % daily value
+vitamin B6 | 433 g | 22%
+vitamin C | 10 mg | 17%
+potassium | 422 mg | 12%
+ | (vertical ellipsis) | 
+vitamin B12 | 0 g | 0%
+cholesterol | 0 g | 0%'
+       title=' | value | % daily value
+vitamin B6 | 433 g | 22%
+vitamin C | 10 mg | 17%
+potassium | 422 mg | 12%
+ | (vertical ellipsis) | 
+vitamin B12 | 0 g | 0%
+cholesterol | 0 g | 0%'
+       width='281'
+       height='228' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='DailyValuesRanking:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Highest nutrients compared to other foods'
+     scanner='Data'
+     id='NutrientRankingPod:ExpandedFoodData'
+     position='400'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | amount | % daily value | foods distribution | rank
+fructose | 5.7 g |  |  | 92%
+glucose | 5.9 g |  |  | 91%
+vitamin C | 10 mg | 17% |  | 87%
+(distributions from log nutrient values in standard servings of 7500 common foods)</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP16151f7ifb7h02cbbid40000430b5eeic59d6f8a?MSPStoreType=image/gif&amp;s=23'
+       alt=' | amount | % daily value | foods distribution | rank
+fructose | 5.7 g |  |  | 92%
+glucose | 5.9 g |  |  | 91%
+vitamin C | 10 mg | 17% |  | 87%
+(distributions from log nutrient values in standard servings of 7500 common foods)'
+       title=' | amount | % daily value | foods distribution | rank
+fructose | 5.7 g |  |  | 92%
+glucose | 5.9 g |  |  | 91%
+vitamin C | 10 mg | 17% |  | 87%
+(distributions from log nutrient values in standard servings of 7500 common foods)'
+       width='524'
+       height='209' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='NutrientRankingPod:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Calories'
+     scanner='Data'
+     id='Calories:ExpandedFoodData'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | value | % daily value
+total calories | 105 Cal | 5%
+fat calories | 3.3 Cal | </plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP16161f7ifb7h02cbbid400003842hg63e7h0geb4?MSPStoreType=image/gif&amp;s=23'
+       alt=' | value | % daily value
+total calories | 105 Cal | 5%
+fat calories | 3.3 Cal | '
+       title=' | value | % daily value
+total calories | 105 Cal | 5%
+fat calories | 3.3 Cal | '
+       width='288'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Calories:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Carbohydrates'
+     scanner='Data'
+     id='Carbohydrates:ExpandedFoodData'
+     position='600'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | value | % daily value
+total carbohydrates | 27 g | 9%
+dietary fiber | 3.1 g | 12%
+sugar | 14 g | </plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP16171f7ifb7h02cbbid400001hh28c03e3854b1d?MSPStoreType=image/gif&amp;s=23'
+       alt=' | value | % daily value
+total carbohydrates | 27 g | 9%
+dietary fiber | 3.1 g | 12%
+sugar | 14 g | '
+       title=' | value | % daily value
+total carbohydrates | 27 g | 9%
+dietary fiber | 3.1 g | 12%
+sugar | 14 g | '
+       width='318'
+       height='132' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Carbohydrates:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Fats and fatty acids'
+     scanner='Data'
+     id='Fats:ExpandedFoodData'
+     position='700'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | value | % daily value
+total fat | 389 mg | 1%
+saturated fat | 132 mg | 1%</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP16181f7ifb7h02cbbid400000f216d8ig397b6cg?MSPStoreType=image/gif&amp;s=23'
+       alt=' | value | % daily value
+total fat | 389 mg | 1%
+saturated fat | 132 mg | 1%'
+       title=' | value | % daily value
+total fat | 389 mg | 1%
+saturated fat | 132 mg | 1%'
+       width='286'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Fats:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Protein and amino acids'
+     scanner='Data'
+     id='Protein:ExpandedFoodData'
+     position='800'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | value | % daily value
+protein | 1.3 g | 3%</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP16191f7ifb7h02cbbid400005ea8f5925b2bc427?MSPStoreType=image/gif&amp;s=23'
+       alt=' | value | % daily value
+protein | 1.3 g | 3%'
+       title=' | value | % daily value
+protein | 1.3 g | 3%'
+       width='239'
+       height='68' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Protein:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Vitamins'
+     scanner='Data'
+     id='Vitamins:ExpandedFoodData'
+     position='900'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | value | % daily value
+vitamin A | 3.5 g | 0%
+vitamin C | 10 mg | 17%</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP16201f7ifb7h02cbbid400003ga0a05410dhab5a?MSPStoreType=image/gif&amp;s=23'
+       alt=' | value | % daily value
+vitamin A | 3.5 g | 0%
+vitamin C | 10 mg | 17%'
+       title=' | value | % daily value
+vitamin A | 3.5 g | 0%
+vitamin C | 10 mg | 17%'
+       width='259'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Vitamins:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Minerals'
+     scanner='Data'
+     id='Minerals:ExpandedFoodData'
+     position='1000'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | value | % daily value
+calcium | 5.9 mg | 1%
+iron | 307 g | 2%</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP16211f7ifb7h02cbbid400005de9cb5i90iid4h0?MSPStoreType=image/gif&amp;s=23'
+       alt=' | value | % daily value
+calcium | 5.9 mg | 1%
+iron | 307 g | 2%'
+       title=' | value | % daily value
+calcium | 5.9 mg | 1%
+iron | 307 g | 2%'
+       width='251'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Minerals:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Sterols'
+     scanner='Data'
+     id='Sterols:ExpandedFoodData'
+     position='1100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | value | % daily value
+cholesterol | 0 g | 0%</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP16221f7ifb7h02cbbid40000189a91g3383060d6?MSPStoreType=image/gif&amp;s=23'
+       alt=' | value | % daily value
+cholesterol | 0 g | 0%'
+       title=' | value | % daily value
+cholesterol | 0 g | 0%'
+       width='262'
+       height='68' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Sterols:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Alcohol content'
+     scanner='Data'
+     id='AlcoholContent:ExpandedFoodData'
+     position='1200'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>volume percentage | 0%
+proof | 0 proof
+mass | 0 g</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP16231f7ifb7h02cbbid4000046i97g4if7d9112c?MSPStoreType=image/gif&amp;s=23'
+       alt='volume percentage | 0%
+proof | 0 proof
+mass | 0 g'
+       title='volume percentage | 0%
+proof | 0 proof
+mass | 0 g'
+       width='245'
+       height='117' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='AlcoholContent:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Physical properties'
+     scanner='Data'
+     id='PhysicalProperties:ExpandedFoodData'
+     position='1300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>mass | 4.2 oz  (ounces)
+serving volume | 4.2 fl oz  (fluid ounces)
+serving density | 0.95 g/cm^3  (grams per cubic centimeter)</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP16241f7ifb7h02cbbid40000341186achdi50588?MSPStoreType=image/gif&amp;s=23'
+       alt='mass | 4.2 oz  (ounces)
+serving volume | 4.2 fl oz  (fluid ounces)
+serving density | 0.95 g/cm^3  (grams per cubic centimeter)'
+       title='mass | 4.2 oz  (ounces)
+serving volume | 4.2 fl oz  (fluid ounces)
+serving density | 0.95 g/cm^3  (grams per cubic centimeter)'
+       width='408'
+       height='100' />
+  </subpod>
+ </pod>
+ <assumptions count='1'>
+  <assumption type='Clash'
+      word='banana'
+      template='Assuming &quot;${word}&quot; is ${desc1}. Use as ${desc2} instead'
+      count='6'>
+   <value name='ExpandedFood'
+       desc='a food'
+       input='*C.banana-_*ExpandedFood-' />
+   <value name='Plant'
+       desc='a plant'
+       input='*C.banana-_*Plant-' />
+   <value name='Color'
+       desc='a color'
+       input='*C.banana-_*Color-' />
+   <value name='Word'
+       desc='a word'
+       input='*C.banana-_*Word-' />
+   <value name='Language'
+       desc='a language'
+       input='*C.banana-_*Language-' />
+   <value name='CommonMaterial'
+       desc='a general material'
+       input='*C.banana-_*CommonMaterial-' />
+  </assumption>
+ </assumptions>
+ <sources count='1'>
+  <source url='http://www.wolframalpha.com/sources/ExpandedFoodDataSourceInformationNotes.html'
+      text='Expanded food data' />
+ </sources>
+</queryresult>

@@ -1,0 +1,484 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='13'
+    datatypes='ExpandedFood'
+    timedout=''
+    timedoutpods=''
+    timing='8.173'
+    parsetiming='0.166'
+    parsetimedout='false'
+    recalculate=''
+    id='MSPa1611be604dbgh930f3e00003926494d25c8da5h'
+    host='http://www2.wolframalpha.com'
+    server='3'
+    related='http://www2.wolframalpha.com/api/v2/relatedQueries.jsp?id=MSPa1621be604dbgh930f3e0000131ie8feaec0feg9&amp;s=3'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>peanut | amount | 30 grams</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP1631be604dbgh930f3e00001e020fh98b67ef35?MSPStoreType=image/gif&amp;s=3'
+       alt='peanut | amount | 30 grams'
+       title='peanut | amount | 30 grams'
+       width='243'
+       height='32' />
+  </subpod>
+ </pod>
+ <pod title='Average nutrition facts'
+     scanner='Data'
+     id='NutritionLabelSingle:ExpandedFoodData'
+     position='200'
+     error='false'
+     numsubpods='1'
+     primary='true'>
+  <subpod title=''>
+   <plaintext>serving size 30 g
+total calories  168 | fat calories  119
+% daily value^* |  
+  total fat  14 g | 22%
+       saturated fat  2 g | 10%
+       trans fat   | 
+  cholesterol  0 g | 0%
+  sodium  97 mg | 4%
+  total carbohydrates  6 g | 2%
+       dietary fiber  3 g | 10%
+       sugar  1 g | 
+  protein  8 g | 15%
+   calcium  2%    |    iron  3%   
+   vitamin E  10%    |    thiamin  5%   
+   riboflavin  2%    |    niacin  20%   
+   vitamin B6  4%    |    folate  9%   
+   phosphorus  12%    |    magnesium  13%   
+   zinc  8%    | 
+*percent daily values are based on a 2000 calorie diet
+(averaged over different types of peanut)</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP1641be604dbgh930f3e000066i58g3246f48079?MSPStoreType=image/gif&amp;s=3'
+       alt='serving size 30 g
+total calories  168 | fat calories  119
+% daily value^* |  
+  total fat  14 g | 22%
+       saturated fat  2 g | 10%
+       trans fat   | 
+  cholesterol  0 g | 0%
+  sodium  97 mg | 4%
+  total carbohydrates  6 g | 2%
+       dietary fiber  3 g | 10%
+       sugar  1 g | 
+  protein  8 g | 15%
+   calcium  2%    |    iron  3%   
+   vitamin E  10%    |    thiamin  5%   
+   riboflavin  2%    |    niacin  20%   
+   vitamin B6  4%    |    folate  9%   
+   phosphorus  12%    |    magnesium  13%   
+   zinc  8%    | 
+*percent daily values are based on a 2000 calorie diet
+(averaged over different types of peanut)'
+       title='serving size 30 g
+total calories  168 | fat calories  119
+% daily value^* |  
+  total fat  14 g | 22%
+       saturated fat  2 g | 10%
+       trans fat   | 
+  cholesterol  0 g | 0%
+  sodium  97 mg | 4%
+  total carbohydrates  6 g | 2%
+       dietary fiber  3 g | 10%
+       sugar  1 g | 
+  protein  8 g | 15%
+   calcium  2%    |    iron  3%   
+   vitamin E  10%    |    thiamin  5%   
+   riboflavin  2%    |    niacin  20%   
+   vitamin B6  4%    |    folate  9%   
+   phosphorus  12%    |    magnesium  13%   
+   zinc  8%    | 
+*percent daily values are based on a 2000 calorie diet
+(averaged over different types of peanut)'
+       width='318'
+       height='473' />
+  </subpod>
+ </pod>
+ <pod title='Average daily value ranking'
+     scanner='Data'
+     id='DailyValuesRanking:ExpandedFoodData'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total fat | 14 g | 22% | (6.6 to 16) g
+niacin | 4 mg | 20% | (1.6 to 4.5) mg
+protein | 7.6 g | 15% | (4 to 8.4) g
+ |  | (vertical ellipsis) | 
+calcium | 22 mg | 2% | (16 to 30) mg
+vitamin C | 22 g | 0% | (0 to 240) g
+(averaged over different types of peanut)</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP1651be604dbgh930f3e0000241c82627a2947h4?MSPStoreType=image/gif&amp;s=3'
+       alt=' | mean value | % daily value | range
+total fat | 14 g | 22% | (6.6 to 16) g
+niacin | 4 mg | 20% | (1.6 to 4.5) mg
+protein | 7.6 g | 15% | (4 to 8.4) g
+ |  | (vertical ellipsis) | 
+calcium | 22 mg | 2% | (16 to 30) mg
+vitamin C | 22 g | 0% | (0 to 240) g
+(averaged over different types of peanut)'
+       title=' | mean value | % daily value | range
+total fat | 14 g | 22% | (6.6 to 16) g
+niacin | 4 mg | 20% | (1.6 to 4.5) mg
+protein | 7.6 g | 15% | (4 to 8.4) g
+ |  | (vertical ellipsis) | 
+calcium | 22 mg | 2% | (16 to 30) mg
+vitamin C | 22 g | 0% | (0 to 240) g
+(averaged over different types of peanut)'
+       width='413'
+       height='249' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='DailyValuesRanking:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Average highest nutrients compared to other foods'
+     scanner='Data'
+     id='NutrientRankingPod:ExpandedFoodData'
+     position='400'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | amount | % daily value | foods distribution | rank
+vitamin E | 2 mg | 10% |  | 91%
+magnesium | 50 mg | 13% |  | 88%
+manganese | 580 g |  |  | 86%
+(distributions from log nutrient values in standard servings of 7500 common foods)</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP1661be604dbgh930f3e00003ghbhdfie328b8f3?MSPStoreType=image/gif&amp;s=3'
+       alt=' | amount | % daily value | foods distribution | rank
+vitamin E | 2 mg | 10% |  | 91%
+magnesium | 50 mg | 13% |  | 88%
+manganese | 580 g |  |  | 86%
+(distributions from log nutrient values in standard servings of 7500 common foods)'
+       title=' | amount | % daily value | foods distribution | rank
+vitamin E | 2 mg | 10% |  | 91%
+magnesium | 50 mg | 13% |  | 88%
+manganese | 580 g |  |  | 86%
+(distributions from log nutrient values in standard servings of 7500 common foods)'
+       width='538'
+       height='209' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='NutrientRankingPod:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Calories'
+     scanner='Data'
+     id='Calories:ExpandedFoodData'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total calories | 168 Cal | 8% | (95 to 180) Cal
+fat calories | 119 Cal |  | (55 to 132) Cal</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP1671be604dbgh930f3e00003c7hha8dbc8g4gg1?MSPStoreType=image/gif&amp;s=3'
+       alt=' | mean value | % daily value | range
+total calories | 168 Cal | 8% | (95 to 180) Cal
+fat calories | 119 Cal |  | (55 to 132) Cal'
+       title=' | mean value | % daily value | range
+total calories | 168 Cal | 8% | (95 to 180) Cal
+fat calories | 119 Cal |  | (55 to 132) Cal'
+       width='436'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Calories:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Carbohydrates'
+     scanner='Data'
+     id='Carbohydrates:ExpandedFoodData'
+     position='600'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total carbohydrates | 5.6 g | 2% | (4.6 to 6.5) g
+dietary fiber | 2.6 g | 10% | (2.1 to 2.8) g
+sugar | 1.2 g |  | (0.74 to 1.3) g</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP1681be604dbgh930f3e00002d966hbf6328g021?MSPStoreType=image/gif&amp;s=3'
+       alt=' | mean value | % daily value | range
+total carbohydrates | 5.6 g | 2% | (4.6 to 6.5) g
+dietary fiber | 2.6 g | 10% | (2.1 to 2.8) g
+sugar | 1.2 g |  | (0.74 to 1.3) g'
+       title=' | mean value | % daily value | range
+total carbohydrates | 5.6 g | 2% | (4.6 to 6.5) g
+dietary fiber | 2.6 g | 10% | (2.1 to 2.8) g
+sugar | 1.2 g |  | (0.74 to 1.3) g'
+       width='474'
+       height='132' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Carbohydrates:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Fats and fatty acids'
+     scanner='Data'
+     id='Fats:ExpandedFoodData'
+     position='700'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total fat | 14 g | 22% | (6.6 to 16) g
+saturated fat | 2.1 g | 10% | (0.92 to 2.6) g</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP1691be604dbgh930f3e000028eb4g7752a1e94e?MSPStoreType=image/gif&amp;s=3'
+       alt=' | mean value | % daily value | range
+total fat | 14 g | 22% | (6.6 to 16) g
+saturated fat | 2.1 g | 10% | (0.92 to 2.6) g'
+       title=' | mean value | % daily value | range
+total fat | 14 g | 22% | (6.6 to 16) g
+saturated fat | 2.1 g | 10% | (0.92 to 2.6) g'
+       width='431'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Fats:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Protein and amino acids'
+     scanner='Data'
+     id='Protein:ExpandedFoodData'
+     position='800'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+protein | 7.6 g | 15% | (4 to 8.4) g</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP1701be604dbgh930f3e000026ff225cbh703i9g?MSPStoreType=image/gif&amp;s=3'
+       alt=' | mean value | % daily value | range
+protein | 7.6 g | 15% | (4 to 8.4) g'
+       title=' | mean value | % daily value | range
+protein | 7.6 g | 15% | (4 to 8.4) g'
+       width='375'
+       height='68' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Protein:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Vitamins'
+     scanner='Data'
+     id='Vitamins:ExpandedFoodData'
+     position='900'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+vitamin A | 0 g | 0% | 
+vitamin C | 22 g | 0% | (0 to 240) g</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP1711be604dbgh930f3e000010di2c2he1g941ce?MSPStoreType=image/gif&amp;s=3'
+       alt=' | mean value | % daily value | range
+vitamin A | 0 g | 0% | 
+vitamin C | 22 g | 0% | (0 to 240) g'
+       title=' | mean value | % daily value | range
+vitamin A | 0 g | 0% | 
+vitamin C | 22 g | 0% | (0 to 240) g'
+       width='403'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Vitamins:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Minerals'
+     scanner='Data'
+     id='Minerals:ExpandedFoodData'
+     position='1000'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+calcium | 22 mg | 2% | (16 to 30) mg
+iron | 548 g | 3% | (303 to 684) g</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP1721be604dbgh930f3e000029h5f2a8e895g050?MSPStoreType=image/gif&amp;s=3'
+       alt=' | mean value | % daily value | range
+calcium | 22 mg | 2% | (16 to 30) mg
+iron | 548 g | 3% | (303 to 684) g'
+       title=' | mean value | % daily value | range
+calcium | 22 mg | 2% | (16 to 30) mg
+iron | 548 g | 3% | (303 to 684) g'
+       width='407'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Minerals:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Sterols'
+     scanner='Data'
+     id='Sterols:ExpandedFoodData'
+     position='1100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+cholesterol | 0 g | 0% | </plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP1731be604dbgh930f3e00000dhefcf471853758?MSPStoreType=image/gif&amp;s=3'
+       alt=' | mean value | % daily value | range
+cholesterol | 0 g | 0% | '
+       title=' | mean value | % daily value | range
+cholesterol | 0 g | 0% | '
+       width='362'
+       height='68' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Sterols:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Alcohol content'
+     scanner='Data'
+     id='AlcoholContent:ExpandedFoodData'
+     position='1200'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | range
+volume percentage | 0 g | </plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP1741be604dbgh930f3e000065561d934fa2i53b?MSPStoreType=image/gif&amp;s=3'
+       alt=' | mean value | range
+volume percentage | 0 g | '
+       title=' | mean value | range
+volume percentage | 0 g | '
+       width='387'
+       height='85' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='AlcoholContent:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Physical properties'
+     scanner='Data'
+     id='PhysicalProperties:ExpandedFoodData'
+     position='1300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>mass | 1.1 oz  (ounces)
+serving volume | 1.6 fl oz  (fluid ounces)
+serving density | 0.62 g/cm^3  (grams per cubic centimeter)</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP1751be604dbgh930f3e00004g7h2ge155831210?MSPStoreType=image/gif&amp;s=3'
+       alt='mass | 1.1 oz  (ounces)
+serving volume | 1.6 fl oz  (fluid ounces)
+serving density | 0.62 g/cm^3  (grams per cubic centimeter)'
+       title='mass | 1.1 oz  (ounces)
+serving volume | 1.6 fl oz  (fluid ounces)
+serving density | 0.62 g/cm^3  (grams per cubic centimeter)'
+       width='408'
+       height='100' />
+  </subpod>
+ </pod>
+ <assumptions count='3'>
+  <assumption type='Clash'
+      word='peanuts'
+      template='Assuming &quot;${word}&quot; is ${desc1}. Use as ${desc2} instead'
+      count='5'>
+   <value name='ExpandedFood'
+       desc='a food'
+       input='*C.peanuts-_*ExpandedFood-' />
+   <value name='Plant'
+       desc='a plant'
+       input='*C.peanuts-_*Plant-' />
+   <value name='CommonMaterial'
+       desc='a general material'
+       input='*C.peanuts-_*CommonMaterial-' />
+   <value name='Word'
+       desc='a word'
+       input='*C.peanuts-_*Word-' />
+   <value name='Gene'
+       desc='a gene'
+       input='*C.peanuts-_*Gene-' />
+  </assumption>
+  <assumption type='SubCategory'
+      word='peanuts'
+      template='Assuming ${desc1}. Use ${desc2} instead'
+      count='7'>
+   <value name='PreparedPeanut'
+       desc='peanut'
+       input='*DPClash.ExpandedFoodE.peanuts-_*PreparedPeanut-' />
+   <value name='LanceFreshSaltedRoastedPeanuts'
+       desc='Lance fresh salted roasted peanuts'
+       input='*DPClash.ExpandedFoodE.peanuts-_*LanceFreshSaltedRoastedPeanuts-' />
+   <value name='GiantDryRoastedHoneyRoastedPeanuts'
+       desc='Giant honey dry roasted peanuts'
+       input='*DPClash.ExpandedFoodE.peanuts-_*GiantDryRoastedHoneyRoastedPeanuts-' />
+   <value name='GiantHoneyRoastedPeanuts'
+       desc='Giant honey roasted peanuts'
+       input='*DPClash.ExpandedFoodE.peanuts-_*GiantHoneyRoastedPeanuts-' />
+   <value name='PlantersFiveAlarmChiliDryRoastedPeanuts'
+       desc='Planters five alarm chili dry roasted peanuts'
+       input='*DPClash.ExpandedFoodE.peanuts-_*PlantersFiveAlarmChiliDryRoastedPeanuts-' />
+   <value name='PlantersHoneyDryRoastedPeanuts'
+       desc='Planters honey dry roasted peanuts'
+       input='*DPClash.ExpandedFoodE.peanuts-_*PlantersHoneyDryRoastedPeanuts-' />
+   <value name='PlantersHoneyRoastedPeanuts'
+       desc='Planters honey roasted peanuts'
+       input='*DPClash.ExpandedFoodE.peanuts-_*PlantersHoneyRoastedPeanuts-' />
+  </assumption>
+  <assumption type='Attribute'
+      word='PreparedPeanut'
+      template='Assuming ${desc1}. Use ${desc2} instead'
+      count='12'>
+   <value name='PreparedPeanut'
+       desc='any type of peanut'
+       input='*EAC.ExpandedFood.PreparedPeanut-_**a.PreparedPeanut--' />
+   <value name='{Food:CookingMethod -&gt; Food:Boiled, Food:SaltContent -&gt; Food:WithSalt, Food:Variety -&gt; Food:AllTypes}'
+       desc='peanut, all types, boiled, with salt'
+       input='*EAC.ExpandedFood.PreparedPeanut-_**PreparedPeanut.*Food%3ACookingMethod_Food%3ABoiled.Food%3ASaltContent_Food%3AWithSalt.Food%3AVariety_Food%3AAllTypes---' />
+   <value name='{Food:CookingMethod -&gt; Food:OilRoasted, Food:SaltContent -&gt; Food:WithSalt, Food:Variety -&gt; Food:Spanish}'
+       desc='peanut, oil roasted, spanish, with salt'
+       input='*EAC.ExpandedFood.PreparedPeanut-_**PreparedPeanut.*Food%3ACookingMethod_Food%3AOilRoasted.Food%3ASaltContent_Food%3AWithSalt.Food%3AVariety_Food%3ASpanish---' />
+   <value name='{Food:CookingMethod -&gt; Food:OilRoasted, Food:SaltContent -&gt; Food:WithSalt, Food:Variety -&gt; Food:AllTypes}'
+       desc='peanut, all types, oil roasted, with salt'
+       input='*EAC.ExpandedFood.PreparedPeanut-_**PreparedPeanut.*Food%3ACookingMethod_Food%3AOilRoasted.Food%3ASaltContent_Food%3AWithSalt.Food%3AVariety_Food%3AAllTypes---' />
+   <value name='{Food:CookingMethod -&gt; Food:OilRoasted, Food:SaltContent -&gt; Food:WithSalt, Food:Variety -&gt; Food:Valencia}'
+       desc='peanut, oil roasted, valencia, with salt'
+       input='*EAC.ExpandedFood.PreparedPeanut-_**PreparedPeanut.*Food%3ACookingMethod_Food%3AOilRoasted.Food%3ASaltContent_Food%3AWithSalt.Food%3AVariety_Food%3AValencia---' />
+   <value name='{Food:CookingMethod -&gt; Food:OilRoasted, Food:SaltContent -&gt; Food:WithSalt, Food:Variety -&gt; Food:Virginia}'
+       desc='peanut, oil roasted, virginia, with salt'
+       input='*EAC.ExpandedFood.PreparedPeanut-_**PreparedPeanut.*Food%3ACookingMethod_Food%3AOilRoasted.Food%3ASaltContent_Food%3AWithSalt.Food%3AVariety_Food%3AVirginia---' />
+   <value name='{Food:ProcessingType -&gt; Food:DryRoasted, Food:SaltContent -&gt; Food:WithSalt, Food:Variety -&gt; Food:AllTypes}'
+       desc='peanut, all types, dry roasted, with salt'
+       input='*EAC.ExpandedFood.PreparedPeanut-_**PreparedPeanut.*Food%3AProcessingType_Food%3ADryRoasted.Food%3ASaltContent_Food%3AWithSalt.Food%3AVariety_Food%3AAllTypes---' />
+   <value name='{Food:CookingMethod -&gt; Food:OilRoasted, Food:SaltContent -&gt; Food:WithoutSalt, Food:Variety -&gt; Food:Spanish}'
+       desc='peanut, oil roasted, spanish, without salt'
+       input='*EAC.ExpandedFood.PreparedPeanut-_**PreparedPeanut.*Food%3ACookingMethod_Food%3AOilRoasted.Food%3ASaltContent_Food%3AWithoutSalt.Food%3AVariety_Food%3ASpanish---' />
+   <value name='{Food:CookingMethod -&gt; Food:OilRoasted, Food:SaltContent -&gt; Food:WithoutSalt, Food:Variety -&gt; Food:AllTypes}'
+       desc='peanut, all types, oil roasted, without salt'
+       input='*EAC.ExpandedFood.PreparedPeanut-_**PreparedPeanut.*Food%3ACookingMethod_Food%3AOilRoasted.Food%3ASaltContent_Food%3AWithoutSalt.Food%3AVariety_Food%3AAllTypes---' />
+   <value name='{Food:CookingMethod -&gt; Food:OilRoasted, Food:SaltContent -&gt; Food:WithoutSalt, Food:Variety -&gt; Food:Valencia}'
+       desc='peanut, oil roasted, valencia, without salt'
+       input='*EAC.ExpandedFood.PreparedPeanut-_**PreparedPeanut.*Food%3ACookingMethod_Food%3AOilRoasted.Food%3ASaltContent_Food%3AWithoutSalt.Food%3AVariety_Food%3AValencia---' />
+   <value name='{Food:CookingMethod -&gt; Food:OilRoasted, Food:SaltContent -&gt; Food:WithoutSalt, Food:Variety -&gt; Food:Virginia}'
+       desc='peanut, oil roasted, virginia, without salt'
+       input='*EAC.ExpandedFood.PreparedPeanut-_**PreparedPeanut.*Food%3ACookingMethod_Food%3AOilRoasted.Food%3ASaltContent_Food%3AWithoutSalt.Food%3AVariety_Food%3AVirginia---' />
+   <value name='{Food:ProcessingType -&gt; Food:DryRoasted, Food:SaltContent -&gt; Food:WithoutSalt, Food:Variety -&gt; Food:AllTypes}'
+       desc='peanut, all types, dry roasted, without salt'
+       input='*EAC.ExpandedFood.PreparedPeanut-_**PreparedPeanut.*Food%3AProcessingType_Food%3ADryRoasted.Food%3ASaltContent_Food%3AWithoutSalt.Food%3AVariety_Food%3AAllTypes---' />
+  </assumption>
+ </assumptions>
+ <sources count='1'>
+  <source url='http://www.wolframalpha.com/sources/ExpandedFoodDataSourceInformationNotes.html'
+      text='Expanded food data' />
+ </sources>
+</queryresult>

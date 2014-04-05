@@ -1,0 +1,460 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='13'
+    datatypes='ExpandedFood'
+    timedout=''
+    timedoutpods=''
+    timing='8.717'
+    parsetiming='0.159'
+    parsetimedout='false'
+    recalculate=''
+    id='MSPa4671h73gd58802e1e19000065b03c7fce9c9d3f'
+    host='http://www4c.wolframalpha.com'
+    server='53'
+    related='http://www4c.wolframalpha.com/api/v2/relatedQueries.jsp?id=MSPa4681h73gd58802e1e1900005adecaaacccd47ec&amp;s=53'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>egg | amount | 1 egg</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP4691h73gd58802e1e19000038hdgah131c1efc2?MSPStoreType=image/gif&amp;s=53'
+       alt='egg | amount | 1 egg'
+       title='egg | amount | 1 egg'
+       width='196'
+       height='32' />
+  </subpod>
+ </pod>
+ <pod title='Average nutrition facts'
+     scanner='Data'
+     id='NutritionLabelSingle:ExpandedFoodData'
+     position='200'
+     error='false'
+     numsubpods='1'
+     primary='true'>
+  <subpod title=''>
+   <plaintext>serving size 1 egg (35 g)
+total calories  55 | fat calories  35
+% daily value^* |  
+  total fat  4 g | 6%
+       saturated fat  1 g | 6%
+       trans fat  228 mg | 
+  cholesterol  121 mg | 40%
+  sodium  65 mg | 3%
+  total carbohydrates  343 mg | 0%
+       dietary fiber  0 g | 0%
+       sugar  253 mg | 
+  protein  4 g | 8%
+   vitamin A  4%    |    calcium  2%   
+   iron  3%    |    vitamin D  7%   
+   vitamin E  2%    |    thiamin  1%   
+   riboflavin  9%    |    vitamin B6  3%   
+   vitamin B12  5%    |    folate  4%   
+   phosphorus  6%    |    magnesium  1%   
+   zinc  3%    | 
+*percent daily values are based on a 2000 calorie diet
+(averaged over different types of egg)</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP4701h73gd58802e1e1900002aiddghg28g06e7f?MSPStoreType=image/gif&amp;s=53'
+       alt='serving size 1 egg (35 g)
+total calories  55 | fat calories  35
+% daily value^* |  
+  total fat  4 g | 6%
+       saturated fat  1 g | 6%
+       trans fat  228 mg | 
+  cholesterol  121 mg | 40%
+  sodium  65 mg | 3%
+  total carbohydrates  343 mg | 0%
+       dietary fiber  0 g | 0%
+       sugar  253 mg | 
+  protein  4 g | 8%
+   vitamin A  4%    |    calcium  2%   
+   iron  3%    |    vitamin D  7%   
+   vitamin E  2%    |    thiamin  1%   
+   riboflavin  9%    |    vitamin B6  3%   
+   vitamin B12  5%    |    folate  4%   
+   phosphorus  6%    |    magnesium  1%   
+   zinc  3%    | 
+*percent daily values are based on a 2000 calorie diet
+(averaged over different types of egg)'
+       title='serving size 1 egg (35 g)
+total calories  55 | fat calories  35
+% daily value^* |  
+  total fat  4 g | 6%
+       saturated fat  1 g | 6%
+       trans fat  228 mg | 
+  cholesterol  121 mg | 40%
+  sodium  65 mg | 3%
+  total carbohydrates  343 mg | 0%
+       dietary fiber  0 g | 0%
+       sugar  253 mg | 
+  protein  4 g | 8%
+   vitamin A  4%    |    calcium  2%   
+   iron  3%    |    vitamin D  7%   
+   vitamin E  2%    |    thiamin  1%   
+   riboflavin  9%    |    vitamin B6  3%   
+   vitamin B12  5%    |    folate  4%   
+   phosphorus  6%    |    magnesium  1%   
+   zinc  3%    | 
+*percent daily values are based on a 2000 calorie diet
+(averaged over different types of egg)'
+       width='318'
+       height='493' />
+  </subpod>
+ </pod>
+ <pod title='Average daily value ranking'
+     scanner='Data'
+     id='DailyValuesRanking:ExpandedFoodData'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+cholesterol | 121 mg | 40% | (97 to 140) mg
+riboflavin | 151 g | 9% | (131 to 179) g
+protein | 4.1 g | 8% | (3.5 to 4.7) g
+ |  | (vertical ellipsis) | 
+niacin | 24 g | 0% | (22 to 29) g
+total carbohydrates | 343 mg | 0% | (223 to 562) mg
+(averaged over different types of egg)</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP4711h73gd58802e1e1900003d9a8h0676i6d8id?MSPStoreType=image/gif&amp;s=53'
+       alt=' | mean value | % daily value | range
+cholesterol | 121 mg | 40% | (97 to 140) mg
+riboflavin | 151 g | 9% | (131 to 179) g
+protein | 4.1 g | 8% | (3.5 to 4.7) g
+ |  | (vertical ellipsis) | 
+niacin | 24 g | 0% | (22 to 29) g
+total carbohydrates | 343 mg | 0% | (223 to 562) mg
+(averaged over different types of egg)'
+       title=' | mean value | % daily value | range
+cholesterol | 121 mg | 40% | (97 to 140) mg
+riboflavin | 151 g | 9% | (131 to 179) g
+protein | 4.1 g | 8% | (3.5 to 4.7) g
+ |  | (vertical ellipsis) | 
+niacin | 24 g | 0% | (22 to 29) g
+total carbohydrates | 343 mg | 0% | (223 to 562) mg
+(averaged over different types of egg)'
+       width='485'
+       height='249' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='DailyValuesRanking:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Average highest nutrients compared to other foods'
+     scanner='Data'
+     id='NutrientRankingPod:ExpandedFoodData'
+     position='400'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | amount | % daily value | foods distribution | rank
+cholesterol | 121 mg | 40% |  | 95%
+retinol | 61 g |  |  | 89%
+vitamin A | 217 IU | 4% |  | 76%
+(distributions from log nutrient values in standard servings of 7500 common foods)</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP4721h73gd58802e1e1900005ba10935d69gi6he?MSPStoreType=image/gif&amp;s=53'
+       alt=' | amount | % daily value | foods distribution | rank
+cholesterol | 121 mg | 40% |  | 95%
+retinol | 61 g |  |  | 89%
+vitamin A | 217 IU | 4% |  | 76%
+(distributions from log nutrient values in standard servings of 7500 common foods)'
+       title=' | amount | % daily value | foods distribution | rank
+cholesterol | 121 mg | 40% |  | 95%
+retinol | 61 g |  |  | 89%
+vitamin A | 217 IU | 4% |  | 76%
+(distributions from log nutrient values in standard servings of 7500 common foods)'
+       width='532'
+       height='209' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='NutrientRankingPod:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Calories'
+     scanner='Data'
+     id='Calories:ExpandedFoodData'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total calories | 55 Cal | 3% | (48 to 68) Cal
+fat calories | 35 Cal |  | (33 to 37) Cal</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP4731h73gd58802e1e19000067db4630450af37c?MSPStoreType=image/gif&amp;s=53'
+       alt=' | mean value | % daily value | range
+total calories | 55 Cal | 3% | (48 to 68) Cal
+fat calories | 35 Cal |  | (33 to 37) Cal'
+       title=' | mean value | % daily value | range
+total calories | 55 Cal | 3% | (48 to 68) Cal
+fat calories | 35 Cal |  | (33 to 37) Cal'
+       width='428'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Calories:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Carbohydrates'
+     scanner='Data'
+     id='Carbohydrates:ExpandedFoodData'
+     position='600'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total carbohydrates | 343 mg | 0% | (223 to 562) mg
+dietary fiber | 0 g | 0% | 
+sugar | 253 mg |  | (108 to 499) mg</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP4741h73gd58802e1e190000648d1e8a3411de97?MSPStoreType=image/gif&amp;s=53'
+       alt=' | mean value | % daily value | range
+total carbohydrates | 343 mg | 0% | (223 to 562) mg
+dietary fiber | 0 g | 0% | 
+sugar | 253 mg |  | (108 to 499) mg'
+       title=' | mean value | % daily value | range
+total carbohydrates | 343 mg | 0% | (223 to 562) mg
+dietary fiber | 0 g | 0% | 
+sugar | 253 mg |  | (108 to 499) mg'
+       width='485'
+       height='132' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Carbohydrates:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Fats and fatty acids'
+     scanner='Data'
+     id='Fats:ExpandedFoodData'
+     position='700'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total fat | 4 g | 6% | (3.3 to 5.2) g
+saturated fat | 1.2 g | 6% | (1.1 to 1.5) g
+trans fat | 228 mg |  | (208 to 247) mg</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP4751h73gd58802e1e1900005e0b004ba898c67e?MSPStoreType=image/gif&amp;s=53'
+       alt=' | mean value | % daily value | range
+total fat | 4 g | 6% | (3.3 to 5.2) g
+saturated fat | 1.2 g | 6% | (1.1 to 1.5) g
+trans fat | 228 mg |  | (208 to 247) mg'
+       title=' | mean value | % daily value | range
+total fat | 4 g | 6% | (3.3 to 5.2) g
+saturated fat | 1.2 g | 6% | (1.1 to 1.5) g
+trans fat | 228 mg |  | (208 to 247) mg'
+       width='442'
+       height='132' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Fats:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Protein and amino acids'
+     scanner='Data'
+     id='Protein:ExpandedFoodData'
+     position='800'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+protein | 4.1 g | 8% | (3.5 to 4.7) g</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP4761h73gd58802e1e190000658765i6g9g1hf96?MSPStoreType=image/gif&amp;s=53'
+       alt=' | mean value | % daily value | range
+protein | 4.1 g | 8% | (3.5 to 4.7) g'
+       title=' | mean value | % daily value | range
+protein | 4.1 g | 8% | (3.5 to 4.7) g'
+       width='387'
+       height='68' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Protein:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Vitamins'
+     scanner='Data'
+     id='Vitamins:ExpandedFoodData'
+     position='900'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+vitamin A | 61 g | 4% | (56 to 76) g
+vitamin C | 0 g | 0% | </plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP4771h73gd58802e1e190000681i0dg20h31f04h?MSPStoreType=image/gif&amp;s=53'
+       alt=' | mean value | % daily value | range
+vitamin A | 61 g | 4% | (56 to 76) g
+vitamin C | 0 g | 0% | '
+       title=' | mean value | % daily value | range
+vitamin A | 61 g | 4% | (56 to 76) g
+vitamin C | 0 g | 0% | '
+       width='403'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Vitamins:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Minerals'
+     scanner='Data'
+     id='Minerals:ExpandedFoodData'
+     position='1000'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+calcium | 20 mg | 2% | (17 to 23) mg
+iron | 532 g | 3% | (415 to 659) g</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP4781h73gd58802e1e1900001ee1be9344h7g9ca?MSPStoreType=image/gif&amp;s=53'
+       alt=' | mean value | % daily value | range
+calcium | 20 mg | 2% | (17 to 23) mg
+iron | 532 g | 3% | (415 to 659) g'
+       title=' | mean value | % daily value | range
+calcium | 20 mg | 2% | (17 to 23) mg
+iron | 532 g | 3% | (415 to 659) g'
+       width='407'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Minerals:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Sterols'
+     scanner='Data'
+     id='Sterols:ExpandedFoodData'
+     position='1100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+cholesterol | 121 mg | 40% | (97 to 140) mg</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP4791h73gd58802e1e1900005b27cbia8dbeg587?MSPStoreType=image/gif&amp;s=53'
+       alt=' | mean value | % daily value | range
+cholesterol | 121 mg | 40% | (97 to 140) mg'
+       title=' | mean value | % daily value | range
+cholesterol | 121 mg | 40% | (97 to 140) mg'
+       width='421'
+       height='68' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Sterols:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Alcohol content'
+     scanner='Data'
+     id='AlcoholContent:ExpandedFoodData'
+     position='1200'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | range
+volume percentage | 0% | 
+proof | 0 proof | 
+mass | 0 g | </plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP4801h73gd58802e1e190000490f9gi5df054dbd?MSPStoreType=image/gif&amp;s=53'
+       alt=' | mean value | range
+volume percentage | 0% | 
+proof | 0 proof | 
+mass | 0 g | '
+       title=' | mean value | range
+volume percentage | 0% | 
+proof | 0 proof | 
+mass | 0 g | '
+       width='387'
+       height='149' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='AlcoholContent:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Physical properties'
+     scanner='Data'
+     id='PhysicalProperties:ExpandedFoodData'
+     position='1300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>mass | 1.2 oz  (ounces)
+serving volume | 1.2 fl oz  (fluid ounces)
+serving density | 1 g/cm^3  (gram per cubic centimeter)</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP4811h73gd58802e1e1900001498081fde7834if?MSPStoreType=image/gif&amp;s=53'
+       alt='mass | 1.2 oz  (ounces)
+serving volume | 1.2 fl oz  (fluid ounces)
+serving density | 1 g/cm^3  (gram per cubic centimeter)'
+       title='mass | 1.2 oz  (ounces)
+serving volume | 1.2 fl oz  (fluid ounces)
+serving density | 1 g/cm^3  (gram per cubic centimeter)'
+       width='381'
+       height='100' />
+  </subpod>
+ </pod>
+ <assumptions count='3'>
+  <assumption type='Clash'
+      word='eggs'
+      template='Assuming &quot;${word}&quot; is ${desc1}. Use as ${desc2} instead'
+      count='4'>
+   <value name='ExpandedFood'
+       desc='a food'
+       input='*C.eggs-_*ExpandedFood-' />
+   <value name='CommonMaterial'
+       desc='a general material'
+       input='*C.eggs-_*CommonMaterial-' />
+   <value name='Movie'
+       desc='a movie'
+       input='*C.eggs-_*Movie-' />
+   <value name='Word'
+       desc='a word'
+       input='*C.eggs-_*Word-' />
+  </assumption>
+  <assumption type='SubCategory'
+      word='eggs'
+      template='Assuming ${desc1}. Use ${desc2} instead'
+      count='2'>
+   <value name='PreparedEgg'
+       desc='egg'
+       input='*DPClash.ExpandedFoodE.eggs-_*PreparedEgg-' />
+   <value name='RawEgg'
+       desc='raw egg'
+       input='*DPClash.ExpandedFoodE.eggs-_*RawEgg-' />
+  </assumption>
+  <assumption type='Attribute'
+      word='PreparedEgg'
+      template='Assuming ${desc1}. Use ${desc2} instead'
+      count='6'>
+   <value name='PreparedEgg'
+       desc='any type of egg'
+       input='*EAC.ExpandedFood.PreparedEgg-_**a.PreparedEgg--' />
+   <value name='{Food:CookingMethod -&gt; Food:Fried}'
+       desc='egg, fried'
+       input='*EAC.ExpandedFood.PreparedEgg-_**PreparedEgg.*Food%3ACookingMethod_Food%3AFried---' />
+   <value name='{Food:CookingMethod -&gt; Food:Omelet}'
+       desc='egg, omelet'
+       input='*EAC.ExpandedFood.PreparedEgg-_**PreparedEgg.*Food%3ACookingMethod_Food%3AOmelet---' />
+   <value name='{Food:CookingMethod -&gt; Food:Poached}'
+       desc='egg, poached'
+       input='*EAC.ExpandedFood.PreparedEgg-_**PreparedEgg.*Food%3ACookingMethod_Food%3APoached---' />
+   <value name='{Food:CookingMethod -&gt; Food:Scrambled}'
+       desc='egg, scrambled'
+       input='*EAC.ExpandedFood.PreparedEgg-_**PreparedEgg.*Food%3ACookingMethod_Food%3AScrambled---' />
+   <value name='{Food:CookingMethod -&gt; Food:HardBoiled}'
+       desc='egg, hard-boiled'
+       input='*EAC.ExpandedFood.PreparedEgg-_**PreparedEgg.*Food%3ACookingMethod_Food%3AHardBoiled---' />
+  </assumption>
+ </assumptions>
+ <sources count='1'>
+  <source url='http://www.wolframalpha.com/sources/ExpandedFoodDataSourceInformationNotes.html'
+      text='Expanded food data' />
+ </sources>
+</queryresult>

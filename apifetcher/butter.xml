@@ -1,0 +1,442 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='13'
+    datatypes='ExpandedFood'
+    timedout=''
+    timedoutpods=''
+    timing='7.811'
+    parsetiming='0.154'
+    parsetimedout='false'
+    recalculate=''
+    id='MSPa28981e5ihc536fi79a51000058cae4bb68g8fd01'
+    host='http://www2.wolframalpha.com'
+    server='6'
+    related='http://www2.wolframalpha.com/api/v2/relatedQueries.jsp?id=MSPa28991e5ihc536fi79a5100003504ah647db94b49&amp;s=6'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>butter | amount | 1 pat</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP29001e5ihc536fi79a51000042c9aab664cidfcc?MSPStoreType=image/gif&amp;s=6'
+       alt='butter | amount | 1 pat'
+       title='butter | amount | 1 pat'
+       width='210'
+       height='32' />
+  </subpod>
+ </pod>
+ <pod title='Average nutrition facts'
+     scanner='Data'
+     id='NutritionLabelSingle:ExpandedFoodData'
+     position='200'
+     error='false'
+     numsubpods='1'
+     primary='true'>
+  <subpod title=''>
+   <plaintext>serving size 1 pat (4 g)
+total calories  32 | fat calories  31
+% daily value^* |  
+  total fat  4 g | 5%
+       saturated fat  2 g | 11%
+       trans fat   | 
+  cholesterol  10 mg | 3%
+  sodium  23 mg | 1%
+  total carbohydrates  3 mg | 0%
+       dietary fiber  0 g | 0%
+       sugar  3 mg | 
+  protein  37 mg | 0%
+   vitamin A  2%    |    vitamin D  1%   
+   vitamin E  1%    | 
+*percent daily values are based on a 2000 calorie diet
+(averaged over different types of butter)</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP29011e5ihc536fi79a5100003da5e02h2001g488?MSPStoreType=image/gif&amp;s=6'
+       alt='serving size 1 pat (4 g)
+total calories  32 | fat calories  31
+% daily value^* |  
+  total fat  4 g | 5%
+       saturated fat  2 g | 11%
+       trans fat   | 
+  cholesterol  10 mg | 3%
+  sodium  23 mg | 1%
+  total carbohydrates  3 mg | 0%
+       dietary fiber  0 g | 0%
+       sugar  3 mg | 
+  protein  37 mg | 0%
+   vitamin A  2%    |    vitamin D  1%   
+   vitamin E  1%    | 
+*percent daily values are based on a 2000 calorie diet
+(averaged over different types of butter)'
+       title='serving size 1 pat (4 g)
+total calories  32 | fat calories  31
+% daily value^* |  
+  total fat  4 g | 5%
+       saturated fat  2 g | 11%
+       trans fat   | 
+  cholesterol  10 mg | 3%
+  sodium  23 mg | 1%
+  total carbohydrates  3 mg | 0%
+       dietary fiber  0 g | 0%
+       sugar  3 mg | 
+  protein  37 mg | 0%
+   vitamin A  2%    |    vitamin D  1%   
+   vitamin E  1%    | 
+*percent daily values are based on a 2000 calorie diet
+(averaged over different types of butter)'
+       width='296'
+       height='389' />
+  </subpod>
+ </pod>
+ <pod title='Average daily value ranking'
+     scanner='Data'
+     id='DailyValuesRanking:ExpandedFoodData'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+saturated fat | 2.2 g | 11% | (2.2 to 2.3) g
+total fat | 3.6 g | 5% | 3.6 g
+cholesterol | 9.5 mg | 3% | (9.5 to 9.6) mg
+ |  | (vertical ellipsis) | 
+total carbohydrates | 2.6 mg | 0% | 2.6 mg
+calcium | 1.1 mg | 0% | 1.1 mg
+(averaged over different types of butter)</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP29021e5ihc536fi79a510000421aa1c8891c9c50?MSPStoreType=image/gif&amp;s=6'
+       alt=' | mean value | % daily value | range
+saturated fat | 2.2 g | 11% | (2.2 to 2.3) g
+total fat | 3.6 g | 5% | 3.6 g
+cholesterol | 9.5 mg | 3% | (9.5 to 9.6) mg
+ |  | (vertical ellipsis) | 
+total carbohydrates | 2.6 mg | 0% | 2.6 mg
+calcium | 1.1 mg | 0% | 1.1 mg
+(averaged over different types of butter)'
+       title=' | mean value | % daily value | range
+saturated fat | 2.2 g | 11% | (2.2 to 2.3) g
+total fat | 3.6 g | 5% | 3.6 g
+cholesterol | 9.5 mg | 3% | (9.5 to 9.6) mg
+ |  | (vertical ellipsis) | 
+total carbohydrates | 2.6 mg | 0% | 2.6 mg
+calcium | 1.1 mg | 0% | 1.1 mg
+(averaged over different types of butter)'
+       width='477'
+       height='249' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='DailyValuesRanking:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Average highest nutrients compared to other foods'
+     scanner='Data'
+     id='NutrientRankingPod:ExpandedFoodData'
+     position='400'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | amount | % daily value | foods distribution | rank
+retinol | 30 g |  |  | 85%
+vitamin A | 110 IU | 2% |  | 69%
+cholesterol | 9.5 mg | 3% |  | 58%
+(distributions from log nutrient values in standard servings of 7500 common foods)</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP29031e5ihc536fi79a5100003fcgfa636ccif465?MSPStoreType=image/gif&amp;s=6'
+       alt=' | amount | % daily value | foods distribution | rank
+retinol | 30 g |  |  | 85%
+vitamin A | 110 IU | 2% |  | 69%
+cholesterol | 9.5 mg | 3% |  | 58%
+(distributions from log nutrient values in standard servings of 7500 common foods)'
+       title=' | amount | % daily value | foods distribution | rank
+retinol | 30 g |  |  | 85%
+vitamin A | 110 IU | 2% |  | 69%
+cholesterol | 9.5 mg | 3% |  | 58%
+(distributions from log nutrient values in standard servings of 7500 common foods)'
+       width='532'
+       height='209' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='NutrientRankingPod:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Calories'
+     scanner='Data'
+     id='Calories:ExpandedFoodData'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total calories | 32 Cal | 2% | 32 Cal
+fat calories | 31 Cal |  | 31 Cal</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP29041e5ihc536fi79a51000042ag5ge1efiebi8c?MSPStoreType=image/gif&amp;s=6'
+       alt=' | mean value | % daily value | range
+total calories | 32 Cal | 2% | 32 Cal
+fat calories | 31 Cal |  | 31 Cal'
+       title=' | mean value | % daily value | range
+total calories | 32 Cal | 2% | 32 Cal
+fat calories | 31 Cal |  | 31 Cal'
+       width='377'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Calories:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Carbohydrates'
+     scanner='Data'
+     id='Carbohydrates:ExpandedFoodData'
+     position='600'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total carbohydrates | 2.6 mg | 0% | 2.6 mg
+dietary fiber | 0 g | 0% | 
+sugar | 2.6 mg |  | 2.6 mg</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP29051e5ihc536fi79a51000057e4222d1dbe1i7c?MSPStoreType=image/gif&amp;s=6'
+       alt=' | mean value | % daily value | range
+total carbohydrates | 2.6 mg | 0% | 2.6 mg
+dietary fiber | 0 g | 0% | 
+sugar | 2.6 mg |  | 2.6 mg'
+       title=' | mean value | % daily value | range
+total carbohydrates | 2.6 mg | 0% | 2.6 mg
+dietary fiber | 0 g | 0% | 
+sugar | 2.6 mg |  | 2.6 mg'
+       width='422'
+       height='132' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Carbohydrates:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Fats and fatty acids'
+     scanner='Data'
+     id='Fats:ExpandedFoodData'
+     position='700'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total fat | 3.6 g | 5% | 3.6 g
+saturated fat | 2.2 g | 11% | (2.2 to 2.3) g</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP29061e5ihc536fi79a5100002cd92ff6ba15d8cf?MSPStoreType=image/gif&amp;s=6'
+       alt=' | mean value | % daily value | range
+total fat | 3.6 g | 5% | 3.6 g
+saturated fat | 2.2 g | 11% | (2.2 to 2.3) g'
+       title=' | mean value | % daily value | range
+total fat | 3.6 g | 5% | 3.6 g
+saturated fat | 2.2 g | 11% | (2.2 to 2.3) g'
+       width='423'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Fats:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Protein and amino acids'
+     scanner='Data'
+     id='Protein:ExpandedFoodData'
+     position='800'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+protein | 37 mg | 0% | 37 mg</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP29071e5ihc536fi79a5100000cf750db302b7eg8?MSPStoreType=image/gif&amp;s=6'
+       alt=' | mean value | % daily value | range
+protein | 37 mg | 0% | 37 mg'
+       title=' | mean value | % daily value | range
+protein | 37 mg | 0% | 37 mg'
+       width='339'
+       height='68' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Protein:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Vitamins'
+     scanner='Data'
+     id='Vitamins:ExpandedFoodData'
+     position='900'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+vitamin A | 30 g | 2% | 30 g
+vitamin C | 0 g | 0% | </plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP29081e5ihc536fi79a5100005h4a14a00b11467f?MSPStoreType=image/gif&amp;s=6'
+       alt=' | mean value | % daily value | range
+vitamin A | 30 g | 2% | 30 g
+vitamin C | 0 g | 0% | '
+       title=' | mean value | % daily value | range
+vitamin A | 30 g | 2% | 30 g
+vitamin C | 0 g | 0% | '
+       width='355'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Vitamins:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Minerals'
+     scanner='Data'
+     id='Minerals:ExpandedFoodData'
+     position='1000'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+calcium | 1.1 mg | 0% | 1.1 mg
+iron | 2.9 g | 0% | (0.88 to 7) g</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP29091e5ihc536fi79a5100002985g85bb5968bi6?MSPStoreType=image/gif&amp;s=6'
+       alt=' | mean value | % daily value | range
+calcium | 1.1 mg | 0% | 1.1 mg
+iron | 2.9 g | 0% | (0.88 to 7) g'
+       title=' | mean value | % daily value | range
+calcium | 1.1 mg | 0% | 1.1 mg
+iron | 2.9 g | 0% | (0.88 to 7) g'
+       width='395'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Minerals:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Sterols'
+     scanner='Data'
+     id='Sterols:ExpandedFoodData'
+     position='1100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+cholesterol | 9.5 mg | 3% | (9.5 to 9.6) mg</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP29101e5ihc536fi79a5100001h8i713e4h04d7d3?MSPStoreType=image/gif&amp;s=6'
+       alt=' | mean value | % daily value | range
+cholesterol | 9.5 mg | 3% | (9.5 to 9.6) mg'
+       title=' | mean value | % daily value | range
+cholesterol | 9.5 mg | 3% | (9.5 to 9.6) mg'
+       width='421'
+       height='68' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Sterols:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Alcohol content'
+     scanner='Data'
+     id='AlcoholContent:ExpandedFoodData'
+     position='1200'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | range
+volume percentage | 0% | 
+proof | 0 proof | 
+mass | 0 g | </plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP29111e5ihc536fi79a51000049e2dc17d37dg268?MSPStoreType=image/gif&amp;s=6'
+       alt=' | mean value | range
+volume percentage | 0% | 
+proof | 0 proof | 
+mass | 0 g | '
+       title=' | mean value | range
+volume percentage | 0% | 
+proof | 0 proof | 
+mass | 0 g | '
+       width='387'
+       height='149' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='AlcoholContent:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Physical properties'
+     scanner='Data'
+     id='PhysicalProperties:ExpandedFoodData'
+     position='1300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>mass | 0.16 oz  (ounces)
+serving volume | 0.15 fl oz  (fluid ounces)
+serving density | 0.96 g/cm^3  (grams per cubic centimeter)</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP29121e5ihc536fi79a5100003dab69fdcdhhb70g?MSPStoreType=image/gif&amp;s=6'
+       alt='mass | 0.16 oz  (ounces)
+serving volume | 0.15 fl oz  (fluid ounces)
+serving density | 0.96 g/cm^3  (grams per cubic centimeter)'
+       title='mass | 0.16 oz  (ounces)
+serving volume | 0.15 fl oz  (fluid ounces)
+serving density | 0.96 g/cm^3  (grams per cubic centimeter)'
+       width='408'
+       height='100' />
+  </subpod>
+ </pod>
+ <assumptions count='3'>
+  <assumption type='Clash'
+      word='butter'
+      template='Assuming &quot;${word}&quot; is ${desc1}. Use as ${desc2} instead'
+      count='3'>
+   <value name='ExpandedFood'
+       desc='a food'
+       input='*C.butter-_*ExpandedFood-' />
+   <value name='CommonMaterial'
+       desc='a general material'
+       input='*C.butter-_*CommonMaterial-' />
+   <value name='Word'
+       desc='a word'
+       input='*C.butter-_*Word-' />
+  </assumption>
+  <assumption type='SubCategory'
+      word='butter'
+      template='Assuming ${desc1}. Use ${desc2} instead'
+      count='5'>
+   <value name='Butter'
+       desc='butter'
+       input='*DPClash.ExpandedFoodE.butter-_*Butter-' />
+   <value name='ButterSalted'
+       desc='salted butter'
+       input='*DPClash.ExpandedFoodE.butter-_*ButterSalted-' />
+   <value name='ParkayMargarineSpray'
+       desc='Parkay margarine spray'
+       input='*DPClash.ExpandedFoodE.butter-_*ParkayMargarineSpray-' />
+   <value name='SaltedSweetCreamButter'
+       desc='salted sweet cream butter'
+       input='*DPClash.ExpandedFoodE.butter-_*SaltedSweetCreamButter-' />
+   <value name='UnsaltedSweetCreamButter'
+       desc='unsalted sweet cream butter'
+       input='*DPClash.ExpandedFoodE.butter-_*UnsaltedSweetCreamButter-' />
+  </assumption>
+  <assumption type='Attribute'
+      word='Butter'
+      template='Assuming ${desc1}. Use ${desc2} instead'
+      count='4'>
+   <value name='Butter'
+       desc='any type of butter'
+       input='*EAC.ExpandedFood.Butter-_**a.Butter--' />
+   <value name='{Food:SaltContent -&gt; Food:WithSalt}'
+       desc='butter, with salt'
+       input='*EAC.ExpandedFood.Butter-_**Butter.*Food%3ASaltContent_Food%3AWithSalt---' />
+   <value name='{Food:SaltContent -&gt; Food:WithoutSalt}'
+       desc='butter, without salt'
+       input='*EAC.ExpandedFood.Butter-_**Butter.*Food%3ASaltContent_Food%3AWithoutSalt---' />
+   <value name='{Food:Geometry -&gt; Food:Whipped, Food:SeedContent -&gt; Food:WithSalt}'
+       desc='butter, whipped, with salt'
+       input='*EAC.ExpandedFood.Butter-_**Butter.*Food%3AGeometry_Food%3AWhipped.Food%3ASeedContent_Food%3AWithSalt---' />
+  </assumption>
+ </assumptions>
+ <sources count='1'>
+  <source url='http://www.wolframalpha.com/sources/ExpandedFoodDataSourceInformationNotes.html'
+      text='Expanded food data' />
+ </sources>
+</queryresult>

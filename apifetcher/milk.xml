@@ -1,0 +1,544 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='13'
+    datatypes='ExpandedFood'
+    timedout=''
+    timedoutpods=''
+    timing='9.82'
+    parsetiming='0.13'
+    parsetimedout='false'
+    recalculate=''
+    id='MSPa7651b5ac8fa0fedde5c0000117bec602da2195g'
+    host='http://www4c.wolframalpha.com'
+    server='9'
+    related='http://www4c.wolframalpha.com/api/v2/relatedQueries.jsp?id=MSPa7661b5ac8fa0fedde5c0000583a3eii461g1gb2&amp;s=9'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>milk | amount | 1 cup</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP7671b5ac8fa0fedde5c00004b328g8a6iff9a24?MSPStoreType=image/gif&amp;s=9'
+       alt='milk | amount | 1 cup'
+       title='milk | amount | 1 cup'
+       width='202'
+       height='32' />
+  </subpod>
+ </pod>
+ <pod title='Average nutrition facts'
+     scanner='Data'
+     id='NutritionLabelSingle:ExpandedFoodData'
+     position='200'
+     error='false'
+     numsubpods='1'
+     primary='true'>
+  <subpod title=''>
+   <plaintext>serving size 1 cup (256 g)
+total calories  158 | fat calories  48
+% daily value^* |  
+  total fat  5 g | 8%
+       saturated fat  3 g | 16%
+       trans fat   | 
+  cholesterol  22 mg | 7%
+  sodium  150 mg | 6%
+  total carbohydrates  18 g | 6%
+       dietary fiber  314 mg | 1%
+       sugar  18 g | 
+  protein  10 g | 20%
+   vitamin A  10%    |    vitamin C  3%   
+   calcium  39%    |    iron  2%   
+   vitamin D  30%    |    thiamin  7%   
+   riboflavin  32%    |    niacin  1%   
+   vitamin B6  5%    |    vitamin B12  16%   
+   folate  3%    |    phosphorus  29%   
+   magnesium  9%    |    zinc  8%   
+*percent daily values are based on a 2000 calorie diet
+(averaged over different types of milk)</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP7681b5ac8fa0fedde5c000043ib627338ceii2i?MSPStoreType=image/gif&amp;s=9'
+       alt='serving size 1 cup (256 g)
+total calories  158 | fat calories  48
+% daily value^* |  
+  total fat  5 g | 8%
+       saturated fat  3 g | 16%
+       trans fat   | 
+  cholesterol  22 mg | 7%
+  sodium  150 mg | 6%
+  total carbohydrates  18 g | 6%
+       dietary fiber  314 mg | 1%
+       sugar  18 g | 
+  protein  10 g | 20%
+   vitamin A  10%    |    vitamin C  3%   
+   calcium  39%    |    iron  2%   
+   vitamin D  30%    |    thiamin  7%   
+   riboflavin  32%    |    niacin  1%   
+   vitamin B6  5%    |    vitamin B12  16%   
+   folate  3%    |    phosphorus  29%   
+   magnesium  9%    |    zinc  8%   
+*percent daily values are based on a 2000 calorie diet
+(averaged over different types of milk)'
+       title='serving size 1 cup (256 g)
+total calories  158 | fat calories  48
+% daily value^* |  
+  total fat  5 g | 8%
+       saturated fat  3 g | 16%
+       trans fat   | 
+  cholesterol  22 mg | 7%
+  sodium  150 mg | 6%
+  total carbohydrates  18 g | 6%
+       dietary fiber  314 mg | 1%
+       sugar  18 g | 
+  protein  10 g | 20%
+   vitamin A  10%    |    vitamin C  3%   
+   calcium  39%    |    iron  2%   
+   vitamin D  30%    |    thiamin  7%   
+   riboflavin  32%    |    niacin  1%   
+   vitamin B6  5%    |    vitamin B12  16%   
+   folate  3%    |    phosphorus  29%   
+   magnesium  9%    |    zinc  8%   
+*percent daily values are based on a 2000 calorie diet
+(averaged over different types of milk)'
+       width='310'
+       height='493' />
+  </subpod>
+ </pod>
+ <pod title='Average daily value ranking'
+     scanner='Data'
+     id='DailyValuesRanking:ExpandedFoodData'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+calcium | 387 mg | 39% | (259 to 742) mg
+riboflavin | 539 g | 32% | (0.27 to 1.4) mg
+vitamin D | 119 IU | 30% | (102 to 202) IU
+ |  | (vertical ellipsis) | 
+dietary fiber | 314 mg | 1% | (0 to 2) g
+vitamin E | 97 g | 0% | (0 to 358) g
+(averaged over different types of milk)</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP7691b5ac8fa0fedde5c00003ffh005fg5fahidf?MSPStoreType=image/gif&amp;s=9'
+       alt=' | mean value | % daily value | range
+calcium | 387 mg | 39% | (259 to 742) mg
+riboflavin | 539 g | 32% | (0.27 to 1.4) mg
+vitamin D | 119 IU | 30% | (102 to 202) IU
+ |  | (vertical ellipsis) | 
+dietary fiber | 314 mg | 1% | (0 to 2) g
+vitamin E | 97 g | 0% | (0 to 358) g
+(averaged over different types of milk)'
+       title=' | mean value | % daily value | range
+calcium | 387 mg | 39% | (259 to 742) mg
+riboflavin | 539 g | 32% | (0.27 to 1.4) mg
+vitamin D | 119 IU | 30% | (102 to 202) IU
+ |  | (vertical ellipsis) | 
+dietary fiber | 314 mg | 1% | (0 to 2) g
+vitamin E | 97 g | 0% | (0 to 358) g
+(averaged over different types of milk)'
+       width='438'
+       height='249' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='DailyValuesRanking:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Average highest nutrients compared to other foods'
+     scanner='Data'
+     id='NutrientRankingPod:ExpandedFoodData'
+     position='400'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | amount | % daily value | foods distribution | rank
+calcium | 387 mg | 39% |  | 98%
+theobromine | 16 mg |  |  | 96%
+caffeine | 1.1 mg |  |  | 96%
+(distributions from log nutrient values in standard servings of 7500 common foods)</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP7701b5ac8fa0fedde5c00000i1936150c05c7bc?MSPStoreType=image/gif&amp;s=9'
+       alt=' | amount | % daily value | foods distribution | rank
+calcium | 387 mg | 39% |  | 98%
+theobromine | 16 mg |  |  | 96%
+caffeine | 1.1 mg |  |  | 96%
+(distributions from log nutrient values in standard servings of 7500 common foods)'
+       title=' | amount | % daily value | foods distribution | rank
+calcium | 387 mg | 39% |  | 98%
+theobromine | 16 mg |  |  | 96%
+caffeine | 1.1 mg |  |  | 96%
+(distributions from log nutrient values in standard servings of 7500 common foods)'
+       width='544'
+       height='209' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='NutrientRankingPod:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Calories'
+     scanner='Data'
+     id='Calories:ExpandedFoodData'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total calories | 158 Cal | 8% | (87 to 343) Cal
+fat calories | 48 Cal |  | (1.8 to 170) Cal</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP7711b5ac8fa0fedde5c0000147e7a85fc5c12ia?MSPStoreType=image/gif&amp;s=9'
+       alt=' | mean value | % daily value | range
+total calories | 158 Cal | 8% | (87 to 343) Cal
+fat calories | 48 Cal |  | (1.8 to 170) Cal'
+       title=' | mean value | % daily value | range
+total calories | 158 Cal | 8% | (87 to 343) Cal
+fat calories | 48 Cal |  | (1.8 to 170) Cal'
+       width='440'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Calories:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Carbohydrates'
+     scanner='Data'
+     id='Carbohydrates:ExpandedFoodData'
+     position='600'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total carbohydrates | 18 g | 6% | (11 to 31) g
+dietary fiber | 314 mg | 1% | (0 to 2) g
+sugar | 18 g |  | (11 to 29) g</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP7721b5ac8fa0fedde5c00002443c73cie8b7b0a?MSPStoreType=image/gif&amp;s=9'
+       alt=' | mean value | % daily value | range
+total carbohydrates | 18 g | 6% | (11 to 31) g
+dietary fiber | 314 mg | 1% | (0 to 2) g
+sugar | 18 g |  | (11 to 29) g'
+       title=' | mean value | % daily value | range
+total carbohydrates | 18 g | 6% | (11 to 31) g
+dietary fiber | 314 mg | 1% | (0 to 2) g
+sugar | 18 g |  | (11 to 29) g'
+       width='458'
+       height='132' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Carbohydrates:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Fats and fatty acids'
+     scanner='Data'
+     id='Fats:ExpandedFoodData'
+     position='700'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total fat | 5.3 g | 8% | (0.2 to 19) g
+saturated fat | 3.3 g | 16% | (0.13 to 12) g</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP7731b5ac8fa0fedde5c00004cc50fda3f4cig3g?MSPStoreType=image/gif&amp;s=9'
+       alt=' | mean value | % daily value | range
+total fat | 5.3 g | 8% | (0.2 to 19) g
+saturated fat | 3.3 g | 16% | (0.13 to 12) g'
+       title=' | mean value | % daily value | range
+total fat | 5.3 g | 8% | (0.2 to 19) g
+saturated fat | 3.3 g | 16% | (0.13 to 12) g'
+       width='427'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Fats:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Protein and amino acids'
+     scanner='Data'
+     id='Protein:ExpandedFoodData'
+     position='800'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+protein | 10 g | 20% | (7.7 to 19) g</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP7741b5ac8fa0fedde5c00001f3d711a91agdd4g?MSPStoreType=image/gif&amp;s=9'
+       alt=' | mean value | % daily value | range
+protein | 10 g | 20% | (7.7 to 19) g'
+       title=' | mean value | % daily value | range
+protein | 10 g | 20% | (7.7 to 19) g'
+       width='383'
+       height='68' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Protein:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Vitamins'
+     scanner='Data'
+     id='Vitamins:ExpandedFoodData'
+     position='900'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+vitamin A | 136 g | 9% | (0 to 351) g
+vitamin C | 2.1 mg | 3% | (0 to 4.9) mg</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP7751b5ac8fa0fedde5c000059ce32c52hb6a7ee?MSPStoreType=image/gif&amp;s=9'
+       alt=' | mean value | % daily value | range
+vitamin A | 136 g | 9% | (0 to 351) g
+vitamin C | 2.1 mg | 3% | (0 to 4.9) mg'
+       title=' | mean value | % daily value | range
+vitamin A | 136 g | 9% | (0 to 351) g
+vitamin C | 2.1 mg | 3% | (0 to 4.9) mg'
+       width='403'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Vitamins:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Minerals'
+     scanner='Data'
+     id='Minerals:ExpandedFoodData'
+     position='1000'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+calcium | 387 mg | 39% | (259 to 742) mg
+iron | 272 g | 2% | (77 to 742) g</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP7761b5ac8fa0fedde5c0000484e1edff2hg5d30?MSPStoreType=image/gif&amp;s=9'
+       alt=' | mean value | % daily value | range
+calcium | 387 mg | 39% | (259 to 742) mg
+iron | 272 g | 2% | (77 to 742) g'
+       title=' | mean value | % daily value | range
+calcium | 387 mg | 39% | (259 to 742) mg
+iron | 272 g | 2% | (77 to 742) g'
+       width='410'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Minerals:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Sterols'
+     scanner='Data'
+     id='Sterols:ExpandedFoodData'
+     position='1100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+cholesterol | 22 mg | 7% | (5.1 to 74) mg</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP7771b5ac8fa0fedde5c00001iaheg6bfdgd3f61?MSPStoreType=image/gif&amp;s=9'
+       alt=' | mean value | % daily value | range
+cholesterol | 22 mg | 7% | (5.1 to 74) mg'
+       title=' | mean value | % daily value | range
+cholesterol | 22 mg | 7% | (5.1 to 74) mg'
+       width='417'
+       height='68' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Sterols:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Alcohol content'
+     scanner='Data'
+     id='AlcoholContent:ExpandedFoodData'
+     position='1200'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | range
+volume percentage | 0 g | </plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP7781b5ac8fa0fedde5c00003i55g1f52dii7hd3?MSPStoreType=image/gif&amp;s=9'
+       alt=' | mean value | range
+volume percentage | 0 g | '
+       title=' | mean value | range
+volume percentage | 0 g | '
+       width='387'
+       height='85' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='AlcoholContent:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Physical properties'
+     scanner='Data'
+     id='PhysicalProperties:ExpandedFoodData'
+     position='1300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>mass | 9 oz  (ounces)
+serving volume | 8 fl oz  (fluid ounces)
+serving density | 1.1 g/cm^3  (grams per cubic centimeter)</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP7791b5ac8fa0fedde5c0000149b0232704625c7?MSPStoreType=image/gif&amp;s=9'
+       alt='mass | 9 oz  (ounces)
+serving volume | 8 fl oz  (fluid ounces)
+serving density | 1.1 g/cm^3  (grams per cubic centimeter)'
+       title='mass | 9 oz  (ounces)
+serving volume | 8 fl oz  (fluid ounces)
+serving density | 1.1 g/cm^3  (grams per cubic centimeter)'
+       width='400'
+       height='100' />
+  </subpod>
+ </pod>
+ <assumptions count='3'>
+  <assumption type='Clash'
+      word='milk'
+      template='Assuming &quot;${word}&quot; is ${desc1}. Use as ${desc2} instead'
+      count='4'>
+   <value name='ExpandedFood'
+       desc='a food'
+       input='*C.milk-_*ExpandedFood-' />
+   <value name='CommonMaterial'
+       desc='a general material'
+       input='*C.milk-_*CommonMaterial-' />
+   <value name='Movie'
+       desc='a movie'
+       input='*C.milk-_*Movie-' />
+   <value name='Word'
+       desc='a word'
+       input='*C.milk-_*Word-' />
+  </assumption>
+  <assumption type='SubCategory'
+      word='milk'
+      template='Assuming ${desc1}. Use ${desc2} instead'
+      count='12'>
+   <value name='Milk'
+       desc='milk'
+       input='*DPClash.ExpandedFoodE.milk-_*Milk-' />
+   <value name='SkimMilk'
+       desc='skim milk'
+       input='*DPClash.ExpandedFoodE.milk-_*SkimMilk-' />
+   <value name='WholeMilk'
+       desc='whole milk'
+       input='*DPClash.ExpandedFoodE.milk-_*WholeMilk-' />
+   <value name='1PerLowFatMilk'
+       desc='1% low fat milk'
+       input='*DPClash.ExpandedFoodE.milk-_*1PerLowFatMilk-' />
+   <value name='2PerReducedFatMilk'
+       desc='2% reduced fat milk'
+       input='*DPClash.ExpandedFoodE.milk-_*2PerReducedFatMilk-' />
+   <value name='AholdSlimDeluxCalciumEnrichedFatFreeMilk'
+       desc='Ahold slim delux calcium enriched fat free milk'
+       input='*DPClash.ExpandedFoodE.milk-_*AholdSlimDeluxCalciumEnrichedFatFreeMilk-' />
+   <value name='FatFreeLactoseFreeMilk'
+       desc='fat free lactose free milk'
+       input='*DPClash.ExpandedFoodE.milk-_*FatFreeLactoseFreeMilk-' />
+   <value name='LactoseFree1LowfatMilk'
+       desc='lactose free 1% lowfat milk'
+       input='*DPClash.ExpandedFoodE.milk-_*LactoseFree1LowfatMilk-' />
+   <value name='LactoseFreeCalciumEnrichedFatFreeMilk'
+       desc='lactose free calcium enriched fat free milk'
+       input='*DPClash.ExpandedFoodE.milk-_*LactoseFreeCalciumEnrichedFatFreeMilk-' />
+   <value name='LactoseFreeFatFreeMilk'
+       desc='lactose free fat free milk'
+       input='*DPClash.ExpandedFoodE.milk-_*LactoseFreeFatFreeMilk-' />
+   <value name='LactoseFreeReducedFatMilk'
+       desc='Lactose free reduced fat milk'
+       input='*DPClash.ExpandedFoodE.milk-_*LactoseFreeReducedFatMilk-' />
+   <value name='LactoseFreeWholeMilk'
+       desc='lactose free whole milk'
+       input='*DPClash.ExpandedFoodE.milk-_*LactoseFreeWholeMilk-' />
+  </assumption>
+  <assumption type='Attribute'
+      word='Milk'
+      template='Assuming ${desc1}. Use ${desc2} instead'
+      count='27'>
+   <value name='Milk'
+       desc='any type of milk'
+       input='*EAC.ExpandedFood.Milk-_**a.Milk--' />
+   <value name='{Food:SodiumContent -&gt; Food:LowSodium}'
+       desc='milk, low sodium'
+       input='*EAC.ExpandedFood.Milk-_**Milk.*Food%3ASodiumContent_Food%3ALowSodium---' />
+   <value name='{Food:FatContent -&gt; Food:FatFree, Food:FatContent -&gt; Food:Skim}'
+       desc='milk, fat free, skim'
+       input='*EAC.ExpandedFood.Milk-_**Milk.*Food%3AFatContent_Food%3AFatFree.Food%3AFatContent_Food%3ASkim---' />
+   <value name='{Food:Flavor -&gt; Food:Chocolate, Food:Variety -&gt; Food:Whole}'
+       desc='milk, chocolate, whole'
+       input='*EAC.ExpandedFood.Milk-_**Milk.*Food%3AFlavor_Food%3AChocolate.Food%3AVariety_Food%3AWhole---' />
+   <value name='{Food:FatContent -&gt; Food:LowFat, Food:Flavor -&gt; Food:Chocolate}'
+       desc='milk, chocolate, low fat'
+       input='*EAC.ExpandedFood.Milk-_**Milk.*Food%3AFatContent_Food%3ALowFat.Food%3AFlavor_Food%3AChocolate---' />
+   <value name='{Food:FatContent -&gt; Food:ReducedFat, Food:Flavor -&gt; Food:Chocolate}'
+       desc='milk, chocolate, reduced fat'
+       input='*EAC.ExpandedFood.Milk-_**Milk.*Food%3AFatContent_Food%3AReducedFat.Food%3AFlavor_Food%3AChocolate---' />
+   <value name='{Food:FatContent -&gt; Food:ThreePointSevenPercentMilkfat}'
+       desc='milk, 3.7% milkfat'
+       input='*EAC.ExpandedFood.Milk-_**Milk.*Food%3AFatContent_Food%3AThreePointSevenPercentMilkfat---' />
+   <value name='{Food:CookingMethod -&gt; Food:Evaporated, Food:FatContent -&gt; Food:FatFree, Food:Packaging -&gt; Food:Canned}'
+       desc='milk, canned, evaporated, fat free'
+       input='*EAC.ExpandedFood.Milk-_**Milk.*Food%3ACookingMethod_Food%3AEvaporated.Food%3AFatContent_Food%3AFatFree.Food%3APackaging_Food%3ACanned---' />
+   <value name='{Food:FatContent -&gt; Food:FatFree, Food:FatContent -&gt; Food:Skim, Food:NutritionalSupplement -&gt; Food:WithVitaminA}'
+       desc='milk, fat free, skim, with vitamin A'
+       input='*EAC.ExpandedFood.Milk-_**Milk.*Food%3AFatContent_Food%3AFatFree.Food%3AFatContent_Food%3ASkim.Food%3ANutritionalSupplement_Food%3AWithVitaminA---' />
+   <value name='{Food:FatContent -&gt; Food:FatFree, Food:FatContent -&gt; Food:Skim, Food:NutritionalSupplement -&gt; Food:CalciumFortified}'
+       desc='milk, calcium fortified, fat free, skim'
+       input='*EAC.ExpandedFood.Milk-_**Milk.*Food%3AFatContent_Food%3AFatFree.Food%3AFatContent_Food%3ASkim.Food%3ANutritionalSupplement_Food%3ACalciumFortified---' />
+   <value name='{Food:CookingMethod -&gt; Food:Evaporated, Food:NutritionalSupplement -&gt; Food:WithVitaminA, Food:Packaging -&gt; Food:Canned}'
+       desc='milk, canned, evaporated, with vitamin A'
+       input='*EAC.ExpandedFood.Milk-_**Milk.*Food%3ACookingMethod_Food%3AEvaporated.Food%3ANutritionalSupplement_Food%3AWithVitaminA.Food%3APackaging_Food%3ACanned---' />
+   <value name='{Food:FatContent -&gt; Food:ReducedFat, Food:Flavor -&gt; Food:Chocolate, Food:NutritionalSupplement -&gt; Food:WithCalcium}'
+       desc='milk, chocolate, reduced fat, with calcium'
+       input='*EAC.ExpandedFood.Milk-_**Milk.*Food%3AFatContent_Food%3AReducedFat.Food%3AFlavor_Food%3AChocolate.Food%3ANutritionalSupplement_Food%3AWithCalcium---' />
+   <value name='{Food:CookingMethod -&gt; Food:Evaporated, Food:NutritionalSupplement -&gt; Food:WithoutVitaminA, Food:Packaging -&gt; Food:Canned}'
+       desc='milk, canned, evaporated, without vitamin A'
+       input='*EAC.ExpandedFood.Milk-_**Milk.*Food%3ACookingMethod_Food%3AEvaporated.Food%3ANutritionalSupplement_Food%3AWithoutVitaminA.Food%3APackaging_Food%3ACanned---' />
+   <value name='{Food:FatContent -&gt; Food:ThreePointTwoFivePercentMilkfat, Food:Variety -&gt; Food:Whole}'
+       desc='milk, 3.25% milkfat, whole'
+       input='*EAC.ExpandedFood.Milk-_**Milk.*Food%3AFatContent_Food%3AThreePointTwoFivePercentMilkfat.Food%3AVariety_Food%3AWhole---' />
+   <value name='{Food:FatContent -&gt; Food:LowFat, Food:FatContent -&gt; Food:OnePercentMilkfat, Food:NutritionalSupplement -&gt; Food:WithVitaminA}'
+       desc='milk, 1% milkfat, low fat, with vitamin A'
+       input='*EAC.ExpandedFood.Milk-_**Milk.*Food%3AFatContent_Food%3ALowFat.Food%3AFatContent_Food%3AOnePercentMilkfat.Food%3ANutritionalSupplement_Food%3AWithVitaminA---' />
+   <value name='{Food:FatContent -&gt; Food:ReducedFat, Food:FatContent -&gt; Food:TwoPercentMilkfat, Food:NutritionalSupplement -&gt; Food:WithVitaminA}'
+       desc='milk, 2% milkfat, reduced fat, with vitamin A'
+       input='*EAC.ExpandedFood.Milk-_**Milk.*Food%3AFatContent_Food%3AReducedFat.Food%3AFatContent_Food%3ATwoPercentMilkfat.Food%3ANutritionalSupplement_Food%3AWithVitaminA---' />
+   <value name='{Food:FatContent -&gt; Food:FatFree, Food:FatContent -&gt; Food:Skim, Food:NutritionalSupplement -&gt; Food:ProteinFortified, Food:NutritionalSupplement -&gt; Food:WithVitaminA}'
+       desc='milk, fat free, protein fortified, skim, with vitamin A'
+       input='*EAC.ExpandedFood.Milk-_**Milk.*Food%3AFatContent_Food%3AFatFree.Food%3AFatContent_Food%3ASkim.Food%3ANutritionalSupplement_Food%3AProteinFortified.Food%3ANutritionalSupplement_Food%3AWithVitaminA---' />
+   <value name='{Food:AddedFoods -&gt; Food:WithNonfatMilkSolids, Food:FatContent -&gt; Food:FatFree, Food:FatContent -&gt; Food:Skim, Food:NutritionalSupplement -&gt; Food:WithVitaminA}'
+       desc='milk, fat free, skim, with nonfat milk solids, with vitamin A'
+       input='*EAC.ExpandedFood.Milk-_**Milk.*Food%3AAddedFoods_Food%3AWithNonfatMilkSolids.Food%3AFatContent_Food%3AFatFree.Food%3AFatContent_Food%3ASkim.Food%3ANutritionalSupplement_Food%3AWithVitaminA---' />
+   <value name='{Food:FatContent -&gt; Food:OnePercentMilkfat, Food:NutritionalSupplement -&gt; Food:WithoutAddedVitaminD, Food:NutritionalSupplement -&gt; Food:WithoutVitaminA}'
+       desc='milk, 1% milkfat, without added vitamin D, without vitamin A'
+       input='*EAC.ExpandedFood.Milk-_**Milk.*Food%3AFatContent_Food%3AOnePercentMilkfat.Food%3ANutritionalSupplement_Food%3AWithoutAddedVitaminD.Food%3ANutritionalSupplement_Food%3AWithoutVitaminA---' />
+   <value name='{Food:FatContent -&gt; Food:LowFat, Food:FatContent -&gt; Food:OnePercentMilkfat, Food:NutritionalSupplement -&gt; Food:ProteinFortified, Food:NutritionalSupplement -&gt; Food:WithVitaminA}'
+       desc='milk, 1% milkfat, low fat, protein fortified, with vitamin A'
+       input='*EAC.ExpandedFood.Milk-_**Milk.*Food%3AFatContent_Food%3ALowFat.Food%3AFatContent_Food%3AOnePercentMilkfat.Food%3ANutritionalSupplement_Food%3AProteinFortified.Food%3ANutritionalSupplement_Food%3AWithVitaminA---' />
+   <value name='{Food:CookingMethod -&gt; Food:Evaporated, Food:NutritionalSupplement -&gt; Food:WithoutAddedVitaminD, Food:NutritionalSupplement -&gt; Food:WithoutVitaminA, Food:Packaging -&gt; Food:Canned}'
+       desc='milk, canned, evaporated, without added vitamin D, without vitamin A'
+       input='*EAC.ExpandedFood.Milk-_**Milk.*Food%3ACookingMethod_Food%3AEvaporated.Food%3ANutritionalSupplement_Food%3AWithoutAddedVitaminD.Food%3ANutritionalSupplement_Food%3AWithoutVitaminA.Food%3APackaging_Food%3ACanned---' />
+   <value name='{Food:AddedFoods -&gt; Food:WithNonfatMilkSolids, Food:FatContent -&gt; Food:LowFat, Food:FatContent -&gt; Food:OnePercentMilkfat, Food:NutritionalSupplement -&gt; Food:WithVitaminA}'
+       desc='milk, 1% milkfat, low fat, with nonfat milk solids, with vitamin A'
+       input='*EAC.ExpandedFood.Milk-_**Milk.*Food%3AAddedFoods_Food%3AWithNonfatMilkSolids.Food%3AFatContent_Food%3ALowFat.Food%3AFatContent_Food%3AOnePercentMilkfat.Food%3ANutritionalSupplement_Food%3AWithVitaminA---' />
+   <value name='{Food:FatContent -&gt; Food:ReducedFat, Food:FatContent -&gt; Food:TwoPercentMilkfat, Food:NutritionalSupplement -&gt; Food:ProteinFortified, Food:NutritionalSupplement -&gt; Food:WithVitaminA}'
+       desc='milk, 2% milkfat, protein fortified, reduced fat, with vitamin A'
+       input='*EAC.ExpandedFood.Milk-_**Milk.*Food%3AFatContent_Food%3AReducedFat.Food%3AFatContent_Food%3ATwoPercentMilkfat.Food%3ANutritionalSupplement_Food%3AProteinFortified.Food%3ANutritionalSupplement_Food%3AWithVitaminA---' />
+   <value name='{Food:AddedFoods -&gt; Food:WithNonfatMilkSolids, Food:FatContent -&gt; Food:ReducedFat, Food:FatContent -&gt; Food:TwoPercentMilkfat, Food:NutritionalSupplement -&gt; Food:WithVitaminA}'
+       desc='milk, 2% milkfat, reduced fat, with nonfat milk solids, with vitamin A'
+       input='*EAC.ExpandedFood.Milk-_**Milk.*Food%3AAddedFoods_Food%3AWithNonfatMilkSolids.Food%3AFatContent_Food%3AReducedFat.Food%3AFatContent_Food%3ATwoPercentMilkfat.Food%3ANutritionalSupplement_Food%3AWithVitaminA---' />
+   <value name='{Food:FatContent -&gt; Food:ThreePointTwoFivePercentMilkfat, Food:NutritionalSupplement -&gt; Food:WithoutAddedVitaminD, Food:NutritionalSupplement -&gt; Food:WithoutVitaminA}'
+       desc='milk, 3.25% milkfat, without added vitamin D, without vitamin A'
+       input='*EAC.ExpandedFood.Milk-_**Milk.*Food%3AFatContent_Food%3AThreePointTwoFivePercentMilkfat.Food%3ANutritionalSupplement_Food%3AWithoutAddedVitaminD.Food%3ANutritionalSupplement_Food%3AWithoutVitaminA---' />
+   <value name='{Food:FatContent -&gt; Food:ReducedFat, Food:FatContent -&gt; Food:TwoPercentMilkfat, Food:NutritionalSupplement -&gt; Food:WithoutAddedVitaminD, Food:NutritionalSupplement -&gt; Food:WithoutVitaminA}'
+       desc='milk, 2% milkfat, reduced fat, without added vitamin D, without vitamin A'
+       input='*EAC.ExpandedFood.Milk-_**Milk.*Food%3AFatContent_Food%3AReducedFat.Food%3AFatContent_Food%3ATwoPercentMilkfat.Food%3ANutritionalSupplement_Food%3AWithoutAddedVitaminD.Food%3ANutritionalSupplement_Food%3AWithoutVitaminA---' />
+   <value name='{Food:AddedFoods -&gt; Food:WithAddedNonfatMilkSolids, Food:FatContent -&gt; Food:ReducedFat, Food:FatContent -&gt; Food:TwoPercentMilkfat, Food:NutritionalSupplement -&gt; Food:WithoutVitaminA}'
+       desc='milk, 2% milkfat, reduced fat, with added nonfat milk solids, without vitamin A'
+       input='*EAC.ExpandedFood.Milk-_**Milk.*Food%3AAddedFoods_Food%3AWithAddedNonfatMilkSolids.Food%3AFatContent_Food%3AReducedFat.Food%3AFatContent_Food%3ATwoPercentMilkfat.Food%3ANutritionalSupplement_Food%3AWithoutVitaminA---' />
+  </assumption>
+ </assumptions>
+ <sources count='1'>
+  <source url='http://www.wolframalpha.com/sources/ExpandedFoodDataSourceInformationNotes.html'
+      text='Expanded food data' />
+ </sources>
+</queryresult>

@@ -1,18 +1,25 @@
 package server
 
 import (
-	"net/http"
 	"fmt"
+	"html/template"
+	"log"
+	"net/http"
+
+	"github.com/samertm/bitcamp/foodstore"
 )
 
-type Snake int
-
 func serveRoot(w http.ResponseWriter, req *http.Request) {
-	w.Write([]byte("Whatever yoooooo get well soon."))
+	t, _ := template.ParseFiles("templates/index.html")
+	t.Execute(w, nil)
 }
 
-func ListenAndServe(ip string) {
+func serveFood(w http.ResponseWriter, req *http.Request) {
+
+}
+
+func ListenAndServe(ip string, f foodstore.FoodStore) {
 	fmt.Printf("Running server on %s.\n", ip)
 	http.HandleFunc("/", serveRoot)
-	http.ListenAndServe(ip, nil)
+	log.Fatal(http.ListenAndServe(ip, nil))
 }

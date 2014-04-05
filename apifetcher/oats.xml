@@ -1,0 +1,469 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='13'
+    datatypes='ExpandedFood'
+    timedout=''
+    timedoutpods=''
+    timing='8.483'
+    parsetiming='0.138'
+    parsetimedout='false'
+    recalculate=''
+    id='MSPa21351ffa6cb21067decc00004170dff4a73044f3'
+    host='http://www2.wolframalpha.com'
+    server='2'
+    related='http://www2.wolframalpha.com/api/v2/relatedQueries.jsp?id=MSPa21361ffa6cb21067decc000048878iec2389g4bb&amp;s=2'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>oats | amount | 1 cup</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP21371ffa6cb21067decc00003aga27749675d526?MSPStoreType=image/gif&amp;s=2'
+       alt='oats | amount | 1 cup'
+       title='oats | amount | 1 cup'
+       width='200'
+       height='32' />
+  </subpod>
+ </pod>
+ <pod title='Average nutrition facts'
+     scanner='Data'
+     id='NutritionLabelSingle:ExpandedFoodData'
+     position='200'
+     error='false'
+     numsubpods='1'
+     primary='true'>
+  <subpod title=''>
+   <plaintext>serving size 1 cup (156 g)
+total calories  210 | fat calories  37
+% daily value^* |  
+  total fat  4 g | 6%
+       saturated fat  657 mg | 3%
+       trans fat  2 mg | 
+  cholesterol  0 g | 0%
+  sodium  107 mg | 4%
+  total carbohydrates  37 g | 12%
+       dietary fiber  5 g | 20%
+       sugar  6 g | 
+  protein  7 g | 15%
+   vitamin A  10%    |    calcium  8%   
+   iron  25%    |    vitamin E  1%   
+   thiamin  27%    |    riboflavin  13%   
+   niacin  12%    |    vitamin B6  12%   
+   folate  14%    |    phosphorus  24%   
+   magnesium  20%    |    zinc  13%   
+*percent daily values are based on a 2000 calorie diet
+(averaged over different types of oats)</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP21381ffa6cb21067decc00001e53afcfei1b6e91?MSPStoreType=image/gif&amp;s=2'
+       alt='serving size 1 cup (156 g)
+total calories  210 | fat calories  37
+% daily value^* |  
+  total fat  4 g | 6%
+       saturated fat  657 mg | 3%
+       trans fat  2 mg | 
+  cholesterol  0 g | 0%
+  sodium  107 mg | 4%
+  total carbohydrates  37 g | 12%
+       dietary fiber  5 g | 20%
+       sugar  6 g | 
+  protein  7 g | 15%
+   vitamin A  10%    |    calcium  8%   
+   iron  25%    |    vitamin E  1%   
+   thiamin  27%    |    riboflavin  13%   
+   niacin  12%    |    vitamin B6  12%   
+   folate  14%    |    phosphorus  24%   
+   magnesium  20%    |    zinc  13%   
+*percent daily values are based on a 2000 calorie diet
+(averaged over different types of oats)'
+       title='serving size 1 cup (156 g)
+total calories  210 | fat calories  37
+% daily value^* |  
+  total fat  4 g | 6%
+       saturated fat  657 mg | 3%
+       trans fat  2 mg | 
+  cholesterol  0 g | 0%
+  sodium  107 mg | 4%
+  total carbohydrates  37 g | 12%
+       dietary fiber  5 g | 20%
+       sugar  6 g | 
+  protein  7 g | 15%
+   vitamin A  10%    |    calcium  8%   
+   iron  25%    |    vitamin E  1%   
+   thiamin  27%    |    riboflavin  13%   
+   niacin  12%    |    vitamin B6  12%   
+   folate  14%    |    phosphorus  24%   
+   magnesium  20%    |    zinc  13%   
+*percent daily values are based on a 2000 calorie diet
+(averaged over different types of oats)'
+       width='320'
+       height='473' />
+  </subpod>
+ </pod>
+ <pod title='Average daily value ranking'
+     scanner='Data'
+     id='DailyValuesRanking:ExpandedFoodData'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+thiamin | 399 g | 27% | (0.12 to 1.2) mg
+iron | 4.5 mg | 25% | (1.4 to 9.3) mg
+phosphorus | 236 mg | 24% | (111 to 816) mg
+ |  | (vertical ellipsis) | 
+vitamin E | 144 g | 1% | (109 to 187) g
+vitamin C | 52 g | 0% | (0 to 312) g
+(averaged over different types of oats)</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP21391ffa6cb21067decc000026b3h9695c085aah?MSPStoreType=image/gif&amp;s=2'
+       alt=' | mean value | % daily value | range
+thiamin | 399 g | 27% | (0.12 to 1.2) mg
+iron | 4.5 mg | 25% | (1.4 to 9.3) mg
+phosphorus | 236 mg | 24% | (111 to 816) mg
+ |  | (vertical ellipsis) | 
+vitamin E | 144 g | 1% | (109 to 187) g
+vitamin C | 52 g | 0% | (0 to 312) g
+(averaged over different types of oats)'
+       title=' | mean value | % daily value | range
+thiamin | 399 g | 27% | (0.12 to 1.2) mg
+iron | 4.5 mg | 25% | (1.4 to 9.3) mg
+phosphorus | 236 mg | 24% | (111 to 816) mg
+ |  | (vertical ellipsis) | 
+vitamin E | 144 g | 1% | (109 to 187) g
+vitamin C | 52 g | 0% | (0 to 312) g
+(averaged over different types of oats)'
+       width='434'
+       height='249' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='DailyValuesRanking:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Average highest nutrients compared to other foods'
+     scanner='Data'
+     id='NutrientRankingPod:ExpandedFoodData'
+     position='400'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | amount | % daily value | foods distribution | rank
+manganese | 2.1 mg |  |  | 97%
+retinol | 154 g |  |  | 95%
+magnesium | 79 mg | 20% |  | 93%
+(distributions from log nutrient values in standard servings of 7500 common foods)</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP21401ffa6cb21067decc000018a3hg8eg473b80d?MSPStoreType=image/gif&amp;s=2'
+       alt=' | amount | % daily value | foods distribution | rank
+manganese | 2.1 mg |  |  | 97%
+retinol | 154 g |  |  | 95%
+magnesium | 79 mg | 20% |  | 93%
+(distributions from log nutrient values in standard servings of 7500 common foods)'
+       title=' | amount | % daily value | foods distribution | rank
+manganese | 2.1 mg |  |  | 97%
+retinol | 154 g |  |  | 95%
+magnesium | 79 mg | 20% |  | 93%
+(distributions from log nutrient values in standard servings of 7500 common foods)'
+       width='538'
+       height='209' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='NutrientRankingPod:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Calories'
+     scanner='Data'
+     id='Calories:ExpandedFoodData'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total calories | 210 Cal | 10% | (106 to 607) Cal
+fat calories | 37 Cal |  | (18 to 90) Cal</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP21411ffa6cb21067decc00002b1afch6b5077h7c?MSPStoreType=image/gif&amp;s=2'
+       alt=' | mean value | % daily value | range
+total calories | 210 Cal | 10% | (106 to 607) Cal
+fat calories | 37 Cal |  | (18 to 90) Cal'
+       title=' | mean value | % daily value | range
+total calories | 210 Cal | 10% | (106 to 607) Cal
+fat calories | 37 Cal |  | (18 to 90) Cal'
+       width='444'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Calories:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Carbohydrates'
+     scanner='Data'
+     id='Carbohydrates:ExpandedFoodData'
+     position='600'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total carbohydrates | 37 g | 12% | (18 to 103) g
+dietary fiber | 5 g | 20% | (2.5 to 17) g
+sugar | 6.3 g |  | (0.42 to 15) g</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP21421ffa6cb21067decc00002g239geie4h6f03c?MSPStoreType=image/gif&amp;s=2'
+       alt=' | mean value | % daily value | range
+total carbohydrates | 37 g | 12% | (18 to 103) g
+dietary fiber | 5 g | 20% | (2.5 to 17) g
+sugar | 6.3 g |  | (0.42 to 15) g'
+       title=' | mean value | % daily value | range
+total carbohydrates | 37 g | 12% | (18 to 103) g
+dietary fiber | 5 g | 20% | (2.5 to 17) g
+sugar | 6.3 g |  | (0.42 to 15) g'
+       width='470'
+       height='132' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Carbohydrates:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Fats and fatty acids'
+     scanner='Data'
+     id='Fats:ExpandedFoodData'
+     position='700'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total fat | 3.6 g | 6% | (1.8 to 11) g
+saturated fat | 657 mg | 3% | (0.31 to 1.9) g
+trans fat | 1.6 mg |  | 1.6 mg</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP21431ffa6cb21067decc00003b23g07ade2ab34c?MSPStoreType=image/gif&amp;s=2'
+       alt=' | mean value | % daily value | range
+total fat | 3.6 g | 6% | (1.8 to 11) g
+saturated fat | 657 mg | 3% | (0.31 to 1.9) g
+trans fat | 1.6 mg |  | 1.6 mg'
+       title=' | mean value | % daily value | range
+total fat | 3.6 g | 6% | (1.8 to 11) g
+saturated fat | 657 mg | 3% | (0.31 to 1.9) g
+trans fat | 1.6 mg |  | 1.6 mg'
+       width='431'
+       height='132' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Fats:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Protein and amino acids'
+     scanner='Data'
+     id='Protein:ExpandedFoodData'
+     position='800'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+protein | 7.5 g | 15% | (3.2 to 26) g</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP21441ffa6cb21067decc000054cihf891ia8893d?MSPStoreType=image/gif&amp;s=2'
+       alt=' | mean value | % daily value | range
+protein | 7.5 g | 15% | (3.2 to 26) g'
+       title=' | mean value | % daily value | range
+protein | 7.5 g | 15% | (3.2 to 26) g'
+       width='383'
+       height='68' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Protein:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Vitamins'
+     scanner='Data'
+     id='Vitamins:ExpandedFoodData'
+     position='900'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+vitamin A | 154 g | 10% | (0 to 318) g
+vitamin C | 52 g | 0% | (0 to 312) g</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP21451ffa6cb21067decc00000cb5g0i091484f93?MSPStoreType=image/gif&amp;s=2'
+       alt=' | mean value | % daily value | range
+vitamin A | 154 g | 10% | (0 to 318) g
+vitamin C | 52 g | 0% | (0 to 312) g'
+       title=' | mean value | % daily value | range
+vitamin A | 154 g | 10% | (0 to 318) g
+vitamin C | 52 g | 0% | (0 to 312) g'
+       width='403'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Vitamins:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Minerals'
+     scanner='Data'
+     id='Minerals:ExpandedFoodData'
+     position='1000'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+calcium | 76 mg | 8% | (14 to 125) mg
+iron | 4.5 mg | 25% | (1.4 to 9.3) mg</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP21461ffa6cb21067decc000029935c9bh4d04ifa?MSPStoreType=image/gif&amp;s=2'
+       alt=' | mean value | % daily value | range
+calcium | 76 mg | 8% | (14 to 125) mg
+iron | 4.5 mg | 25% | (1.4 to 9.3) mg'
+       title=' | mean value | % daily value | range
+calcium | 76 mg | 8% | (14 to 125) mg
+iron | 4.5 mg | 25% | (1.4 to 9.3) mg'
+       width='402'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Minerals:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Sterols'
+     scanner='Data'
+     id='Sterols:ExpandedFoodData'
+     position='1100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+cholesterol | 0 g | 0% | </plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP21471ffa6cb21067decc00003hfffb2ciaa16iaa?MSPStoreType=image/gif&amp;s=2'
+       alt=' | mean value | % daily value | range
+cholesterol | 0 g | 0% | '
+       title=' | mean value | % daily value | range
+cholesterol | 0 g | 0% | '
+       width='362'
+       height='68' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Sterols:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Alcohol content'
+     scanner='Data'
+     id='AlcoholContent:ExpandedFoodData'
+     position='1200'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | range
+volume percentage | 0 g | </plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP21481ffa6cb21067decc0000289a887895b0ab9a?MSPStoreType=image/gif&amp;s=2'
+       alt=' | mean value | range
+volume percentage | 0 g | '
+       title=' | mean value | range
+volume percentage | 0 g | '
+       width='387'
+       height='85' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='AlcoholContent:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Physical properties'
+     scanner='Data'
+     id='PhysicalProperties:ExpandedFoodData'
+     position='1300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>mass | 5.5 oz  (ounces)
+serving volume | 8 fl oz  (fluid ounces)
+serving density | 0.66 g/cm^3  (grams per cubic centimeter)</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP21491ffa6cb21067decc000067a5143gab595595?MSPStoreType=image/gif&amp;s=2'
+       alt='mass | 5.5 oz  (ounces)
+serving volume | 8 fl oz  (fluid ounces)
+serving density | 0.66 g/cm^3  (grams per cubic centimeter)'
+       title='mass | 5.5 oz  (ounces)
+serving volume | 8 fl oz  (fluid ounces)
+serving density | 0.66 g/cm^3  (grams per cubic centimeter)'
+       width='408'
+       height='100' />
+  </subpod>
+ </pod>
+ <assumptions count='3'>
+  <assumption type='Clash'
+      word='oats'
+      template='Assuming &quot;${word}&quot; is ${desc1}. Use as ${desc2} instead'
+      count='4'>
+   <value name='ExpandedFood'
+       desc='a food'
+       input='*C.oats-_*ExpandedFood-' />
+   <value name='Plant'
+       desc='a plant'
+       input='*C.oats-_*Plant-' />
+   <value name='Word'
+       desc='a word'
+       input='*C.oats-_*Word-' />
+   <value name='CommonMaterial'
+       desc='a general material'
+       input='*C.oats-_*CommonMaterial-' />
+  </assumption>
+  <assumption type='SubCategory'
+      word='oats'
+      template='Assuming ${desc1}. Use ${desc2} instead'
+      count='6'>
+   <value name='Oats'
+       desc='oats'
+       input='*DPClash.ExpandedFoodE.oats-_*Oats-' />
+   <value name='QuickAndEasySteelCutOats'
+       desc='raw quick cook steel cut oats'
+       input='*DPClash.ExpandedFoodE.oats-_*QuickAndEasySteelCutOats-' />
+   <value name='QuickCookOatsUnprepared'
+       desc='unprepared quick cook oats'
+       input='*DPClash.ExpandedFoodE.oats-_*QuickCookOatsUnprepared-' />
+   <value name='RawQuickCookRolledOats'
+       desc='raw quick cook rolled oats'
+       input='*DPClash.ExpandedFoodE.oats-_*RawQuickCookRolledOats-' />
+   <value name='RawSteelCutOats'
+       desc='raw steel cut oats'
+       input='*DPClash.ExpandedFoodE.oats-_*RawSteelCutOats-' />
+   <value name='QuakerOldFashionedOats'
+       desc='Quaker old fashioned oats'
+       input='*DPClash.ExpandedFoodE.oats-_*QuakerOldFashionedOats-' />
+  </assumption>
+  <assumption type='Attribute'
+      word='Oats'
+      template='Assuming ${desc1}. Use ${desc2} instead'
+      count='8'>
+   <value name='Oats'
+       desc='any type of oats'
+       input='*EAC.ExpandedFood.Oats-_**a.Oats--' />
+   <value name='{Food:Type -&gt; Food:Generic}'
+       desc='oats, generic'
+       input='*EAC.ExpandedFood.Oats-_**Oats.*Food%3AType_Food%3AGeneric---' />
+   <value name='{Food:BrandName -&gt; Food:QuakerOats, Food:Variety -&gt; Food:Quick}'
+       desc='oats, Quaker Oats, quick'
+       input='*EAC.ExpandedFood.Oats-_**Oats.*Food%3ABrandName_Food%3AQuakerOats.Food%3AVariety_Food%3AQuick---' />
+   <value name='{Food:CookingMethod -&gt; Food:CookedWithWater, Food:CookingMethod -&gt; Food:Instant, Food:Flavor -&gt; Food:Plain, Food:NutritionalSupplement -&gt; Food:Fortified}'
+       desc='oats, cooked with water, fortified, instant, plain'
+       input='*EAC.ExpandedFood.Oats-_**Oats.*Food%3ACookingMethod_Food%3ACookedWithWater.Food%3ACookingMethod_Food%3AInstant.Food%3AFlavor_Food%3APlain.Food%3ANutritionalSupplement_Food%3AFortified---' />
+   <value name='{Food:AddedFoods -&gt; Food:WithRaisinAndSpice, Food:CookingMethod -&gt; Food:CookedWithWater, Food:CookingMethod -&gt; Food:Instant, Food:NutritionalSupplement -&gt; Food:Fortified}'
+       desc='oats, cooked with water, fortified, instant, with raisin and spice'
+       input='*EAC.ExpandedFood.Oats-_**Oats.*Food%3AAddedFoods_Food%3AWithRaisinAndSpice.Food%3ACookingMethod_Food%3ACookedWithWater.Food%3ACookingMethod_Food%3AInstant.Food%3ANutritionalSupplement_Food%3AFortified---' />
+   <value name='{Food:AddedFoods -&gt; Food:WithCinnamonAndSpice, Food:CookingMethod -&gt; Food:CookedWithWater, Food:CookingMethod -&gt; Food:Instant, Food:NutritionalSupplement -&gt; Food:Fortified}'
+       desc='oats, cooked with water, fortified, instant, with cinnamon and spice'
+       input='*EAC.ExpandedFood.Oats-_**Oats.*Food%3AAddedFoods_Food%3AWithCinnamonAndSpice.Food%3ACookingMethod_Food%3ACookedWithWater.Food%3ACookingMethod_Food%3AInstant.Food%3ANutritionalSupplement_Food%3AFortified---' />
+   <value name='{Food:CookingMethod -&gt; Food:CookedWithWater, Food:NutritionalSupplement -&gt; Food:Unenriched, Food:SaltContent -&gt; Food:WithSalt, Food:Variety -&gt; Food:QuickInstant, Food:Variety -&gt; Food:Regular}'
+       desc='oats, cooked with water, quick instant, regular, unenriched, with salt'
+       input='*EAC.ExpandedFood.Oats-_**Oats.*Food%3ACookingMethod_Food%3ACookedWithWater.Food%3ANutritionalSupplement_Food%3AUnenriched.Food%3ASaltContent_Food%3AWithSalt.Food%3AVariety_Food%3AQuickInstant.Food%3AVariety_Food%3ARegular---' />
+   <value name='{Food:CookingMethod -&gt; Food:CookedWithWater, Food:CookingMethod -&gt; Food:Instant, Food:NutritionalSupplement -&gt; Food:Unenriched, Food:SaltContent -&gt; Food:WithoutSalt, Food:Variety -&gt; Food:Quick, Food:Variety -&gt; Food:Regular}'
+       desc='oats, cooked with water, instant, quick, regular, unenriched, without salt'
+       input='*EAC.ExpandedFood.Oats-_**Oats.*Food%3ACookingMethod_Food%3ACookedWithWater.Food%3ACookingMethod_Food%3AInstant.Food%3ANutritionalSupplement_Food%3AUnenriched.Food%3ASaltContent_Food%3AWithoutSalt.Food%3AVariety_Food%3AQuick.Food%3AVariety_Food%3ARegular---' />
+  </assumption>
+ </assumptions>
+ <sources count='1'>
+  <source url='http://www.wolframalpha.com/sources/ExpandedFoodDataSourceInformationNotes.html'
+      text='Expanded food data' />
+ </sources>
+</queryresult>

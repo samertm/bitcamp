@@ -1,0 +1,457 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='13'
+    datatypes='ExpandedFood'
+    timedout=''
+    timedoutpods=''
+    timing='8.449'
+    parsetiming='0.165'
+    parsetimedout='false'
+    recalculate=''
+    id='MSPa11631h25b3hff8f6h2i400003gc53f99hdeieacb'
+    host='http://www4c.wolframalpha.com'
+    server='50'
+    related='http://www4c.wolframalpha.com/api/v2/relatedQueries.jsp?id=MSPa11641h25b3hff8f6h2i4000066cgg316d2hbh773&amp;s=50'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>carrot | amount | 1 carrot</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP11651h25b3hff8f6h2i400004a4902a1g532cc3i?MSPStoreType=image/gif&amp;s=50'
+       alt='carrot | amount | 1 carrot'
+       title='carrot | amount | 1 carrot'
+       width='227'
+       height='32' />
+  </subpod>
+ </pod>
+ <pod title='Average nutrition facts'
+     scanner='Data'
+     id='NutritionLabelSingle:ExpandedFoodData'
+     position='200'
+     error='false'
+     numsubpods='1'
+     primary='true'>
+  <subpod title=''>
+   <plaintext>serving size 1 carrot (36 g)
+total calories  13 | fat calories  1
+% daily value^* |  
+  total fat  66 mg | 0%
+       saturated fat  11 mg | 0%
+       trans fat  0 g | 
+  cholesterol  0 g | 0%
+  sodium  26 mg | 1%
+  total carbohydrates  3 g | 1%
+       dietary fiber  1 g | 4%
+       sugar  2 g | 
+  protein  279 mg | 1%
+   vitamin A  108%    |    vitamin C  3%   
+   calcium  1%    |    iron  1%   
+   vitamin E  1%    |    thiamin  1%   
+   riboflavin  1%    |    niacin  1%   
+   vitamin B6  2%    |    folate  2%   
+   phosphorus  1%    |    magnesium  1%   
+*percent daily values are based on a 2000 calorie diet
+(averaged over different types of carrot)</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP11661h25b3hff8f6h2i400003i2986c4c5f6h3ie?MSPStoreType=image/gif&amp;s=50'
+       alt='serving size 1 carrot (36 g)
+total calories  13 | fat calories  1
+% daily value^* |  
+  total fat  66 mg | 0%
+       saturated fat  11 mg | 0%
+       trans fat  0 g | 
+  cholesterol  0 g | 0%
+  sodium  26 mg | 1%
+  total carbohydrates  3 g | 1%
+       dietary fiber  1 g | 4%
+       sugar  2 g | 
+  protein  279 mg | 1%
+   vitamin A  108%    |    vitamin C  3%   
+   calcium  1%    |    iron  1%   
+   vitamin E  1%    |    thiamin  1%   
+   riboflavin  1%    |    niacin  1%   
+   vitamin B6  2%    |    folate  2%   
+   phosphorus  1%    |    magnesium  1%   
+*percent daily values are based on a 2000 calorie diet
+(averaged over different types of carrot)'
+       title='serving size 1 carrot (36 g)
+total calories  13 | fat calories  1
+% daily value^* |  
+  total fat  66 mg | 0%
+       saturated fat  11 mg | 0%
+       trans fat  0 g | 
+  cholesterol  0 g | 0%
+  sodium  26 mg | 1%
+  total carbohydrates  3 g | 1%
+       dietary fiber  1 g | 4%
+       sugar  2 g | 
+  protein  279 mg | 1%
+   vitamin A  108%    |    vitamin C  3%   
+   calcium  1%    |    iron  1%   
+   vitamin E  1%    |    thiamin  1%   
+   riboflavin  1%    |    niacin  1%   
+   vitamin B6  2%    |    folate  2%   
+   phosphorus  1%    |    magnesium  1%   
+*percent daily values are based on a 2000 calorie diet
+(averaged over different types of carrot)'
+       width='301'
+       height='473' />
+  </subpod>
+ </pod>
+ <pod title='Average daily value ranking'
+     scanner='Data'
+     id='DailyValuesRanking:ExpandedFoodData'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+vitamin A | 5413 IU | 108% | (4895 to 5931) IU
+dietary fiber | 1 g | 4% | (0.99 to 1) g
+vitamin C | 1.5 mg | 3% | (0.92 to 2.1) mg
+ |  | (vertical ellipsis) | 
+saturated fat | 11 mg | 0% | (8.2 to 13) mg
+total fat | 66 mg | 0% | (46 to 85) mg
+(averaged over different types of carrot)</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP11671h25b3hff8f6h2i40000152d527a12h0b2gf?MSPStoreType=image/gif&amp;s=50'
+       alt=' | mean value | % daily value | range
+vitamin A | 5413 IU | 108% | (4895 to 5931) IU
+dietary fiber | 1 g | 4% | (0.99 to 1) g
+vitamin C | 1.5 mg | 3% | (0.92 to 2.1) mg
+ |  | (vertical ellipsis) | 
+saturated fat | 11 mg | 0% | (8.2 to 13) mg
+total fat | 66 mg | 0% | (46 to 85) mg
+(averaged over different types of carrot)'
+       title=' | mean value | % daily value | range
+vitamin A | 5413 IU | 108% | (4895 to 5931) IU
+dietary fiber | 1 g | 4% | (0.99 to 1) g
+vitamin C | 1.5 mg | 3% | (0.92 to 2.1) mg
+ |  | (vertical ellipsis) | 
+saturated fat | 11 mg | 0% | (8.2 to 13) mg
+total fat | 66 mg | 0% | (46 to 85) mg
+(averaged over different types of carrot)'
+       width='451'
+       height='249' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='DailyValuesRanking:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Average highest nutrients compared to other foods'
+     scanner='Data'
+     id='NutrientRankingPod:ExpandedFoodData'
+     position='400'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | amount | % daily value | foods distribution | rank
+vitamin A | 5413 IU | 108% |  | 97%
+vitamin K | 4 g |  |  | 73%
+vitamin C | 1.5 mg | 3% |  | 70%
+(distributions from log nutrient values in standard servings of 7500 common foods)</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP11681h25b3hff8f6h2i40000551dbi8869eccih0?MSPStoreType=image/gif&amp;s=50'
+       alt=' | amount | % daily value | foods distribution | rank
+vitamin A | 5413 IU | 108% |  | 97%
+vitamin K | 4 g |  |  | 73%
+vitamin C | 1.5 mg | 3% |  | 70%
+(distributions from log nutrient values in standard servings of 7500 common foods)'
+       title=' | amount | % daily value | foods distribution | rank
+vitamin A | 5413 IU | 108% |  | 97%
+vitamin K | 4 g |  |  | 73%
+vitamin C | 1.5 mg | 3% |  | 70%
+(distributions from log nutrient values in standard servings of 7500 common foods)'
+       width='525'
+       height='209' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='NutrientRankingPod:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Calories'
+     scanner='Data'
+     id='Calories:ExpandedFoodData'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total calories | 13 Cal | 1% | (12 to 15) Cal
+fat calories | 0.55 Cal |  | (0.39 to 0.71) Cal</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP11691h25b3hff8f6h2i400005e9e5568f000402i?MSPStoreType=image/gif&amp;s=50'
+       alt=' | mean value | % daily value | range
+total calories | 13 Cal | 1% | (12 to 15) Cal
+fat calories | 0.55 Cal |  | (0.39 to 0.71) Cal'
+       title=' | mean value | % daily value | range
+total calories | 13 Cal | 1% | (12 to 15) Cal
+fat calories | 0.55 Cal |  | (0.39 to 0.71) Cal'
+       width='452'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Calories:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Carbohydrates'
+     scanner='Data'
+     id='Carbohydrates:ExpandedFoodData'
+     position='600'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total carbohydrates | 3.2 g | 1% | (2.9 to 3.4) g
+dietary fiber | 1 g | 4% | (0.99 to 1) g
+sugar | 1.7 g |  | 1.7 g</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP11701h25b3hff8f6h2i4000050f635b53ga6dgf5?MSPStoreType=image/gif&amp;s=50'
+       alt=' | mean value | % daily value | range
+total carbohydrates | 3.2 g | 1% | (2.9 to 3.4) g
+dietary fiber | 1 g | 4% | (0.99 to 1) g
+sugar | 1.7 g |  | 1.7 g'
+       title=' | mean value | % daily value | range
+total carbohydrates | 3.2 g | 1% | (2.9 to 3.4) g
+dietary fiber | 1 g | 4% | (0.99 to 1) g
+sugar | 1.7 g |  | 1.7 g'
+       width='466'
+       height='132' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Carbohydrates:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Fats and fatty acids'
+     scanner='Data'
+     id='Fats:ExpandedFoodData'
+     position='700'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total fat | 66 mg | 0% | (46 to 85) mg
+saturated fat | 11 mg | 0% | (8.2 to 13) mg
+trans fat | 0 g |  | </plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP11711h25b3hff8f6h2i400004h7i11771af62fea?MSPStoreType=image/gif&amp;s=50'
+       alt=' | mean value | % daily value | range
+total fat | 66 mg | 0% | (46 to 85) mg
+saturated fat | 11 mg | 0% | (8.2 to 13) mg
+trans fat | 0 g |  | '
+       title=' | mean value | % daily value | range
+total fat | 66 mg | 0% | (46 to 85) mg
+saturated fat | 11 mg | 0% | (8.2 to 13) mg
+trans fat | 0 g |  | '
+       width='430'
+       height='132' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Fats:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Protein and amino acids'
+     scanner='Data'
+     id='Protein:ExpandedFoodData'
+     position='800'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+protein | 279 mg | 1% | (227 to 330) mg</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP11721h25b3hff8f6h2i4000010g31d0f9aacdf71?MSPStoreType=image/gif&amp;s=50'
+       alt=' | mean value | % daily value | range
+protein | 279 mg | 1% | (227 to 330) mg'
+       title=' | mean value | % daily value | range
+protein | 279 mg | 1% | (227 to 330) mg'
+       width='406'
+       height='68' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Protein:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Vitamins'
+     scanner='Data'
+     id='Vitamins:ExpandedFoodData'
+     position='900'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+vitamin A | 271 g | 18% | (245 to 296) g
+vitamin C | 1.5 mg | 3% | (0.92 to 2.1) mg</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP11731h25b3hff8f6h2i400004e1af8d5hb32b6cf?MSPStoreType=image/gif&amp;s=50'
+       alt=' | mean value | % daily value | range
+vitamin A | 271 g | 18% | (245 to 296) g
+vitamin C | 1.5 mg | 3% | (0.92 to 2.1) mg'
+       title=' | mean value | % daily value | range
+vitamin A | 271 g | 18% | (245 to 296) g
+vitamin C | 1.5 mg | 3% | (0.92 to 2.1) mg'
+       width='422'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Vitamins:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Minerals'
+     scanner='Data'
+     id='Minerals:ExpandedFoodData'
+     position='1000'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+calcium | 12 mg | 1% | (11 to 12) mg
+iron | 211 g | 1% | (107 to 316) g</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP11741h25b3hff8f6h2i400004hbca2f9g78f08i1?MSPStoreType=image/gif&amp;s=50'
+       alt=' | mean value | % daily value | range
+calcium | 12 mg | 1% | (11 to 12) mg
+iron | 211 g | 1% | (107 to 316) g'
+       title=' | mean value | % daily value | range
+calcium | 12 mg | 1% | (11 to 12) mg
+iron | 211 g | 1% | (107 to 316) g'
+       width='407'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Minerals:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Sterols'
+     scanner='Data'
+     id='Sterols:ExpandedFoodData'
+     position='1100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+cholesterol | 0 g | 0% | </plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP11751h25b3hff8f6h2i40000476dii05458dab17?MSPStoreType=image/gif&amp;s=50'
+       alt=' | mean value | % daily value | range
+cholesterol | 0 g | 0% | '
+       title=' | mean value | % daily value | range
+cholesterol | 0 g | 0% | '
+       width='362'
+       height='68' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Sterols:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Alcohol content'
+     scanner='Data'
+     id='AlcoholContent:ExpandedFoodData'
+     position='1200'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | range
+volume percentage | 0% | 
+proof | 0 proof | 
+mass | 0 g | </plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP11761h25b3hff8f6h2i400001chf002i5f491c8b?MSPStoreType=image/gif&amp;s=50'
+       alt=' | mean value | range
+volume percentage | 0% | 
+proof | 0 proof | 
+mass | 0 g | '
+       title=' | mean value | range
+volume percentage | 0% | 
+proof | 0 proof | 
+mass | 0 g | '
+       width='387'
+       height='149' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='AlcoholContent:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Physical properties'
+     scanner='Data'
+     id='PhysicalProperties:ExpandedFoodData'
+     position='1300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>mass | 1.3 oz  (ounces)
+serving volume | 2.2 fl oz  (fluid ounces)
+serving density | 0.54 g/cm^3  (grams per cubic centimeter)</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP11771h25b3hff8f6h2i40000176eff12g7e1i2g5?MSPStoreType=image/gif&amp;s=50'
+       alt='mass | 1.3 oz  (ounces)
+serving volume | 2.2 fl oz  (fluid ounces)
+serving density | 0.54 g/cm^3  (grams per cubic centimeter)'
+       title='mass | 1.3 oz  (ounces)
+serving volume | 2.2 fl oz  (fluid ounces)
+serving density | 0.54 g/cm^3  (grams per cubic centimeter)'
+       width='408'
+       height='100' />
+  </subpod>
+ </pod>
+ <assumptions count='3'>
+  <assumption type='Clash'
+      word='carrots'
+      template='Assuming &quot;${word}&quot; is ${desc1}. Use as ${desc2} instead'
+      count='4'>
+   <value name='ExpandedFood'
+       desc='a food'
+       input='*C.carrots-_*ExpandedFood-' />
+   <value name='Plant'
+       desc='a plant'
+       input='*C.carrots-_*Plant-' />
+   <value name='CommonMaterial'
+       desc='a general material'
+       input='*C.carrots-_*CommonMaterial-' />
+   <value name='Word'
+       desc='a word'
+       input='*C.carrots-_*Word-' />
+  </assumption>
+  <assumption type='SubCategory'
+      word='carrots'
+      template='Assuming ${desc1}. Use ${desc2} instead'
+      count='5'>
+   <value name='Carrot'
+       desc='carrot'
+       input='*DPClash.ExpandedFoodE.carrots-_*Carrot-' />
+   <value name='PreparedCarrot'
+       desc='prepared carrot'
+       input='*DPClash.ExpandedFoodE.carrots-_*PreparedCarrot-' />
+   <value name='BabyCutCarrots'
+       desc='baby cut carrots'
+       input='*DPClash.ExpandedFoodE.carrots-_*BabyCutCarrots-' />
+   <value name='GoyaPickledSlicedCarrots'
+       desc='Goya pickled sliced carrots'
+       input='*DPClash.ExpandedFoodE.carrots-_*GoyaPickledSlicedCarrots-' />
+   <value name='SanMarcosPickledSlicedCarrots'
+       desc='San Marcos pickled sliced carrots'
+       input='*DPClash.ExpandedFoodE.carrots-_*SanMarcosPickledSlicedCarrots-' />
+  </assumption>
+  <assumption type='Attribute'
+      word='Carrot'
+      template='Assuming ${desc1}. Use ${desc2} instead'
+      count='3'>
+   <value name='Carrot'
+       desc='any type of carrot'
+       input='*EAC.ExpandedFood.Carrot-_**a.Carrot--' />
+   <value name='{Food:Type -&gt; Food:Generic}'
+       desc='carrot, generic'
+       input='*EAC.ExpandedFood.Carrot-_**Carrot.*Food%3AType_Food%3AGeneric---' />
+   <value name='{Food:Variety -&gt; Food:Baby}'
+       desc='carrot, baby'
+       input='*EAC.ExpandedFood.Carrot-_**Carrot.*Food%3AVariety_Food%3ABaby---' />
+  </assumption>
+ </assumptions>
+ <sources count='1'>
+  <source url='http://www.wolframalpha.com/sources/ExpandedFoodDataSourceInformationNotes.html'
+      text='Expanded food data' />
+ </sources>
+</queryresult>

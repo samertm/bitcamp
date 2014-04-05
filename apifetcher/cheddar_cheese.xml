@@ -1,0 +1,545 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='13'
+    datatypes='ExpandedFood'
+    timedout=''
+    timedoutpods=''
+    timing='8.131'
+    parsetiming='0.148'
+    parsetimedout='false'
+    recalculate=''
+    id='MSPa16831d3g7ggg84c1ia6a000013h01gide6i470b1'
+    host='http://www4c.wolframalpha.com'
+    server='5'
+    related='http://www4c.wolframalpha.com/api/v2/relatedQueries.jsp?id=MSPa16841d3g7ggg84c1ia6a000066idcd3da5b5hfh3&amp;s=5'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>cheddar cheese | amount | 30 grams</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP16851d3g7ggg84c1ia6a00002h617gb22bidd76d?MSPStoreType=image/gif&amp;s=5'
+       alt='cheddar cheese | amount | 30 grams'
+       title='cheddar cheese | amount | 30 grams'
+       width='294'
+       height='32' />
+  </subpod>
+ </pod>
+ <pod title='Nutrition facts'
+     scanner='Data'
+     id='NutritionLabelSingle:ExpandedFoodData'
+     position='200'
+     error='false'
+     numsubpods='1'
+     primary='true'>
+  <subpod title=''>
+   <plaintext>serving size 30 g
+total calories  121 | fat calories  87
+% daily value^* |  
+  total fat  10 g | 15%
+       saturated fat  6 g | 32%
+       trans fat   | 
+  cholesterol  32 mg | 11%
+  sodium  186 mg | 8%
+  total carbohydrates  384 mg | 0%
+       dietary fiber  0 g | 0%
+       sugar  156 mg | 
+  protein  7 g | 15%
+   vitamin A  6%    |    calcium  22%   
+   iron  1%    |    vitamin D  2%   
+   thiamin  1%    |    riboflavin  7%   
+   vitamin B6  1%    |    vitamin B12  4%   
+   folate  1%    |    phosphorus  15%   
+   magnesium  2%    |    zinc  6%   
+*percent daily values are based on a 2000 calorie diet</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP16861d3g7ggg84c1ia6a000023ii5ia4e7g0fd97?MSPStoreType=image/gif&amp;s=5'
+       alt='serving size 30 g
+total calories  121 | fat calories  87
+% daily value^* |  
+  total fat  10 g | 15%
+       saturated fat  6 g | 32%
+       trans fat   | 
+  cholesterol  32 mg | 11%
+  sodium  186 mg | 8%
+  total carbohydrates  384 mg | 0%
+       dietary fiber  0 g | 0%
+       sugar  156 mg | 
+  protein  7 g | 15%
+   vitamin A  6%    |    calcium  22%   
+   iron  1%    |    vitamin D  2%   
+   thiamin  1%    |    riboflavin  7%   
+   vitamin B6  1%    |    vitamin B12  4%   
+   folate  1%    |    phosphorus  15%   
+   magnesium  2%    |    zinc  6%   
+*percent daily values are based on a 2000 calorie diet'
+       title='serving size 30 g
+total calories  121 | fat calories  87
+% daily value^* |  
+  total fat  10 g | 15%
+       saturated fat  6 g | 32%
+       trans fat   | 
+  cholesterol  32 mg | 11%
+  sodium  186 mg | 8%
+  total carbohydrates  384 mg | 0%
+       dietary fiber  0 g | 0%
+       sugar  156 mg | 
+  protein  7 g | 15%
+   vitamin A  6%    |    calcium  22%   
+   iron  1%    |    vitamin D  2%   
+   thiamin  1%    |    riboflavin  7%   
+   vitamin B6  1%    |    vitamin B12  4%   
+   folate  1%    |    phosphorus  15%   
+   magnesium  2%    |    zinc  6%   
+*percent daily values are based on a 2000 calorie diet'
+       width='316'
+       height='452' />
+  </subpod>
+ </pod>
+ <pod title='Daily value ranking'
+     scanner='Data'
+     id='DailyValuesRanking:ExpandedFoodData'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | value | % daily value
+saturated fat | 6.3 g | 32%
+calcium | 216 mg | 22%
+protein | 7.5 g | 15%
+ | (vertical ellipsis) | 
+vitamin C | 0 g | 0%
+dietary fiber | 0 g | 0%</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP16871d3g7ggg84c1ia6a0000224eh8df4d6f3839?MSPStoreType=image/gif&amp;s=5'
+       alt=' | value | % daily value
+saturated fat | 6.3 g | 32%
+calcium | 216 mg | 22%
+protein | 7.5 g | 15%
+ | (vertical ellipsis) | 
+vitamin C | 0 g | 0%
+dietary fiber | 0 g | 0%'
+       title=' | value | % daily value
+saturated fat | 6.3 g | 32%
+calcium | 216 mg | 22%
+protein | 7.5 g | 15%
+ | (vertical ellipsis) | 
+vitamin C | 0 g | 0%
+dietary fiber | 0 g | 0%'
+       width='286'
+       height='228' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='DailyValuesRanking:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Highest nutrients compared to other foods'
+     scanner='Data'
+     id='NutrientRankingPod:ExpandedFoodData'
+     position='400'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | amount | % daily value | foods distribution | rank
+calcium | 216 mg | 22% |  | 95%
+retinol | 77 g |  |  | 91%
+vitamin A | 301 IU | 6% |  | 79%
+(distributions from log nutrient values in standard servings of 7500 common foods)</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP16881d3g7ggg84c1ia6a00005i8fhfe13d8h124b?MSPStoreType=image/gif&amp;s=5'
+       alt=' | amount | % daily value | foods distribution | rank
+calcium | 216 mg | 22% |  | 95%
+retinol | 77 g |  |  | 91%
+vitamin A | 301 IU | 6% |  | 79%
+(distributions from log nutrient values in standard servings of 7500 common foods)'
+       title=' | amount | % daily value | foods distribution | rank
+calcium | 216 mg | 22% |  | 95%
+retinol | 77 g |  |  | 91%
+vitamin A | 301 IU | 6% |  | 79%
+(distributions from log nutrient values in standard servings of 7500 common foods)'
+       width='525'
+       height='209' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='NutrientRankingPod:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Calories'
+     scanner='Data'
+     id='Calories:ExpandedFoodData'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | value | % daily value
+total calories | 121 Cal | 6%
+fat calories | 87 Cal | </plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP16891d3g7ggg84c1ia6a0000425hcdh7bgg1430e?MSPStoreType=image/gif&amp;s=5'
+       alt=' | value | % daily value
+total calories | 121 Cal | 6%
+fat calories | 87 Cal | '
+       title=' | value | % daily value
+total calories | 121 Cal | 6%
+fat calories | 87 Cal | '
+       width='288'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Calories:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Carbohydrates'
+     scanner='Data'
+     id='Carbohydrates:ExpandedFoodData'
+     position='600'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | value | % daily value
+total carbohydrates | 384 mg | 0%
+dietary fiber | 0 g | 0%
+sugar | 156 mg | </plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP16901d3g7ggg84c1ia6a000055f2918ii3c9612a?MSPStoreType=image/gif&amp;s=5'
+       alt=' | value | % daily value
+total carbohydrates | 384 mg | 0%
+dietary fiber | 0 g | 0%
+sugar | 156 mg | '
+       title=' | value | % daily value
+total carbohydrates | 384 mg | 0%
+dietary fiber | 0 g | 0%
+sugar | 156 mg | '
+       width='329'
+       height='132' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Carbohydrates:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Fats and fatty acids'
+     scanner='Data'
+     id='Fats:ExpandedFoodData'
+     position='700'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | value | % daily value
+total fat | 9.9 g | 15%
+saturated fat | 6.3 g | 32%</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP16911d3g7ggg84c1ia6a00001ah028gi1d1174cf?MSPStoreType=image/gif&amp;s=5'
+       alt=' | value | % daily value
+total fat | 9.9 g | 15%
+saturated fat | 6.3 g | 32%'
+       title=' | value | % daily value
+total fat | 9.9 g | 15%
+saturated fat | 6.3 g | 32%'
+       width='275'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Fats:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Protein and amino acids'
+     scanner='Data'
+     id='Protein:ExpandedFoodData'
+     position='800'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | value | % daily value
+protein | 7.5 g | 15%</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP16921d3g7ggg84c1ia6a00004bg36bbiahe09234?MSPStoreType=image/gif&amp;s=5'
+       alt=' | value | % daily value
+protein | 7.5 g | 15%'
+       title=' | value | % daily value
+protein | 7.5 g | 15%'
+       width='239'
+       height='68' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Protein:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Vitamins'
+     scanner='Data'
+     id='Vitamins:ExpandedFoodData'
+     position='900'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | value | % daily value
+vitamin A | 80 g | 5%
+vitamin C | 0 g | 0%</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP16931d3g7ggg84c1ia6a0000387193g403af9c6c?MSPStoreType=image/gif&amp;s=5'
+       alt=' | value | % daily value
+vitamin A | 80 g | 5%
+vitamin C | 0 g | 0%'
+       title=' | value | % daily value
+vitamin A | 80 g | 5%
+vitamin C | 0 g | 0%'
+       width='255'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Vitamins:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Minerals'
+     scanner='Data'
+     id='Minerals:ExpandedFoodData'
+     position='1000'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | value | % daily value
+calcium | 216 mg | 22%
+iron | 204 g | 1%</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP16941d3g7ggg84c1ia6a00006818di2heg5ad121?MSPStoreType=image/gif&amp;s=5'
+       alt=' | value | % daily value
+calcium | 216 mg | 22%
+iron | 204 g | 1%'
+       title=' | value | % daily value
+calcium | 216 mg | 22%
+iron | 204 g | 1%'
+       width='254'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Minerals:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Sterols'
+     scanner='Data'
+     id='Sterols:ExpandedFoodData'
+     position='1100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | value | % daily value
+cholesterol | 32 mg | 11%</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP16951d3g7ggg84c1ia6a00000e57ii7fgd0ai34b?MSPStoreType=image/gif&amp;s=5'
+       alt=' | value | % daily value
+cholesterol | 32 mg | 11%'
+       title=' | value | % daily value
+cholesterol | 32 mg | 11%'
+       width='265'
+       height='68' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Sterols:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Alcohol content'
+     scanner='Data'
+     id='AlcoholContent:ExpandedFoodData'
+     position='1200'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>volume percentage | 0%
+proof | 0 proof
+mass | 0 g</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP16961d3g7ggg84c1ia6a00004fed578i53ee9ef0?MSPStoreType=image/gif&amp;s=5'
+       alt='volume percentage | 0%
+proof | 0 proof
+mass | 0 g'
+       title='volume percentage | 0%
+proof | 0 proof
+mass | 0 g'
+       width='245'
+       height='117' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='AlcoholContent:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Physical properties'
+     scanner='Data'
+     id='PhysicalProperties:ExpandedFoodData'
+     position='1300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>mass | 1.1 oz  (ounces)
+serving volume | 0.98 fl oz  (fluid ounces)
+serving density | 1 g/cm^3  (gram per cubic centimeter)</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP16971d3g7ggg84c1ia6a00003i7a38bi6ae91e3d?MSPStoreType=image/gif&amp;s=5'
+       alt='mass | 1.1 oz  (ounces)
+serving volume | 0.98 fl oz  (fluid ounces)
+serving density | 1 g/cm^3  (gram per cubic centimeter)'
+       title='mass | 1.1 oz  (ounces)
+serving volume | 0.98 fl oz  (fluid ounces)
+serving density | 1 g/cm^3  (gram per cubic centimeter)'
+       width='381'
+       height='100' />
+  </subpod>
+ </pod>
+ <assumptions count='2'>
+  <assumption type='Clash'
+      word='cheddar cheese'
+      template='Assuming &quot;${word}&quot; is ${desc1}. Use as ${desc2} instead'
+      count='2'>
+   <value name='ExpandedFood'
+       desc='a food'
+       input='*C.cheddar+cheese-_*ExpandedFood-' />
+   <value name='Word'
+       desc='a word'
+       input='*C.cheddar+cheese-_*Word-' />
+  </assumption>
+  <assumption type='SubCategory'
+      word='cheddar cheese'
+      template='Assuming ${desc1}. Use ${desc2} instead'
+      count='45'>
+   <value name='CheddarCheese'
+       desc='cheddar cheese'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*CheddarCheese-' />
+   <value name='KraftProcessedCheddarCheeseSingle'
+       desc='Kraft processed cheddar cheese single'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*KraftProcessedCheddarCheeseSingle-' />
+   <value name='CheddarCheeseSlice'
+       desc='cheddar cheese slice'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*CheddarCheeseSlice-' />
+   <value name='CheddarJackFancyShreddedCheese'
+       desc='cheddar jack fancy shredded cheese'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*CheddarJackFancyShreddedCheese-' />
+   <value name='DoubleCheddarShreddedCheese'
+       desc='double cheddar shredded cheese'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*DoubleCheddarShreddedCheese-' />
+   <value name='LaughingCowMiniBabybelWhiteCheddarSemisoftCheese'
+       desc='Laughing Cow mini babybel white cheddar semisoft cheese'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*LaughingCowMiniBabybelWhiteCheddarSemisoftCheese-' />
+   <value name='MildCheddarFancyShreddedCheese'
+       desc='milk cheddar fancy shredded cheese'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*MildCheddarFancyShreddedCheese-' />
+   <value name='MildCheddarUltraThinSlice'
+       desc='mild cheddar ultra thin slice'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*MildCheddarUltraThinSlice-' />
+   <value name='NaturalMediumCheddarDeliStyleSlicedCheese'
+       desc='natural medium cheddar deli style sliced cheese'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*NaturalMediumCheddarDeliStyleSlicedCheese-' />
+   <value name='NaturalSharpCheddarCheese'
+       desc='Natural sharp cheddar cheese'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*NaturalSharpCheddarCheese-' />
+   <value name='NaturalSharpCheddarDeliStyleSlicedCheese'
+       desc='natural sharp cheddar deli style sliced cheese'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*NaturalSharpCheddarDeliStyleSlicedCheese-' />
+   <value name='NaturalShreddedMildCheddarCheese'
+       desc='Natural shredded milk cheddar cheese'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*NaturalShreddedMildCheddarCheese-' />
+   <value name='NaturalVermontSharpCheddarCheese'
+       desc='Natural Vermont sharp cheddar cheese'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*NaturalVermontSharpCheddarCheese-' />
+   <value name='NaturalVermontSharpWhiteCheddarDeliStyleSlicedCheese'
+       desc='natural Vermont sharp white cheddar deli style sliced cheese'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*NaturalVermontSharpWhiteCheddarDeliStyleSlicedCheese-' />
+   <value name='ReducedFatMediumCheddarSlicedCheese'
+       desc='reduced fat medium cheddar sliced cheese'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*ReducedFatMediumCheddarSlicedCheese-' />
+   <value name='ReducedFatMildCheddarShreddedCheese'
+       desc='reduced fat mild cheddar shredded cheese'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*ReducedFatMildCheddarShreddedCheese-' />
+   <value name='ReducedFatSharpCheddarNaturalCheeseStick'
+       desc='reduced fat sharp cheddar natural cheese stick'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*ReducedFatSharpCheddarNaturalCheeseStick-' />
+   <value name='ReducedFatSharpCheddarShreddedCheese'
+       desc='reduced fat sharp cheddar shredded cheese'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*ReducedFatSharpCheddarShreddedCheese-' />
+   <value name='ReducedSodiumMildCheddarShreddedCheese'
+       desc='reduced sodium mild cheddar shredded cheese'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*ReducedSodiumMildCheddarShreddedCheese-' />
+   <value name='SargentoCheddarMozzarellaCheese'
+       desc='Sargento cheddar mozzarella cheese'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*SargentoCheddarMozzarellaCheese-' />
+   <value name='SharpCheddarCheese'
+       desc='sharp cheddar cheese'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*SharpCheddarCheese-' />
+   <value name='SharpCheddarCheeseCrackerCut'
+       desc='sharp cheddar cheese cracker cut'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*SharpCheddarCheeseCrackerCut-' />
+   <value name='SharpCheddarCheeseSlice'
+       desc='sharp cheddar cheese slice'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*SharpCheddarCheeseSlice-' />
+   <value name='SharpCheddarFancyShreddedCheese'
+       desc='sharp cheddar fancy shredded cheese'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*SharpCheddarFancyShreddedCheese-' />
+   <value name='WisconsinSharpWhiteCheddarShreddedCheese'
+       desc='Wisconsin sharp white cheddar shredded cheese'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*WisconsinSharpWhiteCheddarShreddedCheese-' />
+   <value name='SharpWhiteCheddarCheese'
+       desc='sharp white cheddar cheese'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*SharpWhiteCheddarCheese-' />
+   <value name='YellowSharpCheddarCheese'
+       desc='yellow sharp cheddar cheese'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*YellowSharpCheddarCheese-' />
+   <value name='ExtraSharpWhiteCheddarCheese'
+       desc='extra sharp white cheddar cheese'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*ExtraSharpWhiteCheddarCheese-' />
+   <value name='ExtraSharpYellowCheddarCheese'
+       desc='extra sharp yellow cheddar cheese'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*ExtraSharpYellowCheddarCheese-' />
+   <value name='ShreddedMilkCheddarCheese'
+       desc='shredded milk cheddar cheese'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*ShreddedMilkCheddarCheese-' />
+   <value name='FinelyShreddedSharpCheddarCheese'
+       desc='finely shredded sharp cheddar cheese'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*FinelyShreddedSharpCheddarCheese-' />
+   <value name='SharpShreddedCheddarCheese'
+       desc='sharp shredded cheddar cheese'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*SharpShreddedCheddarCheese-' />
+   <value name='ShreddedSharpCheddarCheese'
+       desc='shredded sharp cheddar cheese'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*ShreddedSharpCheddarCheese-' />
+   <value name='WhiteSharpCheddarCheese'
+       desc='white sharp cheddar cheese'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*WhiteSharpCheddarCheese-' />
+   <value name='CheddarCheeseStick'
+       desc='cheddar cheese stick'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*CheddarCheeseStick-' />
+   <value name='ExtraSharpCheddarChefStyleShreddedCheese'
+       desc='extra sharp cheddar ChefStyle shredded cheese'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*ExtraSharpCheddarChefStyleShreddedCheese-' />
+   <value name='ShreddedReducedFatSharpCheddarCheese'
+       desc='shredded reduced fat sharp cheddar cheese'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*ShreddedReducedFatSharpCheddarCheese-' />
+   <value name='SmokyBaconCheddarCheese'
+       desc='smoky bacon cheddar cheese'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*SmokyBaconCheddarCheese-' />
+   <value name='LaughingCowMiniBabybelCheddarSemisoftCheese'
+       desc='Laughing Cow mini babybel cheddar semisoft cheese'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*LaughingCowMiniBabybelCheddarSemisoftCheese-' />
+   <value name='AlouetteSharpCheddarSpreadableCheese'
+       desc='Alouette sharp cheddar spreadable cheese'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*AlouetteSharpCheddarSpreadableCheese-' />
+   <value name='CabotSharpCheddarSpreadableCheese'
+       desc='Cabot sharp cheddar spreadable cheese'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*CabotSharpCheddarSpreadableCheese-' />
+   <value name='CabotHorseradishCheddarSpreadableCheese'
+       desc='Cabot horseradish cheddar spreadable cheese'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*CabotHorseradishCheddarSpreadableCheese-' />
+   <value name='AlouetteBaconCheddarSpreadableCheese'
+       desc='Alouette bacon cheddar spreadable cheese'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*AlouetteBaconCheddarSpreadableCheese-' />
+   <value name='CheddarCrackerCuts'
+       desc='cheddar Cracker Cuts'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*CheddarCrackerCuts-' />
+   <value name='KraftNaturalCheddarCheese'
+       desc='Kraft Natural cheddar cheese'
+       input='*DPClash.ExpandedFoodE.cheddar+cheese-_*KraftNaturalCheddarCheese-' />
+  </assumption>
+ </assumptions>
+ <sources count='1'>
+  <source url='http://www.wolframalpha.com/sources/ExpandedFoodDataSourceInformationNotes.html'
+      text='Expanded food data' />
+ </sources>
+</queryresult>

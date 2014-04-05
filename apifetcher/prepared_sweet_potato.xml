@@ -1,0 +1,472 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='13'
+    datatypes='ExpandedFood'
+    timedout=''
+    timedoutpods=''
+    timing='8.326'
+    parsetiming='0.189'
+    parsetimedout='false'
+    recalculate=''
+    id='MSPa20331hhg411gd7b4172h00000fcfaf5fad26e9d7'
+    host='http://www4c.wolframalpha.com'
+    server='2'
+    related='http://www4c.wolframalpha.com/api/v2/relatedQueries.jsp?id=MSPa20341hhg411gd7b4172h0000467edf09hge98b46&amp;s=2'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>prepared sweet potato | amount | 1 potato</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP20351hhg411gd7b4172h0000142i920fch30dc1b?MSPStoreType=image/gif&amp;s=2'
+       alt='prepared sweet potato | amount | 1 potato'
+       title='prepared sweet potato | amount | 1 potato'
+       width='336'
+       height='32' />
+  </subpod>
+ </pod>
+ <pod title='Average nutrition facts'
+     scanner='Data'
+     id='NutritionLabelSingle:ExpandedFoodData'
+     position='200'
+     error='false'
+     numsubpods='1'
+     primary='true'>
+  <subpod title=''>
+   <plaintext>serving size 1 potato (132 g)
+total calories  128 | fat calories  2
+% daily value^* |  
+  total fat  571 mg | 1%
+       saturated fat  197 mg | 1%
+       trans fat   | 
+  cholesterol  883 g | 0%
+  sodium  123 mg | 5%
+  total carbohydrates  29 g | 10%
+       dietary fiber  3 g | 12%
+       sugar  10 g | 
+  protein  2 g | 4%
+   vitamin A  333%    |    vitamin C  29%   
+   calcium  4%    |    iron  6%   
+   vitamin E  6%    |    thiamin  5%   
+   riboflavin  5%    |    niacin  5%   
+   vitamin B6  11%    |    folate  4%   
+   phosphorus  5%    |    magnesium  7%   
+   zinc  2%    | 
+*percent daily values are based on a 2000 calorie diet
+(averaged over different types of prepared sweet potato)</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP20361hhg411gd7b4172h00006a9iah8g8b92i167?MSPStoreType=image/gif&amp;s=2'
+       alt='serving size 1 potato (132 g)
+total calories  128 | fat calories  2
+% daily value^* |  
+  total fat  571 mg | 1%
+       saturated fat  197 mg | 1%
+       trans fat   | 
+  cholesterol  883 g | 0%
+  sodium  123 mg | 5%
+  total carbohydrates  29 g | 10%
+       dietary fiber  3 g | 12%
+       sugar  10 g | 
+  protein  2 g | 4%
+   vitamin A  333%    |    vitamin C  29%   
+   calcium  4%    |    iron  6%   
+   vitamin E  6%    |    thiamin  5%   
+   riboflavin  5%    |    niacin  5%   
+   vitamin B6  11%    |    folate  4%   
+   phosphorus  5%    |    magnesium  7%   
+   zinc  2%    | 
+*percent daily values are based on a 2000 calorie diet
+(averaged over different types of prepared sweet potato)'
+       title='serving size 1 potato (132 g)
+total calories  128 | fat calories  2
+% daily value^* |  
+  total fat  571 mg | 1%
+       saturated fat  197 mg | 1%
+       trans fat   | 
+  cholesterol  883 g | 0%
+  sodium  123 mg | 5%
+  total carbohydrates  29 g | 10%
+       dietary fiber  3 g | 12%
+       sugar  10 g | 
+  protein  2 g | 4%
+   vitamin A  333%    |    vitamin C  29%   
+   calcium  4%    |    iron  6%   
+   vitamin E  6%    |    thiamin  5%   
+   riboflavin  5%    |    niacin  5%   
+   vitamin B6  11%    |    folate  4%   
+   phosphorus  5%    |    magnesium  7%   
+   zinc  2%    | 
+*percent daily values are based on a 2000 calorie diet
+(averaged over different types of prepared sweet potato)'
+       width='277'
+       height='491' />
+  </subpod>
+ </pod>
+ <pod title='Average daily value ranking'
+     scanner='Data'
+     id='DailyValuesRanking:ExpandedFoodData'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+vitamin A | 16667 IU | 333% | (0 to 27653) IU
+vitamin C | 17 mg | 29% | (6.9 to 35) mg
+dietary fiber | 3.1 g | 12% | (2.3 to 4.4) g
+ |  | (vertical ellipsis) | 
+total fat | 571 mg | 1% | (0.16 to 4.3) g
+cholesterol | 883 g | 0% | (0 to 11) mg
+(averaged over different types of prepared sweet potato)</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP20371hhg411gd7b4172h00005d99699f6gf18bbe?MSPStoreType=image/gif&amp;s=2'
+       alt=' | mean value | % daily value | range
+vitamin A | 16667 IU | 333% | (0 to 27653) IU
+vitamin C | 17 mg | 29% | (6.9 to 35) mg
+dietary fiber | 3.1 g | 12% | (2.3 to 4.4) g
+ |  | (vertical ellipsis) | 
+total fat | 571 mg | 1% | (0.16 to 4.3) g
+cholesterol | 883 g | 0% | (0 to 11) mg
+(averaged over different types of prepared sweet potato)'
+       title=' | mean value | % daily value | range
+vitamin A | 16667 IU | 333% | (0 to 27653) IU
+vitamin C | 17 mg | 29% | (6.9 to 35) mg
+dietary fiber | 3.1 g | 12% | (2.3 to 4.4) g
+ |  | (vertical ellipsis) | 
+total fat | 571 mg | 1% | (0.16 to 4.3) g
+cholesterol | 883 g | 0% | (0 to 11) mg
+(averaged over different types of prepared sweet potato)'
+       width='434'
+       height='249' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='DailyValuesRanking:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Average highest nutrients compared to other foods'
+     scanner='Data'
+     id='NutrientRankingPod:ExpandedFoodData'
+     position='400'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | amount | % daily value | foods distribution | rank
+vitamin A | 16667 IU | 333% |  | 98%
+maltose | 5.5 g |  |  | 98%
+vitamin C | 17 mg | 29% |  | 91%
+(distributions from log nutrient values in standard servings of 7500 common foods)</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP20381hhg411gd7b4172h00001ebb53hghg875h63?MSPStoreType=image/gif&amp;s=2'
+       alt=' | amount | % daily value | foods distribution | rank
+vitamin A | 16667 IU | 333% |  | 98%
+maltose | 5.5 g |  |  | 98%
+vitamin C | 17 mg | 29% |  | 91%
+(distributions from log nutrient values in standard servings of 7500 common foods)'
+       title=' | amount | % daily value | foods distribution | rank
+vitamin A | 16667 IU | 333% |  | 98%
+maltose | 5.5 g |  |  | 98%
+vitamin C | 17 mg | 29% |  | 91%
+(distributions from log nutrient values in standard servings of 7500 common foods)'
+       width='531'
+       height='209' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='NutrientRankingPod:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Calories'
+     scanner='Data'
+     id='Calories:ExpandedFoodData'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total calories | 128 Cal | 6% | (101 to 191) Cal
+fat calories | 2 Cal |  | (1.3 to 3.5) Cal</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP20391hhg411gd7b4172h00001c48466ed154f245?MSPStoreType=image/gif&amp;s=2'
+       alt=' | mean value | % daily value | range
+total calories | 128 Cal | 6% | (101 to 191) Cal
+fat calories | 2 Cal |  | (1.3 to 3.5) Cal'
+       title=' | mean value | % daily value | range
+total calories | 128 Cal | 6% | (101 to 191) Cal
+fat calories | 2 Cal |  | (1.3 to 3.5) Cal'
+       width='443'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Calories:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Carbohydrates'
+     scanner='Data'
+     id='Carbohydrates:ExpandedFoodData'
+     position='600'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total carbohydrates | 29 g | 10% | (23 to 37) g
+dietary fiber | 3.1 g | 12% | (2.3 to 4.4) g
+sugar | 10 g |  | (6.6 to 20) g</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP20401hhg411gd7b4172h00003fh6ih6c33a640fg?MSPStoreType=image/gif&amp;s=2'
+       alt=' | mean value | % daily value | range
+total carbohydrates | 29 g | 10% | (23 to 37) g
+dietary fiber | 3.1 g | 12% | (2.3 to 4.4) g
+sugar | 10 g |  | (6.6 to 20) g'
+       title=' | mean value | % daily value | range
+total carbohydrates | 29 g | 10% | (23 to 37) g
+dietary fiber | 3.1 g | 12% | (2.3 to 4.4) g
+sugar | 10 g |  | (6.6 to 20) g'
+       width='465'
+       height='132' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Carbohydrates:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Fats and fatty acids'
+     scanner='Data'
+     id='Fats:ExpandedFoodData'
+     position='700'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total fat | 571 mg | 1% | (0.16 to 4.3) g
+saturated fat | 197 mg | 1% | (0.033 to 1.8) g</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP20411hhg411gd7b4172h000062e6b600b1c9cd6g?MSPStoreType=image/gif&amp;s=2'
+       alt=' | mean value | % daily value | range
+total fat | 571 mg | 1% | (0.16 to 4.3) g
+saturated fat | 197 mg | 1% | (0.033 to 1.8) g'
+       title=' | mean value | % daily value | range
+total fat | 571 mg | 1% | (0.16 to 4.3) g
+saturated fat | 197 mg | 1% | (0.033 to 1.8) g'
+       width='438'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Fats:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Protein and amino acids'
+     scanner='Data'
+     id='Protein:ExpandedFoodData'
+     position='800'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+protein | 2.1 g | 4% | (1.2 to 2.7) g</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP20421hhg411gd7b4172h00003bb4939cggffcah4?MSPStoreType=image/gif&amp;s=2'
+       alt=' | mean value | % daily value | range
+protein | 2.1 g | 4% | (1.2 to 2.7) g'
+       title=' | mean value | % daily value | range
+protein | 2.1 g | 4% | (1.2 to 2.7) g'
+       width='386'
+       height='68' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Protein:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Vitamins'
+     scanner='Data'
+     id='Vitamins:ExpandedFoodData'
+     position='900'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+vitamin A | 833 g | 56% | (0 to 1.4) mg
+vitamin C | 17 mg | 29% | (6.9 to 35) mg</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP20431hhg411gd7b4172h000025fga545c3341ih1?MSPStoreType=image/gif&amp;s=2'
+       alt=' | mean value | % daily value | range
+vitamin A | 833 g | 56% | (0 to 1.4) mg
+vitamin C | 17 mg | 29% | (6.9 to 35) mg'
+       title=' | mean value | % daily value | range
+vitamin A | 833 g | 56% | (0 to 1.4) mg
+vitamin C | 17 mg | 29% | (6.9 to 35) mg'
+       width='409'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Vitamins:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Minerals'
+     scanner='Data'
+     id='Minerals:ExpandedFoodData'
+     position='1000'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+calcium | 38 mg | 4% | (20 to 50) mg
+iron | 1.1 mg | 6% | (0.7 to 1.8) mg</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP20441hhg411gd7b4172h000027gaba03eg994b6c?MSPStoreType=image/gif&amp;s=2'
+       alt=' | mean value | % daily value | range
+calcium | 38 mg | 4% | (20 to 50) mg
+iron | 1.1 mg | 6% | (0.7 to 1.8) mg'
+       title=' | mean value | % daily value | range
+calcium | 38 mg | 4% | (20 to 50) mg
+iron | 1.1 mg | 6% | (0.7 to 1.8) mg'
+       width='401'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Minerals:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Sterols'
+     scanner='Data'
+     id='Sterols:ExpandedFoodData'
+     position='1100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+cholesterol | 883 g | 0% | (0 to 11) mg</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP20451hhg411gd7b4172h00002bi1e90aa19h0ihb?MSPStoreType=image/gif&amp;s=2'
+       alt=' | mean value | % daily value | range
+cholesterol | 883 g | 0% | (0 to 11) mg'
+       title=' | mean value | % daily value | range
+cholesterol | 883 g | 0% | (0 to 11) mg'
+       width='404'
+       height='68' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Sterols:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Alcohol content'
+     scanner='Data'
+     id='AlcoholContent:ExpandedFoodData'
+     position='1200'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | range
+volume percentage | 0 g | </plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP20461hhg411gd7b4172h000034h735de764db723?MSPStoreType=image/gif&amp;s=2'
+       alt=' | mean value | range
+volume percentage | 0 g | '
+       title=' | mean value | range
+volume percentage | 0 g | '
+       width='387'
+       height='85' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='AlcoholContent:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Physical properties'
+     scanner='Data'
+     id='PhysicalProperties:ExpandedFoodData'
+     position='1300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>mass | 4.7 oz  (ounces)
+serving volume | 4.2 fl oz  (fluid ounces)
+serving density | 1.1 g/cm^3  (grams per cubic centimeter)</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP20471hhg411gd7b4172h000026706if2e3ce2782?MSPStoreType=image/gif&amp;s=2'
+       alt='mass | 4.7 oz  (ounces)
+serving volume | 4.2 fl oz  (fluid ounces)
+serving density | 1.1 g/cm^3  (grams per cubic centimeter)'
+       title='mass | 4.7 oz  (ounces)
+serving volume | 4.2 fl oz  (fluid ounces)
+serving density | 1.1 g/cm^3  (grams per cubic centimeter)'
+       width='397'
+       height='100' />
+  </subpod>
+ </pod>
+ <assumptions count='3'>
+  <assumption type='Clash'
+      word='sweet potatoes'
+      template='Assuming &quot;${word}&quot; is ${desc1}. Use as ${desc2} instead'
+      count='4'>
+   <value name='ExpandedFood'
+       desc='a food'
+       input='*C.sweet+potatoes-_*ExpandedFood-' />
+   <value name='Plant'
+       desc='a plant'
+       input='*C.sweet+potatoes-_*Plant-' />
+   <value name='CommonMaterial'
+       desc='a general material'
+       input='*C.sweet+potatoes-_*CommonMaterial-' />
+   <value name='VisualArts'
+       desc='an artwork'
+       input='*C.sweet+potatoes-_*VisualArts-' />
+  </assumption>
+  <assumption type='SubCategory'
+      word='sweet potatoes'
+      template='Assuming ${desc1}. Use ${desc2} instead'
+      count='2'>
+   <value name='PreparedSweetPotato'
+       desc='prepared sweet potato'
+       input='*DPClash.ExpandedFoodE.sweet+potatoes-_*PreparedSweetPotato-' />
+   <value name='SweetPotato'
+       desc='sweet potato'
+       input='*DPClash.ExpandedFoodE.sweet+potatoes-_*SweetPotato-' />
+  </assumption>
+  <assumption type='Attribute'
+      word='PreparedSweetPotato'
+      template='Assuming ${desc1}. Use ${desc2} instead'
+      count='13'>
+   <value name='PreparedSweetPotato'
+       desc='any type of prepared sweet potato'
+       input='*EAC.ExpandedFood.PreparedSweetPotato-_**a.PreparedSweetPotato--' />
+   <value name='{Food:CookingMethod -&gt; Food:Mashed, Food:Packaging -&gt; Food:Canned}'
+       desc='prepared sweet potato, canned, mashed'
+       input='*EAC.ExpandedFood.PreparedSweetPotato-_**PreparedSweetPotato.*Food%3ACookingMethod_Food%3AMashed.Food%3APackaging_Food%3ACanned---' />
+   <value name='{Food:CookingMethod -&gt; Food:Unprepared, Food:ProcessingType -&gt; Food:Frozen}'
+       desc='prepared sweet potato, frozen, unprepared'
+       input='*EAC.ExpandedFood.PreparedSweetPotato-_**PreparedSweetPotato.*Food%3ACookingMethod_Food%3AUnprepared.Food%3AProcessingType_Food%3AFrozen---' />
+   <value name='{Food:Packaging -&gt; Food:Canned, Food:Packaging -&gt; Food:VacuumPack}'
+       desc='prepared sweet potato, canned, vacuum pack'
+       input='*EAC.ExpandedFood.PreparedSweetPotato-_**PreparedSweetPotato.*Food%3APackaging_Food%3ACanned.Food%3APackaging_Food%3AVacuumPack---' />
+   <value name='{Food:CookingMethod -&gt; Food:Boiled, Food:PeelingType -&gt; Food:WithoutSkin}'
+       desc='prepared sweet potato, boiled, without skin'
+       input='*EAC.ExpandedFood.PreparedSweetPotato-_**PreparedSweetPotato.*Food%3ACookingMethod_Food%3ABoiled.Food%3APeelingType_Food%3AWithoutSkin---' />
+   <value name='{Food:CookingMethod -&gt; Food:BakedInSkin, Food:SaltContent -&gt; Food:WithSalt}'
+       desc='prepared sweet potato, baked in skin, with salt'
+       input='*EAC.ExpandedFood.PreparedSweetPotato-_**PreparedSweetPotato.*Food%3ACookingMethod_Food%3ABakedInSkin.Food%3ASaltContent_Food%3AWithSalt---' />
+   <value name='{Food:CookingMethod -&gt; Food:Candied, Food:CookingMethod -&gt; Food:HomePrepared}'
+       desc='prepared sweet potato, candied, home-prepared'
+       input='*EAC.ExpandedFood.PreparedSweetPotato-_**PreparedSweetPotato.*Food%3ACookingMethod_Food%3ACandied.Food%3ACookingMethod_Food%3AHomePrepared---' />
+   <value name='{Food:CookingMethod -&gt; Food:BakedInSkin, Food:SaltContent -&gt; Food:WithoutSalt}'
+       desc='prepared sweet potato, baked in skin, without salt'
+       input='*EAC.ExpandedFood.PreparedSweetPotato-_**PreparedSweetPotato.*Food%3ACookingMethod_Food%3ABakedInSkin.Food%3ASaltContent_Food%3AWithoutSalt---' />
+   <value name='{Food:CookingMethod -&gt; Food:Baked, Food:ProcessingType -&gt; Food:Frozen, Food:SaltContent -&gt; Food:WithSalt}'
+       desc='prepared sweet potato, baked, frozen, with salt'
+       input='*EAC.ExpandedFood.PreparedSweetPotato-_**PreparedSweetPotato.*Food%3ACookingMethod_Food%3ABaked.Food%3AProcessingType_Food%3AFrozen.Food%3ASaltContent_Food%3AWithSalt---' />
+   <value name='{Food:CookingMethod -&gt; Food:Baked, Food:ProcessingType -&gt; Food:Frozen, Food:SaltContent -&gt; Food:WithoutSalt}'
+       desc='prepared sweet potato, baked, frozen, without salt'
+       input='*EAC.ExpandedFood.PreparedSweetPotato-_**PreparedSweetPotato.*Food%3ACookingMethod_Food%3ABaked.Food%3AProcessingType_Food%3AFrozen.Food%3ASaltContent_Food%3AWithoutSalt---' />
+   <value name='{Food:CookingMethod -&gt; Food:Boiled, Food:PeelingType -&gt; Food:WithoutSkin, Food:SaltContent -&gt; Food:WithSalt}'
+       desc='prepared sweet potato, boiled, without skin, with salt'
+       input='*EAC.ExpandedFood.PreparedSweetPotato-_**PreparedSweetPotato.*Food%3ACookingMethod_Food%3ABoiled.Food%3APeelingType_Food%3AWithoutSkin.Food%3ASaltContent_Food%3AWithSalt---' />
+   <value name='{Food:Packaging -&gt; Food:Canned, Food:Packaging -&gt; Food:DrainedSolids, Food:Packaging -&gt; Food:SyrupPack}'
+       desc='prepared sweet potato, canned, drained solids, syrup pack'
+       input='*EAC.ExpandedFood.PreparedSweetPotato-_**PreparedSweetPotato.*Food%3APackaging_Food%3ACanned.Food%3APackaging_Food%3ADrainedSolids.Food%3APackaging_Food%3ASyrupPack---' />
+   <value name='{Food:FoodComposition -&gt; Food:SolidsAndLiquids, Food:Packaging -&gt; Food:Canned, Food:Packaging -&gt; Food:SyrupPack}'
+       desc='prepared sweet potato, canned, solids and liquids, syrup pack'
+       input='*EAC.ExpandedFood.PreparedSweetPotato-_**PreparedSweetPotato.*Food%3AFoodComposition_Food%3ASolidsAndLiquids.Food%3APackaging_Food%3ACanned.Food%3APackaging_Food%3ASyrupPack---' />
+  </assumption>
+ </assumptions>
+ <sources count='1'>
+  <source url='http://www.wolframalpha.com/sources/ExpandedFoodDataSourceInformationNotes.html'
+      text='Expanded food data' />
+ </sources>
+</queryresult>

@@ -1,0 +1,497 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='13'
+    datatypes='ExpandedFood'
+    timedout=''
+    timedoutpods=''
+    timing='8.94'
+    parsetiming='0.124'
+    parsetimedout='false'
+    recalculate=''
+    id='MSPa32011h79453d08ih331i000062dbf4a73d0i40a7'
+    host='http://www2.wolframalpha.com'
+    server='13'
+    related='http://www2.wolframalpha.com/api/v2/relatedQueries.jsp?id=MSPa32021h79453d08ih331i00004bh92c3aaahh4871&amp;s=13'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>bread | amount | 50 grams</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP32031h79453d08ih331i000026i0e9aeeb6d7hc4?MSPStoreType=image/gif&amp;s=13'
+       alt='bread | amount | 50 grams'
+       title='bread | amount | 50 grams'
+       width='234'
+       height='32' />
+  </subpod>
+ </pod>
+ <pod title='Average nutrition facts'
+     scanner='Data'
+     id='NutritionLabelSingle:ExpandedFoodData'
+     position='200'
+     error='false'
+     numsubpods='1'
+     primary='true'>
+  <subpod title=''>
+   <plaintext>serving size 50 g
+total calories  133 | fat calories  15
+% daily value^* |  
+  total fat  2 g | 3%
+       saturated fat  376 mg | 2%
+       trans fat  138 mg | 
+  cholesterol  1 mg | 0%
+  sodium  240 mg | 10%
+  total carbohydrates  25 g | 8%
+       dietary fiber  3 g | 11%
+       sugar  2 g | 
+  protein  5 g | 10%
+   calcium  4%    |    iron  9%   
+   vitamin D  2%    |    vitamin E  1%   
+   thiamin  13%    |    riboflavin  9%   
+   niacin  10%    |    vitamin B6  3%   
+   folate  11%    |    phosphorus  7%   
+   magnesium  6%    |    zinc  4%   
+*percent daily values are based on a 2000 calorie diet
+(averaged over different types of bread)</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP32041h79453d08ih331i00005dig9f9g8417c6bc?MSPStoreType=image/gif&amp;s=13'
+       alt='serving size 50 g
+total calories  133 | fat calories  15
+% daily value^* |  
+  total fat  2 g | 3%
+       saturated fat  376 mg | 2%
+       trans fat  138 mg | 
+  cholesterol  1 mg | 0%
+  sodium  240 mg | 10%
+  total carbohydrates  25 g | 8%
+       dietary fiber  3 g | 11%
+       sugar  2 g | 
+  protein  5 g | 10%
+   calcium  4%    |    iron  9%   
+   vitamin D  2%    |    vitamin E  1%   
+   thiamin  13%    |    riboflavin  9%   
+   niacin  10%    |    vitamin B6  3%   
+   folate  11%    |    phosphorus  7%   
+   magnesium  6%    |    zinc  4%   
+*percent daily values are based on a 2000 calorie diet
+(averaged over different types of bread)'
+       title='serving size 50 g
+total calories  133 | fat calories  15
+% daily value^* |  
+  total fat  2 g | 3%
+       saturated fat  376 mg | 2%
+       trans fat  138 mg | 
+  cholesterol  1 mg | 0%
+  sodium  240 mg | 10%
+  total carbohydrates  25 g | 8%
+       dietary fiber  3 g | 11%
+       sugar  2 g | 
+  protein  5 g | 10%
+   calcium  4%    |    iron  9%   
+   vitamin D  2%    |    vitamin E  1%   
+   thiamin  13%    |    riboflavin  9%   
+   niacin  10%    |    vitamin B6  3%   
+   folate  11%    |    phosphorus  7%   
+   magnesium  6%    |    zinc  4%   
+*percent daily values are based on a 2000 calorie diet
+(averaged over different types of bread)'
+       width='299'
+       height='473' />
+  </subpod>
+ </pod>
+ <pod title='Average daily value ranking'
+     scanner='Data'
+     id='DailyValuesRanking:ExpandedFoodData'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+thiamin | 192 g | 13% | (88 to 327) g
+folate | 45 g | 11% | (17 to 96) g
+dietary fiber | 2.7 g | 11% | (1 to 7.2) g
+ |  | (vertical ellipsis) | 
+vitamin A | 8 IU | 0% | (0 to 116) IU
+cholesterol | 1.4 mg | 0% | (0 to 28) mg
+(averaged over different types of bread)</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP32051h79453d08ih331i000029egih8af36167fb?MSPStoreType=image/gif&amp;s=13'
+       alt=' | mean value | % daily value | range
+thiamin | 192 g | 13% | (88 to 327) g
+folate | 45 g | 11% | (17 to 96) g
+dietary fiber | 2.7 g | 11% | (1 to 7.2) g
+ |  | (vertical ellipsis) | 
+vitamin A | 8 IU | 0% | (0 to 116) IU
+cholesterol | 1.4 mg | 0% | (0 to 28) mg
+(averaged over different types of bread)'
+       title=' | mean value | % daily value | range
+thiamin | 192 g | 13% | (88 to 327) g
+folate | 45 g | 11% | (17 to 96) g
+dietary fiber | 2.7 g | 11% | (1 to 7.2) g
+ |  | (vertical ellipsis) | 
+vitamin A | 8 IU | 0% | (0 to 116) IU
+cholesterol | 1.4 mg | 0% | (0 to 28) mg
+(averaged over different types of bread)'
+       width='427'
+       height='249' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='DailyValuesRanking:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Average highest nutrients compared to other foods'
+     scanner='Data'
+     id='NutrientRankingPod:ExpandedFoodData'
+     position='400'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | amount | % daily value | foods distribution | rank
+maltose | 873 mg |  |  | 86%
+manganese | 513 g |  |  | 85%
+dietary fiber | 2.7 g | 11% |  | 82%
+(distributions from log nutrient values in standard servings of 7500 common foods)</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP32061h79453d08ih331i000022e3d47b08g2e3ab?MSPStoreType=image/gif&amp;s=13'
+       alt=' | amount | % daily value | foods distribution | rank
+maltose | 873 mg |  |  | 86%
+manganese | 513 g |  |  | 85%
+dietary fiber | 2.7 g | 11% |  | 82%
+(distributions from log nutrient values in standard servings of 7500 common foods)'
+       title=' | amount | % daily value | foods distribution | rank
+maltose | 873 mg |  |  | 86%
+manganese | 513 g |  |  | 85%
+dietary fiber | 2.7 g | 11% |  | 82%
+(distributions from log nutrient values in standard servings of 7500 common foods)'
+       width='541'
+       height='209' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='NutrientRankingPod:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Calories'
+     scanner='Data'
+     id='Calories:ExpandedFoodData'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total calories | 133 Cal | 7% | (99 to 160) Cal
+fat calories | 15 Cal |  | (9.2 to 20) Cal</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP32071h79453d08ih331i00001ed4474556dhi737?MSPStoreType=image/gif&amp;s=13'
+       alt=' | mean value | % daily value | range
+total calories | 133 Cal | 7% | (99 to 160) Cal
+fat calories | 15 Cal |  | (9.2 to 20) Cal'
+       title=' | mean value | % daily value | range
+total calories | 133 Cal | 7% | (99 to 160) Cal
+fat calories | 15 Cal |  | (9.2 to 20) Cal'
+       width='436'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Calories:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Carbohydrates'
+     scanner='Data'
+     id='Carbohydrates:ExpandedFoodData'
+     position='600'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total carbohydrates | 25 g | 8% | (20 to 31) g
+dietary fiber | 2.7 g | 11% | (1 to 7.2) g
+sugar | 2.3 g |  | (0.26 to 4.8) g</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP32081h79453d08ih331i00002hdb1acdg0594bd7?MSPStoreType=image/gif&amp;s=13'
+       alt=' | mean value | % daily value | range
+total carbohydrates | 25 g | 8% | (20 to 31) g
+dietary fiber | 2.7 g | 11% | (1 to 7.2) g
+sugar | 2.3 g |  | (0.26 to 4.8) g'
+       title=' | mean value | % daily value | range
+total carbohydrates | 25 g | 8% | (20 to 31) g
+dietary fiber | 2.7 g | 11% | (1 to 7.2) g
+sugar | 2.3 g |  | (0.26 to 4.8) g'
+       width='474'
+       height='132' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Carbohydrates:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Fats and fatty acids'
+     scanner='Data'
+     id='Fats:ExpandedFoodData'
+     position='700'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total fat | 1.9 g | 3% | (0.91 to 3.3) g
+saturated fat | 376 mg | 2% | (166 to 808) mg
+trans fat | 138 mg |  | (0 to 415) mg</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP32091h79453d08ih331i00005ha0hh25beic735h?MSPStoreType=image/gif&amp;s=13'
+       alt=' | mean value | % daily value | range
+total fat | 1.9 g | 3% | (0.91 to 3.3) g
+saturated fat | 376 mg | 2% | (166 to 808) mg
+trans fat | 138 mg |  | (0 to 415) mg'
+       title=' | mean value | % daily value | range
+total fat | 1.9 g | 3% | (0.91 to 3.3) g
+saturated fat | 376 mg | 2% | (166 to 808) mg
+trans fat | 138 mg |  | (0 to 415) mg'
+       width='442'
+       height='132' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Fats:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Protein and amino acids'
+     scanner='Data'
+     id='Protein:ExpandedFoodData'
+     position='800'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+protein | 5 g | 10% | (3.8 to 8.1) g</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP32101h79453d08ih331i00004d8672ag51f608e6?MSPStoreType=image/gif&amp;s=13'
+       alt=' | mean value | % daily value | range
+protein | 5 g | 10% | (3.8 to 8.1) g'
+       title=' | mean value | % daily value | range
+protein | 5 g | 10% | (3.8 to 8.1) g'
+       width='387'
+       height='68' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Protein:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Vitamins'
+     scanner='Data'
+     id='Vitamins:ExpandedFoodData'
+     position='900'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+vitamin A | 2.1 g | 0% | (0 to 35) g
+vitamin C | 52 g | 0% | (0 to 250) g</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP32111h79453d08ih331i00000d629885c9icg30d?MSPStoreType=image/gif&amp;s=13'
+       alt=' | mean value | % daily value | range
+vitamin A | 2.1 g | 0% | (0 to 35) g
+vitamin C | 52 g | 0% | (0 to 250) g'
+       title=' | mean value | % daily value | range
+vitamin A | 2.1 g | 0% | (0 to 35) g
+vitamin C | 52 g | 0% | (0 to 250) g'
+       width='403'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Vitamins:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Minerals'
+     scanner='Data'
+     id='Minerals:ExpandedFoodData'
+     position='1000'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+calcium | 42 mg | 4% | (16 to 83) mg
+iron | 1.6 mg | 9% | (0.91 to 2.3) mg</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP32121h79453d08ih331i0000157cg3gc270d2426?MSPStoreType=image/gif&amp;s=13'
+       alt=' | mean value | % daily value | range
+calcium | 42 mg | 4% | (16 to 83) mg
+iron | 1.6 mg | 9% | (0.91 to 2.3) mg'
+       title=' | mean value | % daily value | range
+calcium | 42 mg | 4% | (16 to 83) mg
+iron | 1.6 mg | 9% | (0.91 to 2.3) mg'
+       width='410'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Minerals:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Sterols'
+     scanner='Data'
+     id='Sterols:ExpandedFoodData'
+     position='1100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+cholesterol | 1.4 mg | 0% | (0 to 28) mg</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP32131h79453d08ih331i000068eh5068f3e9e8c4?MSPStoreType=image/gif&amp;s=13'
+       alt=' | mean value | % daily value | range
+cholesterol | 1.4 mg | 0% | (0 to 28) mg'
+       title=' | mean value | % daily value | range
+cholesterol | 1.4 mg | 0% | (0 to 28) mg'
+       width='405'
+       height='68' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Sterols:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Alcohol content'
+     scanner='Data'
+     id='AlcoholContent:ExpandedFoodData'
+     position='1200'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | range
+volume percentage | 0 g | </plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP32141h79453d08ih331i00000fff7h43e604a451?MSPStoreType=image/gif&amp;s=13'
+       alt=' | mean value | range
+volume percentage | 0 g | '
+       title=' | mean value | range
+volume percentage | 0 g | '
+       width='387'
+       height='85' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='AlcoholContent:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Physical properties'
+     scanner='Data'
+     id='PhysicalProperties:ExpandedFoodData'
+     position='1300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>mass | 1.8 oz  (ounces)
+serving volume | 8.9 fl oz  (fluid ounces)
+serving density | 0.19 g/cm^3  (grams per cubic centimeter)</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP32151h79453d08ih331i0000169b7fgc10889f41?MSPStoreType=image/gif&amp;s=13'
+       alt='mass | 1.8 oz  (ounces)
+serving volume | 8.9 fl oz  (fluid ounces)
+serving density | 0.19 g/cm^3  (grams per cubic centimeter)'
+       title='mass | 1.8 oz  (ounces)
+serving volume | 8.9 fl oz  (fluid ounces)
+serving density | 0.19 g/cm^3  (grams per cubic centimeter)'
+       width='408'
+       height='100' />
+  </subpod>
+ </pod>
+ <assumptions count='2'>
+  <assumption type='Clash'
+      word='bread'
+      template='Assuming &quot;${word}&quot; is ${desc1}. Use as ${desc2} instead'
+      count='4'>
+   <value name='ExpandedFood'
+       desc='a food'
+       input='*C.bread-_*ExpandedFood-' />
+   <value name='MusicAct'
+       desc='a music act'
+       input='*C.bread-_*MusicAct-' />
+   <value name='CommonMaterial'
+       desc='a general material'
+       input='*C.bread-_*CommonMaterial-' />
+   <value name='Word'
+       desc='a word'
+       input='*C.bread-_*Word-' />
+  </assumption>
+  <assumption type='Attribute'
+      word='Bread'
+      template='Assuming ${desc1}. Use ${desc2} instead'
+      count='25'>
+   <value name='Bread'
+       desc='any type of bread'
+       input='*EAC.ExpandedFood.Bread-_**a.Bread--' />
+   <value name='{Food:Variety -&gt; Food:Egg}'
+       desc='bread, egg'
+       input='*EAC.ExpandedFood.Bread-_**Bread.*Food%3AVariety_Food%3AEgg---' />
+   <value name='{Food:Variety -&gt; Food:Rye}'
+       desc='bread, rye'
+       input='*EAC.ExpandedFood.Bread-_**Bread.*Food%3AVariety_Food%3ARye---' />
+   <value name='{Food:Variety -&gt; Food:Wheat}'
+       desc='bread, wheat'
+       input='*EAC.ExpandedFood.Bread-_**Bread.*Food%3AVariety_Food%3AWheat---' />
+   <value name='{Food:Variety -&gt; Food:Italian}'
+       desc='bread, italian'
+       input='*EAC.ExpandedFood.Bread-_**Bread.*Food%3AVariety_Food%3AItalian---' />
+   <value name='{Food:Variety -&gt; Food:OatBran}'
+       desc='bread, oat bran'
+       input='*EAC.ExpandedFood.Bread-_**Bread.*Food%3AVariety_Food%3AOatBran---' />
+   <value name='{Food:Variety -&gt; Food:Oatmeal}'
+       desc='bread, oatmeal'
+       input='*EAC.ExpandedFood.Bread-_**Bread.*Food%3AVariety_Food%3AOatmeal---' />
+   <value name='{Food:Variety -&gt; Food:RiceBran}'
+       desc='bread, rice bran'
+       input='*EAC.ExpandedFood.Bread-_**Bread.*Food%3AVariety_Food%3ARiceBran---' />
+   <value name='{Food:Variety -&gt; Food:WheatBran}'
+       desc='bread, wheat bran'
+       input='*EAC.ExpandedFood.Bread-_**Bread.*Food%3AVariety_Food%3AWheatBran---' />
+   <value name='{Food:Variety -&gt; Food:WheatGerm}'
+       desc='bread, wheat germ'
+       input='*EAC.ExpandedFood.Bread-_**Bread.*Food%3AVariety_Food%3AWheatGerm---' />
+   <value name='{Food:Variety -&gt; Food:MultiGrain}'
+       desc='bread, multi grain'
+       input='*EAC.ExpandedFood.Bread-_**Bread.*Food%3AVariety_Food%3AMultiGrain---' />
+   <value name='{Food:Variety -&gt; Food:Pumpernickel}'
+       desc='bread, pumpernickel'
+       input='*EAC.ExpandedFood.Bread-_**Bread.*Food%3AVariety_Food%3APumpernickel---' />
+   <value name='{Food:Variety -&gt; Food:Egg, Food:Variety -&gt; Food:Toasted}'
+       desc='bread, egg, toasted'
+       input='*EAC.ExpandedFood.Bread-_**Bread.*Food%3AVariety_Food%3AEgg.Food%3AVariety_Food%3AToasted---' />
+   <value name='{Food:Variety -&gt; Food:Rye, Food:Variety -&gt; Food:Toasted}'
+       desc='bread, rye, toasted'
+       input='*EAC.ExpandedFood.Bread-_**Bread.*Food%3AVariety_Food%3ARye.Food%3AVariety_Food%3AToasted---' />
+   <value name='{Food:Variety -&gt; Food:Toasted, Food:Variety -&gt; Food:Wheat}'
+       desc='bread, toasted, wheat'
+       input='*EAC.ExpandedFood.Bread-_**Bread.*Food%3AVariety_Food%3AToasted.Food%3AVariety_Food%3AWheat---' />
+   <value name='{Food:Variety -&gt; Food:Enriched, Food:Variety -&gt; Food:Raisin}'
+       desc='bread, enriched, raisin'
+       input='*EAC.ExpandedFood.Bread-_**Bread.*Food%3AVariety_Food%3AEnriched.Food%3AVariety_Food%3ARaisin---' />
+   <value name='{Food:Variety -&gt; Food:OatBran, Food:Variety -&gt; Food:Toasted}'
+       desc='bread, oat bran, toasted'
+       input='*EAC.ExpandedFood.Bread-_**Bread.*Food%3AVariety_Food%3AOatBran.Food%3AVariety_Food%3AToasted---' />
+   <value name='{Food:Variety -&gt; Food:Oatmeal, Food:Variety -&gt; Food:Toasted}'
+       desc='bread, oatmeal, toasted'
+       input='*EAC.ExpandedFood.Bread-_**Bread.*Food%3AVariety_Food%3AOatmeal.Food%3AVariety_Food%3AToasted---' />
+   <value name='{Food:Variety -&gt; Food:RiceBran, Food:Variety -&gt; Food:Toasted}'
+       desc='bread, rice bran, toasted'
+       input='*EAC.ExpandedFood.Bread-_**Bread.*Food%3AVariety_Food%3ARiceBran.Food%3AVariety_Food%3AToasted---' />
+   <value name='{Food:NutritionalSupplement -&gt; Food:ProteinIncludesGluten}'
+       desc='bread, protein (includes gluten)'
+       input='*EAC.ExpandedFood.Bread-_**Bread.*Food%3ANutritionalSupplement_Food%3AProteinIncludesGluten---' />
+   <value name='{Food:Variety -&gt; Food:Raisin, Food:Variety -&gt; Food:Unenriched}'
+       desc='bread, raisin, unenriched'
+       input='*EAC.ExpandedFood.Bread-_**Bread.*Food%3AVariety_Food%3ARaisin.Food%3AVariety_Food%3AUnenriched---' />
+   <value name='{Food:Variety -&gt; Food:Toasted, Food:Variety -&gt; Food:WheatGerm}'
+       desc='bread, toasted, wheat germ'
+       input='*EAC.ExpandedFood.Bread-_**Bread.*Food%3AVariety_Food%3AToasted.Food%3AVariety_Food%3AWheatGerm---' />
+   <value name='{Food:CalorieContent -&gt; Food:ReducedCalorie, Food:Variety -&gt; Food:Rye}'
+       desc='bread, reduced calorie, rye'
+       input='*EAC.ExpandedFood.Bread-_**Bread.*Food%3ACalorieContent_Food%3AReducedCalorie.Food%3AVariety_Food%3ARye---' />
+   <value name='{Food:Variety -&gt; Food:MultiGrain, Food:Variety -&gt; Food:Toasted}'
+       desc='bread, multi grain, toasted'
+       input='*EAC.ExpandedFood.Bread-_**Bread.*Food%3AVariety_Food%3AMultiGrain.Food%3AVariety_Food%3AToasted---' />
+   <value name='{Food:CalorieContent -&gt; Food:ReducedCalorie, Food:Variety -&gt; Food:Wheat}'
+       desc='bread, reduced calorie, wheat'
+       input='*EAC.ExpandedFood.Bread-_**Bread.*Food%3ACalorieContent_Food%3AReducedCalorie.Food%3AVariety_Food%3AWheat---' />
+  </assumption>
+ </assumptions>
+ <sources count='1'>
+  <source url='http://www.wolframalpha.com/sources/ExpandedFoodDataSourceInformationNotes.html'
+      text='Expanded food data' />
+ </sources>
+</queryresult>
