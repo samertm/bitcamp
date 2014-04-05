@@ -1,0 +1,354 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='12'
+    datatypes='ExpandedFood'
+    timedout=''
+    timedoutpods=''
+    timing='5.464'
+    parsetiming='0.316'
+    parsetimedout='false'
+    recalculate=''
+    id='MSPa802120bib9ggab5h7ff8000036bhb3bad95cc56d'
+    host='http://www3.wolframalpha.com'
+    server='30'
+    related='http://www3.wolframalpha.com/api/v2/relatedQueries.jsp?id=MSPa802220bib9ggab5h7ff80000191809di95f5f03b&amp;s=30'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>red beans | amount | 0.25 cups</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP802320bib9ggab5h7ff800005g04i147069065e7?MSPStoreType=image/gif&amp;s=30'
+       alt='red beans | amount | 0.25 cups'
+       title='red beans | amount | 0.25 cups'
+       width='264'
+       height='32' />
+  </subpod>
+ </pod>
+ <pod title='Nutrition facts'
+     scanner='Data'
+     id='NutritionLabelSingle:ExpandedFoodData'
+     position='200'
+     error='false'
+     numsubpods='1'
+     primary='true'>
+  <subpod title=''>
+   <plaintext>serving size 0.25 cups (35 g)
+total calories  45 | fat calories  0
+% daily value^* |  
+  total fat  0 g | 0%
+       saturated fat  0 g | 0%
+       trans fat   | 
+  cholesterol  0 g | 0%
+  sodium  25 mg | 1%
+  total carbohydrates  23 g | 8%
+       dietary fiber   | 
+       sugar  1 g | 
+  protein  8 g | 16%
+   calcium  6%    |    iron  15%   
+*percent daily values are based on a 2000 calorie diet</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP802420bib9ggab5h7ff800005cf0fci0hgh8d99e?MSPStoreType=image/gif&amp;s=30'
+       alt='serving size 0.25 cups (35 g)
+total calories  45 | fat calories  0
+% daily value^* |  
+  total fat  0 g | 0%
+       saturated fat  0 g | 0%
+       trans fat   | 
+  cholesterol  0 g | 0%
+  sodium  25 mg | 1%
+  total carbohydrates  23 g | 8%
+       dietary fiber   | 
+       sugar  1 g | 
+  protein  8 g | 16%
+   calcium  6%    |    iron  15%   
+*percent daily values are based on a 2000 calorie diet'
+       title='serving size 0.25 cups (35 g)
+total calories  45 | fat calories  0
+% daily value^* |  
+  total fat  0 g | 0%
+       saturated fat  0 g | 0%
+       trans fat   | 
+  cholesterol  0 g | 0%
+  sodium  25 mg | 1%
+  total carbohydrates  23 g | 8%
+       dietary fiber   | 
+       sugar  1 g | 
+  protein  8 g | 16%
+   calcium  6%    |    iron  15%   
+*percent daily values are based on a 2000 calorie diet'
+       width='293'
+       height='346' />
+  </subpod>
+ </pod>
+ <pod title='Daily value ranking'
+     scanner='Data'
+     id='DailyValuesRanking:ExpandedFoodData'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | value | % daily value
+protein | 8 g | 16%
+iron | 2.7 mg | 15%
+total carbohydrates | 23 g | 8%
+ | (vertical ellipsis) | 
+total fat | 0 g | 0%
+cholesterol | 0 g | 0%</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP802520bib9ggab5h7ff800003hac194ibig150ed?MSPStoreType=image/gif&amp;s=30'
+       alt=' | value | % daily value
+protein | 8 g | 16%
+iron | 2.7 mg | 15%
+total carbohydrates | 23 g | 8%
+ | (vertical ellipsis) | 
+total fat | 0 g | 0%
+cholesterol | 0 g | 0%'
+       title=' | value | % daily value
+protein | 8 g | 16%
+iron | 2.7 mg | 15%
+total carbohydrates | 23 g | 8%
+ | (vertical ellipsis) | 
+total fat | 0 g | 0%
+cholesterol | 0 g | 0%'
+       width='325'
+       height='228' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='DailyValuesRanking:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Highest nutrients compared to other foods'
+     scanner='Data'
+     id='NutrientRankingPod:ExpandedFoodData'
+     position='400'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | amount | % daily value | foods distribution | rank
+iron | 2.7 mg | 15% |  | 82%
+calcium | 60 mg | 6% |  | 80%
+protein | 8 g | 16% |  | 67%
+(distributions from log nutrient values in standard servings of 7500 common foods)</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP802620bib9ggab5h7ff800002gecb45ec79g1006?MSPStoreType=image/gif&amp;s=30'
+       alt=' | amount | % daily value | foods distribution | rank
+iron | 2.7 mg | 15% |  | 82%
+calcium | 60 mg | 6% |  | 80%
+protein | 8 g | 16% |  | 67%
+(distributions from log nutrient values in standard servings of 7500 common foods)'
+       title=' | amount | % daily value | foods distribution | rank
+iron | 2.7 mg | 15% |  | 82%
+calcium | 60 mg | 6% |  | 80%
+protein | 8 g | 16% |  | 67%
+(distributions from log nutrient values in standard servings of 7500 common foods)'
+       width='513'
+       height='209' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='NutrientRankingPod:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Calories'
+     scanner='Data'
+     id='Calories:ExpandedFoodData'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | value | % daily value
+total calories | 45 Cal | 2%
+fat calories | 0 Cal | </plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP802720bib9ggab5h7ff800005385h58e423fdf24?MSPStoreType=image/gif&amp;s=30'
+       alt=' | value | % daily value
+total calories | 45 Cal | 2%
+fat calories | 0 Cal | '
+       title=' | value | % daily value
+total calories | 45 Cal | 2%
+fat calories | 0 Cal | '
+       width='280'
+       height='100' />
+  </subpod>
+ </pod>
+ <pod title='Carbohydrates'
+     scanner='Data'
+     id='Carbohydrates:ExpandedFoodData'
+     position='600'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | value | % daily value
+total carbohydrates | 23 g | 8%
+sugar | 1 g | </plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP802820bib9ggab5h7ff8000028i3c584bic670d1?MSPStoreType=image/gif&amp;s=30'
+       alt=' | value | % daily value
+total carbohydrates | 23 g | 8%
+sugar | 1 g | '
+       title=' | value | % daily value
+total carbohydrates | 23 g | 8%
+sugar | 1 g | '
+       width='318'
+       height='100' />
+  </subpod>
+ </pod>
+ <pod title='Fats and fatty acids'
+     scanner='Data'
+     id='Fats:ExpandedFoodData'
+     position='700'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | value | % daily value
+total fat | 0 g | 0%
+saturated fat | 0 g | 0%</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP802920bib9ggab5h7ff800004665864b22caa32b?MSPStoreType=image/gif&amp;s=30'
+       alt=' | value | % daily value
+total fat | 0 g | 0%
+saturated fat | 0 g | 0%'
+       title=' | value | % daily value
+total fat | 0 g | 0%
+saturated fat | 0 g | 0%'
+       width='275'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Fats:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Protein and amino acids'
+     scanner='Data'
+     id='Protein:ExpandedFoodData'
+     position='800'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | value | % daily value
+protein | 8 g | 16%</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP803020bib9ggab5h7ff800005d8628de2ef25693?MSPStoreType=image/gif&amp;s=30'
+       alt=' | value | % daily value
+protein | 8 g | 16%'
+       title=' | value | % daily value
+protein | 8 g | 16%'
+       width='239'
+       height='68' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Protein:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Vitamins'
+     scanner='Data'
+     id='Vitamins:ExpandedFoodData'
+     position='900'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | value | % daily value
+vitamin A | 0 g | 0%
+vitamin C | 0 g | 0%</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP803120bib9ggab5h7ff800002ga6ahg240062c07?MSPStoreType=image/gif&amp;s=30'
+       alt=' | value | % daily value
+vitamin A | 0 g | 0%
+vitamin C | 0 g | 0%'
+       title=' | value | % daily value
+vitamin A | 0 g | 0%
+vitamin C | 0 g | 0%'
+       width='255'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Vitamins:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Minerals'
+     scanner='Data'
+     id='Minerals:ExpandedFoodData'
+     position='1000'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | value | % daily value
+calcium | 60 mg | 6%
+iron | 2.7 mg | 15%</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP803220bib9ggab5h7ff8000033fi9d26a1ag4241?MSPStoreType=image/gif&amp;s=30'
+       alt=' | value | % daily value
+calcium | 60 mg | 6%
+iron | 2.7 mg | 15%'
+       title=' | value | % daily value
+calcium | 60 mg | 6%
+iron | 2.7 mg | 15%'
+       width='250'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Minerals:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Sterols'
+     scanner='Data'
+     id='Sterols:ExpandedFoodData'
+     position='1100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | value | % daily value
+cholesterol | 0 g | 0%</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP803320bib9ggab5h7ff80000412he62dg0db57hc?MSPStoreType=image/gif&amp;s=30'
+       alt=' | value | % daily value
+cholesterol | 0 g | 0%'
+       title=' | value | % daily value
+cholesterol | 0 g | 0%'
+       width='262'
+       height='68' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Sterols:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Physical properties'
+     scanner='Data'
+     id='PhysicalProperties:ExpandedFoodData'
+     position='1300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>mass | 1.2 oz  (ounces)
+serving volume | 2 fl oz  (fluid ounces)
+serving density | 0.59 g/cm^3  (grams per cubic centimeter)</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP803420bib9ggab5h7ff800001838h7602be321bg?MSPStoreType=image/gif&amp;s=30'
+       alt='mass | 1.2 oz  (ounces)
+serving volume | 2 fl oz  (fluid ounces)
+serving density | 0.59 g/cm^3  (grams per cubic centimeter)'
+       title='mass | 1.2 oz  (ounces)
+serving volume | 2 fl oz  (fluid ounces)
+serving density | 0.59 g/cm^3  (grams per cubic centimeter)'
+       width='408'
+       height='100' />
+  </subpod>
+ </pod>
+ <assumptions count='1'>
+  <assumption type='SubCategory'
+      word='red beans'
+      template='Assuming ${desc1}. Use ${desc2} instead'
+      count='2'>
+   <value name='PreparedRedBeans'
+       desc='red beans'
+       input='*DPClash.ExpandedFoodE.red+beans-_*PreparedRedBeans-' />
+   <value name='PreparedSmallRedBeans'
+       desc='small red beans'
+       input='*DPClash.ExpandedFoodE.red+beans-_*PreparedSmallRedBeans-' />
+  </assumption>
+ </assumptions>
+ <sources count='1'>
+  <source url='http://www.wolframalpha.com/sources/ExpandedFoodDataSourceInformationNotes.html'
+      text='Expanded food data' />
+ </sources>
+</queryresult>

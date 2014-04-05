@@ -2,13 +2,17 @@ package server
 
 import (
 	"net/http"
+	"html/template"
 	"fmt"
 )
 
-type Snake int
-
 func serveRoot(w http.ResponseWriter, req *http.Request) {
-	w.Write([]byte("Whatever yoooooo get well soon."))
+	t, _ := template.ParseFiles("templates/index.html")
+	t.Execute(w, nil)
+}
+
+func serveFood(w http.ResponseWriter, req *http.Request) {
+	
 }
 
 func ListenAndServe(ip string) {

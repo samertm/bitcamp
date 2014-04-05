@@ -1,0 +1,469 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='13'
+    datatypes='ExpandedFood'
+    timedout=''
+    timedoutpods=''
+    timing='8.378'
+    parsetiming='0.235'
+    parsetimedout='false'
+    recalculate=''
+    id='MSPa1201h4e799ig50323i800002eg30ge93c3ceh72'
+    host='http://www3.wolframalpha.com'
+    server='21'
+    related='http://www3.wolframalpha.com/api/v2/relatedQueries.jsp?id=MSPa1211h4e799ig50323i8000064d6767hf6g9f461&amp;s=21'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>almond | amount | 30 grams</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP1221h4e799ig50323i80000287188hbc9dd58d2?MSPStoreType=image/gif&amp;s=21'
+       alt='almond | amount | 30 grams'
+       title='almond | amount | 30 grams'
+       width='246'
+       height='32' />
+  </subpod>
+ </pod>
+ <pod title='Average nutrition facts'
+     scanner='Data'
+     id='NutritionLabelSingle:ExpandedFoodData'
+     position='200'
+     error='false'
+     numsubpods='1'
+     primary='true'>
+  <subpod title=''>
+   <plaintext>serving size 30 g
+total calories  178 | fat calories  131
+% daily value^* |  
+  total fat  16 g | 24%
+       saturated fat  1 g | 6%
+       trans fat  5 mg | 
+  cholesterol  0 g | 0%
+  sodium  36 mg | 1%
+  total carbohydrates  6 g | 2%
+       dietary fiber  3 g | 13%
+       sugar  1 g | 
+  protein  6 g | 12%
+   calcium  8%    |    iron  6%   
+   vitamin E  37%    |    thiamin  2%   
+   riboflavin  16%    |    niacin  5%   
+   vitamin B6  2%    |    folate  3%   
+   phosphorus  14%    |    magnesium  20%   
+   zinc  6%    | 
+*percent daily values are based on a 2000 calorie diet
+(averaged over different types of almond)</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP1231h4e799ig50323i800000dahe0gba91idbf7?MSPStoreType=image/gif&amp;s=21'
+       alt='serving size 30 g
+total calories  178 | fat calories  131
+% daily value^* |  
+  total fat  16 g | 24%
+       saturated fat  1 g | 6%
+       trans fat  5 mg | 
+  cholesterol  0 g | 0%
+  sodium  36 mg | 1%
+  total carbohydrates  6 g | 2%
+       dietary fiber  3 g | 13%
+       sugar  1 g | 
+  protein  6 g | 12%
+   calcium  8%    |    iron  6%   
+   vitamin E  37%    |    thiamin  2%   
+   riboflavin  16%    |    niacin  5%   
+   vitamin B6  2%    |    folate  3%   
+   phosphorus  14%    |    magnesium  20%   
+   zinc  6%    | 
+*percent daily values are based on a 2000 calorie diet
+(averaged over different types of almond)'
+       title='serving size 30 g
+total calories  178 | fat calories  131
+% daily value^* |  
+  total fat  16 g | 24%
+       saturated fat  1 g | 6%
+       trans fat  5 mg | 
+  cholesterol  0 g | 0%
+  sodium  36 mg | 1%
+  total carbohydrates  6 g | 2%
+       dietary fiber  3 g | 13%
+       sugar  1 g | 
+  protein  6 g | 12%
+   calcium  8%    |    iron  6%   
+   vitamin E  37%    |    thiamin  2%   
+   riboflavin  16%    |    niacin  5%   
+   vitamin B6  2%    |    folate  3%   
+   phosphorus  14%    |    magnesium  20%   
+   zinc  6%    | 
+*percent daily values are based on a 2000 calorie diet
+(averaged over different types of almond)'
+       width='319'
+       height='473' />
+  </subpod>
+ </pod>
+ <pod title='Average daily value ranking'
+     scanner='Data'
+     id='DailyValuesRanking:ExpandedFoodData'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+vitamin E | 7.5 mg | 37% | (7.1 to 7.9) mg
+total fat | 16 g | 24% | (15 to 17) g
+magnesium | 81 mg | 20% | (72 to 84) mg
+ |  | (vertical ellipsis) | 
+vitamin C | 30 g | 0% | (0 to 210) g
+vitamin A | 0.51 IU | 0% | (0 to 2.1) IU
+(averaged over different types of almond)</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP1241h4e799ig50323i8000013i3bbb8defb7eac?MSPStoreType=image/gif&amp;s=21'
+       alt=' | mean value | % daily value | range
+vitamin E | 7.5 mg | 37% | (7.1 to 7.9) mg
+total fat | 16 g | 24% | (15 to 17) g
+magnesium | 81 mg | 20% | (72 to 84) mg
+ |  | (vertical ellipsis) | 
+vitamin C | 30 g | 0% | (0 to 210) g
+vitamin A | 0.51 IU | 0% | (0 to 2.1) IU
+(averaged over different types of almond)'
+       title=' | mean value | % daily value | range
+vitamin E | 7.5 mg | 37% | (7.1 to 7.9) mg
+total fat | 16 g | 24% | (15 to 17) g
+magnesium | 81 mg | 20% | (72 to 84) mg
+ |  | (vertical ellipsis) | 
+vitamin C | 30 g | 0% | (0 to 210) g
+vitamin A | 0.51 IU | 0% | (0 to 2.1) IU
+(averaged over different types of almond)'
+       width='427'
+       height='249' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='DailyValuesRanking:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Average highest nutrients compared to other foods'
+     scanner='Data'
+     id='NutrientRankingPod:ExpandedFoodData'
+     position='400'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | amount | % daily value | foods distribution | rank
+vitamin E | 7.5 mg | 37% |  | 96%
+magnesium | 81 mg | 20% |  | 93%
+copper | 305 g | 15% |  | 89%
+(distributions from log nutrient values in standard servings of 7500 common foods)</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP1251h4e799ig50323i8000039448h0ahc35g3fa?MSPStoreType=image/gif&amp;s=21'
+       alt=' | amount | % daily value | foods distribution | rank
+vitamin E | 7.5 mg | 37% |  | 96%
+magnesium | 81 mg | 20% |  | 93%
+copper | 305 g | 15% |  | 89%
+(distributions from log nutrient values in standard servings of 7500 common foods)'
+       title=' | amount | % daily value | foods distribution | rank
+vitamin E | 7.5 mg | 37% |  | 96%
+magnesium | 81 mg | 20% |  | 93%
+copper | 305 g | 15% |  | 89%
+(distributions from log nutrient values in standard servings of 7500 common foods)'
+       width='538'
+       height='209' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='NutrientRankingPod:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Calories'
+     scanner='Data'
+     id='Calories:ExpandedFoodData'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total calories | 178 Cal | 9% | (172 to 182) Cal
+fat calories | 131 Cal |  | (124 to 139) Cal</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP1261h4e799ig50323i800000f035bbifa036fhf?MSPStoreType=image/gif&amp;s=21'
+       alt=' | mean value | % daily value | range
+total calories | 178 Cal | 9% | (172 to 182) Cal
+fat calories | 131 Cal |  | (124 to 139) Cal'
+       title=' | mean value | % daily value | range
+total calories | 178 Cal | 9% | (172 to 182) Cal
+fat calories | 131 Cal |  | (124 to 139) Cal'
+       width='444'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Calories:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Carbohydrates'
+     scanner='Data'
+     id='Carbohydrates:ExpandedFoodData'
+     position='600'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total carbohydrates | 6.3 g | 2% | (5.3 to 8.4) g
+dietary fiber | 3.4 g | 13% | (3 to 4.1) g
+sugar | 1.4 g |  | (1.2 to 1.5) g</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP1271h4e799ig50323i800005f0accc3bcg2ga07?MSPStoreType=image/gif&amp;s=21'
+       alt=' | mean value | % daily value | range
+total carbohydrates | 6.3 g | 2% | (5.3 to 8.4) g
+dietary fiber | 3.4 g | 13% | (3 to 4.1) g
+sugar | 1.4 g |  | (1.2 to 1.5) g'
+       title=' | mean value | % daily value | range
+total carbohydrates | 6.3 g | 2% | (5.3 to 8.4) g
+dietary fiber | 3.4 g | 13% | (3 to 4.1) g
+sugar | 1.4 g |  | (1.2 to 1.5) g'
+       width='466'
+       height='132' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Carbohydrates:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Fats and fatty acids'
+     scanner='Data'
+     id='Fats:ExpandedFoodData'
+     position='700'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total fat | 16 g | 24% | (15 to 17) g
+saturated fat | 1.2 g | 6% | (1.1 to 1.4) g
+trans fat | 5.1 mg |  | 5.1 mg</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP1281h4e799ig50323i8000048e8a68071dh8e82?MSPStoreType=image/gif&amp;s=21'
+       alt=' | mean value | % daily value | range
+total fat | 16 g | 24% | (15 to 17) g
+saturated fat | 1.2 g | 6% | (1.1 to 1.4) g
+trans fat | 5.1 mg |  | 5.1 mg'
+       title=' | mean value | % daily value | range
+total fat | 16 g | 24% | (15 to 17) g
+saturated fat | 1.2 g | 6% | (1.1 to 1.4) g
+trans fat | 5.1 mg |  | 5.1 mg'
+       width='423'
+       height='132' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Fats:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Protein and amino acids'
+     scanner='Data'
+     id='Protein:ExpandedFoodData'
+     position='800'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+protein | 6.2 g | 12% | (5.5 to 6.4) g</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP1291h4e799ig50323i800002447b5if73h5hb8f?MSPStoreType=image/gif&amp;s=21'
+       alt=' | mean value | % daily value | range
+protein | 6.2 g | 12% | (5.5 to 6.4) g'
+       title=' | mean value | % daily value | range
+protein | 6.2 g | 12% | (5.5 to 6.4) g'
+       width='387'
+       height='68' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Protein:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Vitamins'
+     scanner='Data'
+     id='Vitamins:ExpandedFoodData'
+     position='900'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+vitamin A | 0 g | 0% | 
+vitamin C | 30 g | 0% | (0 to 210) g</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP1301h4e799ig50323i8000043752d2f23ea714h?MSPStoreType=image/gif&amp;s=21'
+       alt=' | mean value | % daily value | range
+vitamin A | 0 g | 0% | 
+vitamin C | 30 g | 0% | (0 to 210) g'
+       title=' | mean value | % daily value | range
+vitamin A | 0 g | 0% | 
+vitamin C | 30 g | 0% | (0 to 210) g'
+       width='403'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Vitamins:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Minerals'
+     scanner='Data'
+     id='Minerals:ExpandedFoodData'
+     position='1000'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+calcium | 81 mg | 8% | (71 to 87) mg
+iron | 1.1 mg | 6% | (0.85 to 1.1) mg</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP1311h4e799ig50323i8000066b7e9i70f09ac0i?MSPStoreType=image/gif&amp;s=21'
+       alt=' | mean value | % daily value | range
+calcium | 81 mg | 8% | (71 to 87) mg
+iron | 1.1 mg | 6% | (0.85 to 1.1) mg'
+       title=' | mean value | % daily value | range
+calcium | 81 mg | 8% | (71 to 87) mg
+iron | 1.1 mg | 6% | (0.85 to 1.1) mg'
+       width='410'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Minerals:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Sterols'
+     scanner='Data'
+     id='Sterols:ExpandedFoodData'
+     position='1100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+cholesterol | 0 g | 0% | </plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP1321h4e799ig50323i800004g1h73c9caefg753?MSPStoreType=image/gif&amp;s=21'
+       alt=' | mean value | % daily value | range
+cholesterol | 0 g | 0% | '
+       title=' | mean value | % daily value | range
+cholesterol | 0 g | 0% | '
+       width='362'
+       height='68' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Sterols:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Alcohol content'
+     scanner='Data'
+     id='AlcoholContent:ExpandedFoodData'
+     position='1200'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | range
+volume percentage | 0 g | </plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP1331h4e799ig50323i8000030hg68b4e2i45aa2?MSPStoreType=image/gif&amp;s=21'
+       alt=' | mean value | range
+volume percentage | 0 g | '
+       title=' | mean value | range
+volume percentage | 0 g | '
+       width='387'
+       height='85' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='AlcoholContent:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Physical properties'
+     scanner='Data'
+     id='PhysicalProperties:ExpandedFoodData'
+     position='1300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>mass | 1.1 oz  (ounces)
+serving volume | 1.6 fl oz  (fluid ounces)
+serving density | 0.62 g/cm^3  (grams per cubic centimeter)</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP1341h4e799ig50323i8000063f66d5ga4di09i8?MSPStoreType=image/gif&amp;s=21'
+       alt='mass | 1.1 oz  (ounces)
+serving volume | 1.6 fl oz  (fluid ounces)
+serving density | 0.62 g/cm^3  (grams per cubic centimeter)'
+       title='mass | 1.1 oz  (ounces)
+serving volume | 1.6 fl oz  (fluid ounces)
+serving density | 0.62 g/cm^3  (grams per cubic centimeter)'
+       width='408'
+       height='100' />
+  </subpod>
+ </pod>
+ <assumptions count='3'>
+  <assumption type='Clash'
+      word='almonds'
+      template='Assuming &quot;${word}&quot; is ${desc1}. Use as ${desc2} instead'
+      count='5'>
+   <value name='ExpandedFood'
+       desc='a food'
+       input='*C.almonds-_*ExpandedFood-' />
+   <value name='Plant'
+       desc='a plant'
+       input='*C.almonds-_*Plant-' />
+   <value name='CommonMaterial'
+       desc='a general material'
+       input='*C.almonds-_*CommonMaterial-' />
+   <value name='Word'
+       desc='a word'
+       input='*C.almonds-_*Word-' />
+   <value name='GivenName'
+       desc='a given name'
+       input='*C.almonds-_*GivenName-' />
+  </assumption>
+  <assumption type='SubCategory'
+      word='almonds'
+      template='Assuming ${desc1}. Use ${desc2} instead'
+      count='5'>
+   <value name='Almond'
+       desc='almond'
+       input='*DPClash.ExpandedFoodE.almonds-_*Almond-' />
+   <value name='AlmondAccentsHoneyRoastedFlavoredSlicedAlmonds'
+       desc='Almond Accents honey roasted flavored sliced almonds'
+       input='*DPClash.ExpandedFoodE.almonds-_*AlmondAccentsHoneyRoastedFlavoredSlicedAlmonds-' />
+   <value name='AlmondAccentsOriginalOvenRoastedFlavoredSlicedAlmonds'
+       desc='Almond Accents original oven roasted flavored sliced almonds'
+       input='*DPClash.ExpandedFoodE.almonds-_*AlmondAccentsOriginalOvenRoastedFlavoredSlicedAlmonds-' />
+   <value name='EmeraldCocoaRoastAlmonds'
+       desc='Emerald cocoa roast almonds'
+       input='*DPClash.ExpandedFoodE.almonds-_*EmeraldCocoaRoastAlmonds-' />
+   <value name='GiantSmokedAlmonds'
+       desc='Giant smoked almonds'
+       input='*DPClash.ExpandedFoodE.almonds-_*GiantSmokedAlmonds-' />
+  </assumption>
+  <assumption type='Attribute'
+      word='Almond'
+      template='Assuming ${desc1}. Use ${desc2} instead'
+      count='8'>
+   <value name='Almond'
+       desc='any type of almond'
+       input='*EAC.ExpandedFood.Almond-_**a.Almond--' />
+   <value name='{Food:Type -&gt; Food:Generic}'
+       desc='almond, generic'
+       input='*EAC.ExpandedFood.Almond-_**Almond.*Food%3AType_Food%3AGeneric---' />
+   <value name='{Food:CookingMethod -&gt; Food:Blanched}'
+       desc='almond, blanched'
+       input='*EAC.ExpandedFood.Almond-_**Almond.*Food%3ACookingMethod_Food%3ABlanched---' />
+   <value name='{Food:CookingMethod -&gt; Food:DryRoasted}'
+       desc='almond, dry roasted'
+       input='*EAC.ExpandedFood.Almond-_**Almond.*Food%3ACookingMethod_Food%3ADryRoasted---' />
+   <value name='{Food:CookingMethod -&gt; Food:OilRoasted}'
+       desc='almond, oil roasted'
+       input='*EAC.ExpandedFood.Almond-_**Almond.*Food%3ACookingMethod_Food%3AOilRoasted---' />
+   <value name='{Food:CookingMethod -&gt; Food:DryRoasted, Food:SaltContent -&gt; Food:WithSalt}'
+       desc='almond, dry roasted, with salt'
+       input='*EAC.ExpandedFood.Almond-_**Almond.*Food%3ACookingMethod_Food%3ADryRoasted.Food%3ASaltContent_Food%3AWithSalt---' />
+   <value name='{Food:CookingMethod -&gt; Food:OilRoasted, Food:SaltContent -&gt; Food:WithSalt}'
+       desc='almond, oil roasted, with salt'
+       input='*EAC.ExpandedFood.Almond-_**Almond.*Food%3ACookingMethod_Food%3AOilRoasted.Food%3ASaltContent_Food%3AWithSalt---' />
+   <value name='{Food:CookingMethod -&gt; Food:HoneyRoasted, Food:PeelingType -&gt; Food:Unblanched}'
+       desc='almond, honey roasted, unblanched'
+       input='*EAC.ExpandedFood.Almond-_**Almond.*Food%3ACookingMethod_Food%3AHoneyRoasted.Food%3APeelingType_Food%3AUnblanched---' />
+  </assumption>
+ </assumptions>
+ <sources count='1'>
+  <source url='http://www.wolframalpha.com/sources/ExpandedFoodDataSourceInformationNotes.html'
+      text='Expanded food data' />
+ </sources>
+</queryresult>

@@ -1,0 +1,397 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='12'
+    datatypes='ExpandedFood'
+    timedout=''
+    timedoutpods=''
+    timing='7.299'
+    parsetiming='0.262'
+    parsetimedout='false'
+    recalculate=''
+    id='MSPa2861afg0f1459422bdh00006591ehi0f3267fg3'
+    host='http://www3.wolframalpha.com'
+    server='29'
+    related='http://www3.wolframalpha.com/api/v2/relatedQueries.jsp?id=MSPa2871afg0f1459422bdh00002f4ag61h2b182gd1&amp;s=29'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>black bean | amount | 1 cup</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP2881afg0f1459422bdh000015hgda77i6bf0e77?MSPStoreType=image/gif&amp;s=29'
+       alt='black bean | amount | 1 cup'
+       title='black bean | amount | 1 cup'
+       width='246'
+       height='32' />
+  </subpod>
+ </pod>
+ <pod title='Average nutrition facts'
+     scanner='Data'
+     id='NutritionLabelSingle:ExpandedFoodData'
+     position='200'
+     error='false'
+     numsubpods='1'
+     primary='true'>
+  <subpod title=''>
+   <plaintext>serving size 1 cup (172 g)
+total calories  227 | fat calories  8
+% daily value^* |  
+  total fat  929 mg | 1%
+       saturated fat  239 mg | 1%
+       trans fat   | 
+  cholesterol  0 g | 0%
+  sodium  205 mg | 9%
+  total carbohydrates  41 g | 14%
+       dietary fiber  15 g | 60%
+       sugar   | 
+  protein  15 g | 30%
+   calcium  5%    |    iron  20%   
+   thiamin  28%    |    riboflavin  6%   
+   niacin  4%    |    vitamin B6  6%   
+   folate  64%    |    phosphorus  24%   
+   magnesium  30%    |    zinc  13%   
+*percent daily values are based on a 2000 calorie diet
+(averaged over different types of black bean)</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP2891afg0f1459422bdh00001dbd8egc9h5b6b34?MSPStoreType=image/gif&amp;s=29'
+       alt='serving size 1 cup (172 g)
+total calories  227 | fat calories  8
+% daily value^* |  
+  total fat  929 mg | 1%
+       saturated fat  239 mg | 1%
+       trans fat   | 
+  cholesterol  0 g | 0%
+  sodium  205 mg | 9%
+  total carbohydrates  41 g | 14%
+       dietary fiber  15 g | 60%
+       sugar   | 
+  protein  15 g | 30%
+   calcium  5%    |    iron  20%   
+   thiamin  28%    |    riboflavin  6%   
+   niacin  4%    |    vitamin B6  6%   
+   folate  64%    |    phosphorus  24%   
+   magnesium  30%    |    zinc  13%   
+*percent daily values are based on a 2000 calorie diet
+(averaged over different types of black bean)'
+       title='serving size 1 cup (172 g)
+total calories  227 | fat calories  8
+% daily value^* |  
+  total fat  929 mg | 1%
+       saturated fat  239 mg | 1%
+       trans fat   | 
+  cholesterol  0 g | 0%
+  sodium  205 mg | 9%
+  total carbohydrates  41 g | 14%
+       dietary fiber  15 g | 60%
+       sugar   | 
+  protein  15 g | 30%
+   calcium  5%    |    iron  20%   
+   thiamin  28%    |    riboflavin  6%   
+   niacin  4%    |    vitamin B6  6%   
+   folate  64%    |    phosphorus  24%   
+   magnesium  30%    |    zinc  13%   
+*percent daily values are based on a 2000 calorie diet
+(averaged over different types of black bean)'
+       width='320'
+       height='451' />
+  </subpod>
+ </pod>
+ <pod title='Average daily value ranking'
+     scanner='Data'
+     id='DailyValuesRanking:ExpandedFoodData'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+folate | 256 g | 64% | 256 g
+dietary fiber | 15 g | 60% | 15 g
+protein | 15 g | 30% | 15 g
+ |  | (vertical ellipsis) | 
+total fat | 929 mg | 1% | 929 mg
+vitamin A | 10 IU | 0% | 10 IU
+(averaged over different types of black bean)</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP2901afg0f1459422bdh00005h4ec5f613g9dah3?MSPStoreType=image/gif&amp;s=29'
+       alt=' | mean value | % daily value | range
+folate | 256 g | 64% | 256 g
+dietary fiber | 15 g | 60% | 15 g
+protein | 15 g | 30% | 15 g
+ |  | (vertical ellipsis) | 
+total fat | 929 mg | 1% | 929 mg
+vitamin A | 10 IU | 0% | 10 IU
+(averaged over different types of black bean)'
+       title=' | mean value | % daily value | range
+folate | 256 g | 64% | 256 g
+dietary fiber | 15 g | 60% | 15 g
+protein | 15 g | 30% | 15 g
+ |  | (vertical ellipsis) | 
+total fat | 929 mg | 1% | 929 mg
+vitamin A | 10 IU | 0% | 10 IU
+(averaged over different types of black bean)'
+       width='379'
+       height='249' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='DailyValuesRanking:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Average highest nutrients compared to other foods'
+     scanner='Data'
+     id='NutrientRankingPod:ExpandedFoodData'
+     position='400'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | amount | % daily value | foods distribution | rank
+dietary fiber | 15 g | 60% |  | 98%
+magnesium | 120 mg | 30% |  | 96%
+folate | 256 g | 64% |  | 96%
+(distributions from log nutrient values in standard servings of 7500 common foods)</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP2911afg0f1459422bdh000056347g72654g84ed?MSPStoreType=image/gif&amp;s=29'
+       alt=' | amount | % daily value | foods distribution | rank
+dietary fiber | 15 g | 60% |  | 98%
+magnesium | 120 mg | 30% |  | 96%
+folate | 256 g | 64% |  | 96%
+(distributions from log nutrient values in standard servings of 7500 common foods)'
+       title=' | amount | % daily value | foods distribution | rank
+dietary fiber | 15 g | 60% |  | 98%
+magnesium | 120 mg | 30% |  | 96%
+folate | 256 g | 64% |  | 96%
+(distributions from log nutrient values in standard servings of 7500 common foods)'
+       width='541'
+       height='209' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='NutrientRankingPod:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Calories'
+     scanner='Data'
+     id='Calories:ExpandedFoodData'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total calories | 227 Cal | 11% | 227 Cal
+fat calories | 7.8 Cal |  | 7.8 Cal</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP2921afg0f1459422bdh00001d26e7g97aegdi1h?MSPStoreType=image/gif&amp;s=29'
+       alt=' | mean value | % daily value | range
+total calories | 227 Cal | 11% | 227 Cal
+fat calories | 7.8 Cal |  | 7.8 Cal'
+       title=' | mean value | % daily value | range
+total calories | 227 Cal | 11% | 227 Cal
+fat calories | 7.8 Cal |  | 7.8 Cal'
+       width='385'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Calories:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Carbohydrates'
+     scanner='Data'
+     id='Carbohydrates:ExpandedFoodData'
+     position='600'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total carbohydrates | 41 g | 14% | 41 g
+dietary fiber | 15 g | 60% | 15 g</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP2931afg0f1459422bdh0000528d21i8623d7027?MSPStoreType=image/gif&amp;s=29'
+       alt=' | mean value | % daily value | range
+total carbohydrates | 41 g | 14% | 41 g
+dietary fiber | 15 g | 60% | 15 g'
+       title=' | mean value | % daily value | range
+total carbohydrates | 41 g | 14% | 41 g
+dietary fiber | 15 g | 60% | 15 g'
+       width='418'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Carbohydrates:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Fats and fatty acids'
+     scanner='Data'
+     id='Fats:ExpandedFoodData'
+     position='700'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total fat | 929 mg | 1% | 929 mg
+saturated fat | 239 mg | 1% | 239 mg</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP2941afg0f1459422bdh00004343e4h7e38ih800?MSPStoreType=image/gif&amp;s=29'
+       alt=' | mean value | % daily value | range
+total fat | 929 mg | 1% | 929 mg
+saturated fat | 239 mg | 1% | 239 mg'
+       title=' | mean value | % daily value | range
+total fat | 929 mg | 1% | 929 mg
+saturated fat | 239 mg | 1% | 239 mg'
+       width='383'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Fats:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Protein and amino acids'
+     scanner='Data'
+     id='Protein:ExpandedFoodData'
+     position='800'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+protein | 15 g | 30% | 15 g</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP2951afg0f1459422bdh00002h8c8b6i6f5a8cgh?MSPStoreType=image/gif&amp;s=29'
+       alt=' | mean value | % daily value | range
+protein | 15 g | 30% | 15 g'
+       title=' | mean value | % daily value | range
+protein | 15 g | 30% | 15 g'
+       width='339'
+       height='68' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Protein:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Vitamins'
+     scanner='Data'
+     id='Vitamins:ExpandedFoodData'
+     position='900'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+vitamin A | 0 g | 0% | 
+vitamin C | 0 g | 0% | </plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP2961afg0f1459422bdh0000490h2ch5325g5gb8?MSPStoreType=image/gif&amp;s=29'
+       alt=' | mean value | % daily value | range
+vitamin A | 0 g | 0% | 
+vitamin C | 0 g | 0% | '
+       title=' | mean value | % daily value | range
+vitamin A | 0 g | 0% | 
+vitamin C | 0 g | 0% | '
+       width='355'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Vitamins:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Minerals'
+     scanner='Data'
+     id='Minerals:ExpandedFoodData'
+     position='1000'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+calcium | 46 mg | 5% | 46 mg
+iron | 3.6 mg | 20% | 3.6 mg</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP2971afg0f1459422bdh000031fdie7485f92203?MSPStoreType=image/gif&amp;s=29'
+       alt=' | mean value | % daily value | range
+calcium | 46 mg | 5% | 46 mg
+iron | 3.6 mg | 20% | 3.6 mg'
+       title=' | mean value | % daily value | range
+calcium | 46 mg | 5% | 46 mg
+iron | 3.6 mg | 20% | 3.6 mg'
+       width='347'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Minerals:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Sterols'
+     scanner='Data'
+     id='Sterols:ExpandedFoodData'
+     position='1100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+cholesterol | 0 g | 0% | </plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP2981afg0f1459422bdh00002f4632c9b522909e?MSPStoreType=image/gif&amp;s=29'
+       alt=' | mean value | % daily value | range
+cholesterol | 0 g | 0% | '
+       title=' | mean value | % daily value | range
+cholesterol | 0 g | 0% | '
+       width='362'
+       height='68' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Sterols:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Physical properties'
+     scanner='Data'
+     id='PhysicalProperties:ExpandedFoodData'
+     position='1300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>mass | 6.1 oz  (ounces)
+serving volume | 8 fl oz  (fluid ounces)
+serving density | 0.73 g/cm^3  (grams per cubic centimeter)</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP2991afg0f1459422bdh00004be5898i19007c59?MSPStoreType=image/gif&amp;s=29'
+       alt='mass | 6.1 oz  (ounces)
+serving volume | 8 fl oz  (fluid ounces)
+serving density | 0.73 g/cm^3  (grams per cubic centimeter)'
+       title='mass | 6.1 oz  (ounces)
+serving volume | 8 fl oz  (fluid ounces)
+serving density | 0.73 g/cm^3  (grams per cubic centimeter)'
+       width='408'
+       height='100' />
+  </subpod>
+ </pod>
+ <assumptions count='2'>
+  <assumption type='SubCategory'
+      word='black beans'
+      template='Assuming ${desc1}. Use ${desc2} instead'
+      count='3'>
+   <value name='PreparedBlackBean'
+       desc='black bean'
+       input='*DPClash.ExpandedFoodE.black+beans-_*PreparedBlackBean-' />
+   <value name='PreparedBlackBeansReducedSodium'
+       desc='reduced sodium black beans'
+       input='*DPClash.ExpandedFoodE.black+beans-_*PreparedBlackBeansReducedSodium-' />
+   <value name='RefriedBeans'
+       desc='refried beans'
+       input='*DPClash.ExpandedFoodE.black+beans-_*RefriedBeans-' />
+  </assumption>
+  <assumption type='Attribute'
+      word='PreparedBlackBean'
+      template='Assuming ${desc1}. Use ${desc2} instead'
+      count='3'>
+   <value name='PreparedBlackBean'
+       desc='any type of black bean'
+       input='*EAC.ExpandedFood.PreparedBlackBean-_**a.PreparedBlackBean--' />
+   <value name='{Food:CookingMethod -&gt; Food:Boiled, Food:SaltContent -&gt; Food:WithSalt, Food:Variety -&gt; Food:MatureSeeds}'
+       desc='black bean, boiled, mature seeds, with salt'
+       input='*EAC.ExpandedFood.PreparedBlackBean-_**PreparedBlackBean.*Food%3ACookingMethod_Food%3ABoiled.Food%3ASaltContent_Food%3AWithSalt.Food%3AVariety_Food%3AMatureSeeds---' />
+   <value name='{Food:CookingMethod -&gt; Food:Boiled, Food:SaltContent -&gt; Food:WithoutSalt, Food:Variety -&gt; Food:MatureSeeds}'
+       desc='black bean, boiled, mature seeds, without salt'
+       input='*EAC.ExpandedFood.PreparedBlackBean-_**PreparedBlackBean.*Food%3ACookingMethod_Food%3ABoiled.Food%3ASaltContent_Food%3AWithoutSalt.Food%3AVariety_Food%3AMatureSeeds---' />
+  </assumption>
+ </assumptions>
+ <sources count='1'>
+  <source url='http://www.wolframalpha.com/sources/ExpandedFoodDataSourceInformationNotes.html'
+      text='Expanded food data' />
+ </sources>
+</queryresult>

@@ -1,0 +1,499 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='13'
+    datatypes='ExpandedFood'
+    timedout=''
+    timedoutpods=''
+    timing='12.931'
+    parsetiming='0.143'
+    parsetimedout='false'
+    recalculate=''
+    id='MSPa404222b3b8ibec7d3c0600002a8dd4ce89gg61b5'
+    host='http://www2.wolframalpha.com'
+    server='22'
+    related='http://www2.wolframalpha.com/api/v2/relatedQueries.jsp?id=MSPa404322b3b8ibec7d3c0600000dgf8eb52f4bed7g&amp;s=22'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>prepared potato | amount | 1 potato</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP404422b3b8ibec7d3c0600002d446dbbfh34c9ci?MSPStoreType=image/gif&amp;s=22'
+       alt='prepared potato | amount | 1 potato'
+       title='prepared potato | amount | 1 potato'
+       width='295'
+       height='32' />
+  </subpod>
+ </pod>
+ <pod title='Average nutrition facts'
+     scanner='Data'
+     id='NutritionLabelSingle:ExpandedFoodData'
+     position='200'
+     error='false'
+     numsubpods='1'
+     primary='true'>
+  <subpod title=''>
+   <plaintext>serving size 1 potato (173 g)
+total calories  149 | fat calories  2
+% daily value^* |  
+  total fat  213 mg | 0%
+       saturated fat  54 mg | 0%
+       trans fat   | 
+  cholesterol  0 g | 0%
+  sodium  176 mg | 7%
+  total carbohydrates  34 g | 11%
+       dietary fiber  3 g | 13%
+       sugar  2 g | 
+  protein  3 g | 7%
+   vitamin C  32%    |    calcium  2%   
+   iron  7%    |    thiamin  11%   
+   riboflavin  3%    |    niacin  12%   
+   vitamin B6  24%    |    folate  6%   
+   phosphorus  10%    |    magnesium  10%   
+   zinc  4%    | 
+*percent daily values are based on a 2000 calorie diet
+(averaged over different types of prepared potato)</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP404522b3b8ibec7d3c0600004dh99i5747g85ddc?MSPStoreType=image/gif&amp;s=22'
+       alt='serving size 1 potato (173 g)
+total calories  149 | fat calories  2
+% daily value^* |  
+  total fat  213 mg | 0%
+       saturated fat  54 mg | 0%
+       trans fat   | 
+  cholesterol  0 g | 0%
+  sodium  176 mg | 7%
+  total carbohydrates  34 g | 11%
+       dietary fiber  3 g | 13%
+       sugar  2 g | 
+  protein  3 g | 7%
+   vitamin C  32%    |    calcium  2%   
+   iron  7%    |    thiamin  11%   
+   riboflavin  3%    |    niacin  12%   
+   vitamin B6  24%    |    folate  6%   
+   phosphorus  10%    |    magnesium  10%   
+   zinc  4%    | 
+*percent daily values are based on a 2000 calorie diet
+(averaged over different types of prepared potato)'
+       title='serving size 1 potato (173 g)
+total calories  149 | fat calories  2
+% daily value^* |  
+  total fat  213 mg | 0%
+       saturated fat  54 mg | 0%
+       trans fat   | 
+  cholesterol  0 g | 0%
+  sodium  176 mg | 7%
+  total carbohydrates  34 g | 11%
+       dietary fiber  3 g | 13%
+       sugar  2 g | 
+  protein  3 g | 7%
+   vitamin C  32%    |    calcium  2%   
+   iron  7%    |    thiamin  11%   
+   riboflavin  3%    |    niacin  12%   
+   vitamin B6  24%    |    folate  6%   
+   phosphorus  10%    |    magnesium  10%   
+   zinc  4%    | 
+*percent daily values are based on a 2000 calorie diet
+(averaged over different types of prepared potato)'
+       width='318'
+       height='473' />
+  </subpod>
+ </pod>
+ <pod title='Average daily value ranking'
+     scanner='Data'
+     id='DailyValuesRanking:ExpandedFoodData'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+vitamin C | 19 mg | 32% | (8.8 to 26) mg
+vitamin B6 | 475 g | 24% | (237 to 595) g
+potassium | 665 mg | 19% | (355 to 941) mg
+ |  | (vertical ellipsis) | 
+saturated fat | 54 mg | 0% | (38 to 93) mg
+total fat | 213 mg | 0% | (173 to 363) mg
+(averaged over different types of prepared potato)</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP404622b3b8ibec7d3c0600005h18a841i26gc1a6?MSPStoreType=image/gif&amp;s=22'
+       alt=' | mean value | % daily value | range
+vitamin C | 19 mg | 32% | (8.8 to 26) mg
+vitamin B6 | 475 g | 24% | (237 to 595) g
+potassium | 665 mg | 19% | (355 to 941) mg
+ |  | (vertical ellipsis) | 
+saturated fat | 54 mg | 0% | (38 to 93) mg
+total fat | 213 mg | 0% | (173 to 363) mg
+(averaged over different types of prepared potato)'
+       title=' | mean value | % daily value | range
+vitamin C | 19 mg | 32% | (8.8 to 26) mg
+vitamin B6 | 475 g | 24% | (237 to 595) g
+potassium | 665 mg | 19% | (355 to 941) mg
+ |  | (vertical ellipsis) | 
+saturated fat | 54 mg | 0% | (38 to 93) mg
+total fat | 213 mg | 0% | (173 to 363) mg
+(averaged over different types of prepared potato)'
+       width='442'
+       height='249' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='DailyValuesRanking:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Average highest nutrients compared to other foods'
+     scanner='Data'
+     id='NutrientRankingPod:ExpandedFoodData'
+     position='400'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | amount | % daily value | foods distribution | rank
+potassium | 665 mg | 19% |  | 92%
+vitamin C | 19 mg | 32% |  | 92%
+vitamin B6 | 475 g | 24% |  | 89%
+(distributions from log nutrient values in standard servings of 7500 common foods)</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP404722b3b8ibec7d3c0600001176245b6e4c58ih?MSPStoreType=image/gif&amp;s=22'
+       alt=' | amount | % daily value | foods distribution | rank
+potassium | 665 mg | 19% |  | 92%
+vitamin C | 19 mg | 32% |  | 92%
+vitamin B6 | 475 g | 24% |  | 89%
+(distributions from log nutrient values in standard servings of 7500 common foods)'
+       title=' | amount | % daily value | foods distribution | rank
+potassium | 665 mg | 19% |  | 92%
+vitamin C | 19 mg | 32% |  | 92%
+vitamin B6 | 475 g | 24% |  | 89%
+(distributions from log nutrient values in standard servings of 7500 common foods)'
+       width='532'
+       height='209' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='NutrientRankingPod:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Calories'
+     scanner='Data'
+     id='Calories:ExpandedFoodData'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total calories | 149 Cal | 7% | (76 to 182) Cal
+fat calories | 1.7 Cal |  | (1.4 to 3) Cal</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP404822b3b8ibec7d3c0600004h494e15114hi6d2?MSPStoreType=image/gif&amp;s=22'
+       alt=' | mean value | % daily value | range
+total calories | 149 Cal | 7% | (76 to 182) Cal
+fat calories | 1.7 Cal |  | (1.4 to 3) Cal'
+       title=' | mean value | % daily value | range
+total calories | 149 Cal | 7% | (76 to 182) Cal
+fat calories | 1.7 Cal |  | (1.4 to 3) Cal'
+       width='436'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Calories:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Carbohydrates'
+     scanner='Data'
+     id='Carbohydrates:ExpandedFoodData'
+     position='600'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total carbohydrates | 34 g | 11% | (17 to 42) g
+dietary fiber | 3.3 g | 13% | (2.1 to 4.2) g
+sugar | 1.9 g |  | (1 to 2.9) g</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP404922b3b8ibec7d3c06000057274eb4ih6g51a5?MSPStoreType=image/gif&amp;s=22'
+       alt=' | mean value | % daily value | range
+total carbohydrates | 34 g | 11% | (17 to 42) g
+dietary fiber | 3.3 g | 13% | (2.1 to 4.2) g
+sugar | 1.9 g |  | (1 to 2.9) g'
+       title=' | mean value | % daily value | range
+total carbohydrates | 34 g | 11% | (17 to 42) g
+dietary fiber | 3.3 g | 13% | (2.1 to 4.2) g
+sugar | 1.9 g |  | (1 to 2.9) g'
+       width='466'
+       height='132' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Carbohydrates:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Fats and fatty acids'
+     scanner='Data'
+     id='Fats:ExpandedFoodData'
+     position='700'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total fat | 213 mg | 0% | (173 to 363) mg
+saturated fat | 54 mg | 0% | (38 to 93) mg</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP405022b3b8ibec7d3c0600005b6i4f189bif8f0h?MSPStoreType=image/gif&amp;s=22'
+       alt=' | mean value | % daily value | range
+total fat | 213 mg | 0% | (173 to 363) mg
+saturated fat | 54 mg | 0% | (38 to 93) mg'
+       title=' | mean value | % daily value | range
+total fat | 213 mg | 0% | (173 to 363) mg
+saturated fat | 54 mg | 0% | (38 to 93) mg'
+       width='442'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Fats:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Protein and amino acids'
+     scanner='Data'
+     id='Protein:ExpandedFoodData'
+     position='800'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+protein | 3.4 g | 7% | (2.1 to 4.3) g</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP405122b3b8ibec7d3c06000023eg3dd361c12ada?MSPStoreType=image/gif&amp;s=22'
+       alt=' | mean value | % daily value | range
+protein | 3.4 g | 7% | (2.1 to 4.3) g'
+       title=' | mean value | % daily value | range
+protein | 3.4 g | 7% | (2.1 to 4.3) g'
+       width='387'
+       height='68' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Protein:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Vitamins'
+     scanner='Data'
+     id='Vitamins:ExpandedFoodData'
+     position='900'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+vitamin A | 0.31 g | 0% | (0 to 1.7) g
+vitamin C | 19 mg | 32% | (8.8 to 26) mg</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP405222b3b8ibec7d3c0600003ahcib004afaed7i?MSPStoreType=image/gif&amp;s=22'
+       alt=' | mean value | % daily value | range
+vitamin A | 0.31 g | 0% | (0 to 1.7) g
+vitamin C | 19 mg | 32% | (8.8 to 26) mg'
+       title=' | mean value | % daily value | range
+vitamin A | 0.31 g | 0% | (0 to 1.7) g
+vitamin C | 19 mg | 32% | (8.8 to 26) mg'
+       width='410'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Vitamins:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Minerals'
+     scanner='Data'
+     id='Minerals:ExpandedFoodData'
+     position='1000'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+calcium | 17 mg | 2% | (8.6 to 67) mg
+iron | 1.3 mg | 7% | (0.54 to 2.2) mg</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP405322b3b8ibec7d3c0600000h6bdd924081c101?MSPStoreType=image/gif&amp;s=22'
+       alt=' | mean value | % daily value | range
+calcium | 17 mg | 2% | (8.6 to 67) mg
+iron | 1.3 mg | 7% | (0.54 to 2.2) mg'
+       title=' | mean value | % daily value | range
+calcium | 17 mg | 2% | (8.6 to 67) mg
+iron | 1.3 mg | 7% | (0.54 to 2.2) mg'
+       width='410'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Minerals:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Sterols'
+     scanner='Data'
+     id='Sterols:ExpandedFoodData'
+     position='1100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+cholesterol | 0 g | 0% | </plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP405422b3b8ibec7d3c0600006354ei6af6f7331b?MSPStoreType=image/gif&amp;s=22'
+       alt=' | mean value | % daily value | range
+cholesterol | 0 g | 0% | '
+       title=' | mean value | % daily value | range
+cholesterol | 0 g | 0% | '
+       width='362'
+       height='68' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Sterols:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Alcohol content'
+     scanner='Data'
+     id='AlcoholContent:ExpandedFoodData'
+     position='1200'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | range
+volume percentage | 0 g | </plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP405522b3b8ibec7d3c0600006875124c6i2ca362?MSPStoreType=image/gif&amp;s=22'
+       alt=' | mean value | range
+volume percentage | 0 g | '
+       title=' | mean value | range
+volume percentage | 0 g | '
+       width='387'
+       height='85' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='AlcoholContent:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Physical properties'
+     scanner='Data'
+     id='PhysicalProperties:ExpandedFoodData'
+     position='1300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>mass | 6.1 oz  (ounces)</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP405622b3b8ibec7d3c060000603424fa072i6057?MSPStoreType=image/gif&amp;s=22'
+       alt='mass | 6.1 oz  (ounces)'
+       title='mass | 6.1 oz  (ounces)'
+       width='183'
+       height='36' />
+  </subpod>
+ </pod>
+ <assumptions count='3'>
+  <assumption type='Clash'
+      word='potato'
+      template='Assuming &quot;${word}&quot; is ${desc1}. Use as ${desc2} instead'
+      count='4'>
+   <value name='ExpandedFood'
+       desc='a food'
+       input='*C.potato-_*ExpandedFood-' />
+   <value name='Plant'
+       desc='a plant'
+       input='*C.potato-_*Plant-' />
+   <value name='CommonMaterial'
+       desc='a general material'
+       input='*C.potato-_*CommonMaterial-' />
+   <value name='Word'
+       desc='a word'
+       input='*C.potato-_*Word-' />
+  </assumption>
+  <assumption type='SubCategory'
+      word='potato'
+      template='Assuming ${desc1}. Use ${desc2} instead'
+      count='9'>
+   <value name='PreparedPotato'
+       desc='prepared potato'
+       input='*DPClash.ExpandedFoodE.potato-_*PreparedPotato-' />
+   <value name='Potato'
+       desc='potato'
+       input='*DPClash.ExpandedFoodE.potato-_*Potato-' />
+   <value name='PreparedRussetPotato'
+       desc='prepared russet potato'
+       input='*DPClash.ExpandedFoodE.potato-_*PreparedRussetPotato-' />
+   <value name='RussetPotato'
+       desc='russet potato'
+       input='*DPClash.ExpandedFoodE.potato-_*RussetPotato-' />
+   <value name='GoldenPotatoesRaw'
+       desc='raw golden potatoes'
+       input='*DPClash.ExpandedFoodE.potato-_*GoldenPotatoesRaw-' />
+   <value name='YellowPotatoesRaw'
+       desc='raw yellow potatoes'
+       input='*DPClash.ExpandedFoodE.potato-_*YellowPotatoesRaw-' />
+   <value name='WhitePotato'
+       desc='white potato'
+       input='*DPClash.ExpandedFoodE.potato-_*WhitePotato-' />
+   <value name='FingerlingPotatoesRaw'
+       desc='raw fingerling potatoes'
+       input='*DPClash.ExpandedFoodE.potato-_*FingerlingPotatoesRaw-' />
+   <value name='WendysBakedPotato'
+       desc='Wendy&apos;s Baked Potato'
+       input='*DPClash.ExpandedFoodE.potato-_*WendysBakedPotato-' />
+  </assumption>
+  <assumption type='Attribute'
+      word='PreparedPotato'
+      template='Assuming ${desc1}. Use ${desc2} instead'
+      count='18'>
+   <value name='PreparedPotato'
+       desc='any type of prepared potato'
+       input='*EAC.ExpandedFood.PreparedPotato-_**a.PreparedPotato--' />
+   <value name='{Food:Packaging -&gt; Food:Canned, Food:Packaging -&gt; Food:DrainedSolids}'
+       desc='prepared potato, canned, drained solids'
+       input='*EAC.ExpandedFood.PreparedPotato-_**PreparedPotato.*Food%3APackaging_Food%3ACanned.Food%3APackaging_Food%3ADrainedSolids---' />
+   <value name='{Food:FoodComposition -&gt; Food:SolidsAndLiquids, Food:Packaging -&gt; Food:Canned}'
+       desc='prepared potato, canned, solids and liquids'
+       input='*EAC.ExpandedFood.PreparedPotato-_**PreparedPotato.*Food%3AFoodComposition_Food%3ASolidsAndLiquids.Food%3APackaging_Food%3ACanned---' />
+   <value name='{Food:CookingMethod -&gt; Food:Baked, Food:PeelingType -&gt; Food:WithSkin, Food:Variety -&gt; Food:White}'
+       desc='prepared potato, baked, white, with skin'
+       input='*EAC.ExpandedFood.PreparedPotato-_**PreparedPotato.*Food%3ACookingMethod_Food%3ABaked.Food%3APeelingType_Food%3AWithSkin.Food%3AVariety_Food%3AWhite---' />
+   <value name='{Food:CookingMethod -&gt; Food:Baked, Food:PeelingType -&gt; Food:WithSkin, Food:SaltContent -&gt; Food:WithSalt}'
+       desc='prepared potato, baked, with salt, with skin'
+       input='*EAC.ExpandedFood.PreparedPotato-_**PreparedPotato.*Food%3ACookingMethod_Food%3ABaked.Food%3APeelingType_Food%3AWithSkin.Food%3ASaltContent_Food%3AWithSalt---' />
+   <value name='{Food:CookingMethod -&gt; Food:Unprepared, Food:Geometry -&gt; Food:Whole, Food:ProcessingType -&gt; Food:Frozen}'
+       desc='prepared potato, frozen, unprepared, whole'
+       input='*EAC.ExpandedFood.PreparedPotato-_**PreparedPotato.*Food%3ACookingMethod_Food%3AUnprepared.Food%3AGeometry_Food%3AWhole.Food%3AProcessingType_Food%3AFrozen---' />
+   <value name='{Food:CookingMethod -&gt; Food:Baked, Food:PeelingType -&gt; Food:WithoutSkin, Food:SaltContent -&gt; Food:WithSalt}'
+       desc='prepared potato, baked, without skin, with salt'
+       input='*EAC.ExpandedFood.PreparedPotato-_**PreparedPotato.*Food%3ACookingMethod_Food%3ABaked.Food%3APeelingType_Food%3AWithoutSkin.Food%3ASaltContent_Food%3AWithSalt---' />
+   <value name='{Food:CookingMethod -&gt; Food:Baked, Food:PeelingType -&gt; Food:WithSkin, Food:SaltContent -&gt; Food:WithoutSalt}'
+       desc='prepared potato, baked, without salt, with skin'
+       input='*EAC.ExpandedFood.PreparedPotato-_**PreparedPotato.*Food%3ACookingMethod_Food%3ABaked.Food%3APeelingType_Food%3AWithSkin.Food%3ASaltContent_Food%3AWithoutSalt---' />
+   <value name='{Food:CookingMethod -&gt; Food:Baked, Food:PeelingType -&gt; Food:WithoutSkin, Food:SaltContent -&gt; Food:WithoutSalt}'
+       desc='prepared potato, baked, without salt, without skin'
+       input='*EAC.ExpandedFood.PreparedPotato-_**PreparedPotato.*Food%3ACookingMethod_Food%3ABaked.Food%3APeelingType_Food%3AWithoutSkin.Food%3ASaltContent_Food%3AWithoutSalt---' />
+   <value name='{Food:Packaging -&gt; Food:Canned, Food:Packaging -&gt; Food:DrainedSolids, Food:SaltContent -&gt; Food:WithoutSaltAdded}'
+       desc='prepared potato, canned, drained solids, without salt added'
+       input='*EAC.ExpandedFood.PreparedPotato-_**PreparedPotato.*Food%3APackaging_Food%3ACanned.Food%3APackaging_Food%3ADrainedSolids.Food%3ASaltContent_Food%3AWithoutSaltAdded---' />
+   <value name='{Food:CookingMethod -&gt; Food:Boiled, Food:CookingMethod -&gt; Food:CookedInSkin, Food:PeelingType -&gt; Food:WithoutSkin, Food:SaltContent -&gt; Food:WithSalt}'
+       desc='prepared potato, boiled, cooked in skin, without skin, with salt'
+       input='*EAC.ExpandedFood.PreparedPotato-_**PreparedPotato.*Food%3ACookingMethod_Food%3ABoiled.Food%3ACookingMethod_Food%3ACookedInSkin.Food%3APeelingType_Food%3AWithoutSkin.Food%3ASaltContent_Food%3AWithSalt---' />
+   <value name='{Food:CookingMethod -&gt; Food:CookedInSkin, Food:CookingMethod -&gt; Food:Microwaved, Food:PeelingType -&gt; Food:WithSkin, Food:SaltContent -&gt; Food:WithSalt}'
+       desc='prepared potato, cooked in skin, microwaved, with salt, with skin'
+       input='*EAC.ExpandedFood.PreparedPotato-_**PreparedPotato.*Food%3ACookingMethod_Food%3ACookedInSkin.Food%3ACookingMethod_Food%3AMicrowaved.Food%3APeelingType_Food%3AWithSkin.Food%3ASaltContent_Food%3AWithSalt---' />
+   <value name='{Food:CookingMethod -&gt; Food:Boiled, Food:CookingMethod -&gt; Food:CookedInSkin, Food:PeelingType -&gt; Food:WithoutSkin, Food:SaltContent -&gt; Food:WithoutSalt}'
+       desc='prepared potato, boiled, cooked in skin, without salt, without skin'
+       input='*EAC.ExpandedFood.PreparedPotato-_**PreparedPotato.*Food%3ACookingMethod_Food%3ABoiled.Food%3ACookingMethod_Food%3ACookedInSkin.Food%3APeelingType_Food%3AWithoutSkin.Food%3ASaltContent_Food%3AWithoutSalt---' />
+   <value name='{Food:CookingMethod -&gt; Food:CookedInSkin, Food:CookingMethod -&gt; Food:Microwaved, Food:PeelingType -&gt; Food:WithoutSkin, Food:SaltContent -&gt; Food:WithSalt}'
+       desc='prepared potato, cooked in skin, microwaved, without skin, with salt'
+       input='*EAC.ExpandedFood.PreparedPotato-_**PreparedPotato.*Food%3ACookingMethod_Food%3ACookedInSkin.Food%3ACookingMethod_Food%3AMicrowaved.Food%3APeelingType_Food%3AWithoutSkin.Food%3ASaltContent_Food%3AWithSalt---' />
+   <value name='{Food:CookingMethod -&gt; Food:CookedInSkin, Food:CookingMethod -&gt; Food:Microwaved, Food:PeelingType -&gt; Food:WithSkin, Food:SaltContent -&gt; Food:WithoutSalt}'
+       desc='prepared potato, cooked in skin, microwaved, without salt, with skin'
+       input='*EAC.ExpandedFood.PreparedPotato-_**PreparedPotato.*Food%3ACookingMethod_Food%3ACookedInSkin.Food%3ACookingMethod_Food%3AMicrowaved.Food%3APeelingType_Food%3AWithSkin.Food%3ASaltContent_Food%3AWithoutSalt---' />
+   <value name='{Food:CookingMethod -&gt; Food:Boiled, Food:CookingMethod -&gt; Food:CookedWithoutSkin, Food:PeelingType -&gt; Food:WithoutSkin, Food:SaltContent -&gt; Food:WithSalt}'
+       desc='prepared potato, boiled, cooked without skin, without skin, with salt'
+       input='*EAC.ExpandedFood.PreparedPotato-_**PreparedPotato.*Food%3ACookingMethod_Food%3ABoiled.Food%3ACookingMethod_Food%3ACookedWithoutSkin.Food%3APeelingType_Food%3AWithoutSkin.Food%3ASaltContent_Food%3AWithSalt---' />
+   <value name='{Food:CookingMethod -&gt; Food:CookedInSkin, Food:CookingMethod -&gt; Food:Microwaved, Food:PeelingType -&gt; Food:WithoutSkin, Food:SaltContent -&gt; Food:WithoutSalt}'
+       desc='prepared potato, cooked in skin, microwaved, without salt, without skin'
+       input='*EAC.ExpandedFood.PreparedPotato-_**PreparedPotato.*Food%3ACookingMethod_Food%3ACookedInSkin.Food%3ACookingMethod_Food%3AMicrowaved.Food%3APeelingType_Food%3AWithoutSkin.Food%3ASaltContent_Food%3AWithoutSalt---' />
+   <value name='{Food:CookingMethod -&gt; Food:Boiled, Food:CookingMethod -&gt; Food:CookedWithoutSkin, Food:PeelingType -&gt; Food:WithoutSkin, Food:SaltContent -&gt; Food:WithoutSalt}'
+       desc='prepared potato, boiled, cooked without skin, without salt, without skin'
+       input='*EAC.ExpandedFood.PreparedPotato-_**PreparedPotato.*Food%3ACookingMethod_Food%3ABoiled.Food%3ACookingMethod_Food%3ACookedWithoutSkin.Food%3APeelingType_Food%3AWithoutSkin.Food%3ASaltContent_Food%3AWithoutSalt---' />
+  </assumption>
+ </assumptions>
+ <sources count='1'>
+  <source url='http://www.wolframalpha.com/sources/ExpandedFoodDataSourceInformationNotes.html'
+      text='Expanded food data' />
+ </sources>
+</queryresult>

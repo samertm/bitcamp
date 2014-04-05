@@ -1,0 +1,461 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='13'
+    datatypes='ExpandedFood'
+    timedout=''
+    timedoutpods=''
+    timing='7.894'
+    parsetiming='0.251'
+    parsetimedout='false'
+    recalculate=''
+    id='MSPa9321cddd4839e0490a0000040ee7a6e81b1fcab'
+    host='http://www2.wolframalpha.com'
+    server='8'
+    related='http://www2.wolframalpha.com/api/v2/relatedQueries.jsp?id=MSPa9331cddd4839e0490a00000114501cdda5e39b9&amp;s=8'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>brown rice | amount | 1 cup</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP9341cddd4839e0490a000004a28i019884ia454?MSPStoreType=image/gif&amp;s=8'
+       alt='brown rice | amount | 1 cup'
+       title='brown rice | amount | 1 cup'
+       width='245'
+       height='32' />
+  </subpod>
+ </pod>
+ <pod title='Average nutrition facts'
+     scanner='Data'
+     id='NutritionLabelSingle:ExpandedFoodData'
+     position='200'
+     error='false'
+     numsubpods='1'
+     primary='true'>
+  <subpod title=''>
+   <plaintext>serving size 1 cup (195 g)
+total calories  217 | fat calories  14
+% daily value^* |  
+  total fat  2 g | 3%
+       saturated fat  336 mg | 2%
+       trans fat   | 
+  cholesterol  0 g | 0%
+  sodium  6 mg | 0%
+  total carbohydrates  45 g | 15%
+       dietary fiber  4 g | 14%
+       sugar  682 mg | 
+  protein  5 g | 10%
+   calcium  2%    |    iron  5%   
+   thiamin  13%    |    riboflavin  2%   
+   niacin  14%    |    vitamin B6  14%   
+   folate  2%    |    phosphorus  16%   
+   magnesium  21%    |    zinc  8%   
+*percent daily values are based on a 2000 calorie diet
+(averaged over different types of brown rice)</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP9351cddd4839e0490a0000037ceg036bg50i80b?MSPStoreType=image/gif&amp;s=8'
+       alt='serving size 1 cup (195 g)
+total calories  217 | fat calories  14
+% daily value^* |  
+  total fat  2 g | 3%
+       saturated fat  336 mg | 2%
+       trans fat   | 
+  cholesterol  0 g | 0%
+  sodium  6 mg | 0%
+  total carbohydrates  45 g | 15%
+       dietary fiber  4 g | 14%
+       sugar  682 mg | 
+  protein  5 g | 10%
+   calcium  2%    |    iron  5%   
+   thiamin  13%    |    riboflavin  2%   
+   niacin  14%    |    vitamin B6  14%   
+   folate  2%    |    phosphorus  16%   
+   magnesium  21%    |    zinc  8%   
+*percent daily values are based on a 2000 calorie diet
+(averaged over different types of brown rice)'
+       title='serving size 1 cup (195 g)
+total calories  217 | fat calories  14
+% daily value^* |  
+  total fat  2 g | 3%
+       saturated fat  336 mg | 2%
+       trans fat   | 
+  cholesterol  0 g | 0%
+  sodium  6 mg | 0%
+  total carbohydrates  45 g | 15%
+       dietary fiber  4 g | 14%
+       sugar  682 mg | 
+  protein  5 g | 10%
+   calcium  2%    |    iron  5%   
+   thiamin  13%    |    riboflavin  2%   
+   niacin  14%    |    vitamin B6  14%   
+   folate  2%    |    phosphorus  16%   
+   magnesium  21%    |    zinc  8%   
+*percent daily values are based on a 2000 calorie diet
+(averaged over different types of brown rice)'
+       width='318'
+       height='451' />
+  </subpod>
+ </pod>
+ <pod title='Average daily value ranking'
+     scanner='Data'
+     id='DailyValuesRanking:ExpandedFoodData'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+magnesium | 85 mg | 21% | (84 to 86) mg
+phosphorus | 156 mg | 16% | (150 to 162) mg
+total carbohydrates | 45 g | 15% | (45 to 46) g
+ |  | (vertical ellipsis) | 
+vitamin E | 59 g | 0% | (58 to 59) g
+sodium | 5.9 mg | 0% | (2 to 9.8) mg
+(averaged over different types of brown rice)</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP9361cddd4839e0490a000005d9i73be65deae20?MSPStoreType=image/gif&amp;s=8'
+       alt=' | mean value | % daily value | range
+magnesium | 85 mg | 21% | (84 to 86) mg
+phosphorus | 156 mg | 16% | (150 to 162) mg
+total carbohydrates | 45 g | 15% | (45 to 46) g
+ |  | (vertical ellipsis) | 
+vitamin E | 59 g | 0% | (58 to 59) g
+sodium | 5.9 mg | 0% | (2 to 9.8) mg
+(averaged over different types of brown rice)'
+       title=' | mean value | % daily value | range
+magnesium | 85 mg | 21% | (84 to 86) mg
+phosphorus | 156 mg | 16% | (150 to 162) mg
+total carbohydrates | 45 g | 15% | (45 to 46) g
+ |  | (vertical ellipsis) | 
+vitamin E | 59 g | 0% | (58 to 59) g
+sodium | 5.9 mg | 0% | (2 to 9.8) mg
+(averaged over different types of brown rice)'
+       width='485'
+       height='249' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='DailyValuesRanking:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Average highest nutrients compared to other foods'
+     scanner='Data'
+     id='NutrientRankingPod:ExpandedFoodData'
+     position='400'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | amount | % daily value | foods distribution | rank
+manganese | 2 mg |  |  | 97%
+magnesium | 85 mg | 21% |  | 94%
+dietary fiber | 3.5 g | 14% |  | 86%
+(distributions from log nutrient values in standard servings of 7500 common foods)</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP9371cddd4839e0490a00000337a8153hi4098d7?MSPStoreType=image/gif&amp;s=8'
+       alt=' | amount | % daily value | foods distribution | rank
+manganese | 2 mg |  |  | 97%
+magnesium | 85 mg | 21% |  | 94%
+dietary fiber | 3.5 g | 14% |  | 86%
+(distributions from log nutrient values in standard servings of 7500 common foods)'
+       title=' | amount | % daily value | foods distribution | rank
+manganese | 2 mg |  |  | 97%
+magnesium | 85 mg | 21% |  | 94%
+dietary fiber | 3.5 g | 14% |  | 86%
+(distributions from log nutrient values in standard servings of 7500 common foods)'
+       width='541'
+       height='209' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='NutrientRankingPod:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Calories'
+     scanner='Data'
+     id='Calories:ExpandedFoodData'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total calories | 217 Cal | 11% | (216 to 218) Cal
+fat calories | 14 Cal |  | (14 to 15) Cal</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP9381cddd4839e0490a000003i586h1h9a14g9a6?MSPStoreType=image/gif&amp;s=8'
+       alt=' | mean value | % daily value | range
+total calories | 217 Cal | 11% | (216 to 218) Cal
+fat calories | 14 Cal |  | (14 to 15) Cal'
+       title=' | mean value | % daily value | range
+total calories | 217 Cal | 11% | (216 to 218) Cal
+fat calories | 14 Cal |  | (14 to 15) Cal'
+       width='444'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Calories:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Carbohydrates'
+     scanner='Data'
+     id='Carbohydrates:ExpandedFoodData'
+     position='600'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total carbohydrates | 45 g | 15% | (45 to 46) g
+dietary fiber | 3.5 g | 14% | 3.5 g
+sugar | 682 mg |  | (682 to 683) mg</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP9391cddd4839e0490a0000031de71b1ae28e0cd?MSPStoreType=image/gif&amp;s=8'
+       alt=' | mean value | % daily value | range
+total carbohydrates | 45 g | 15% | (45 to 46) g
+dietary fiber | 3.5 g | 14% | 3.5 g
+sugar | 682 mg |  | (682 to 683) mg'
+       title=' | mean value | % daily value | range
+total carbohydrates | 45 g | 15% | (45 to 46) g
+dietary fiber | 3.5 g | 14% | 3.5 g
+sugar | 682 mg |  | (682 to 683) mg'
+       width='485'
+       height='132' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Carbohydrates:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Fats and fatty acids'
+     scanner='Data'
+     id='Fats:ExpandedFoodData'
+     position='700'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total fat | 1.7 g | 3% | (1.6 to 1.8) g
+saturated fat | 336 mg | 2% | (322 to 351) mg</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP9401cddd4839e0490a000002557f7c7ea4cafbd?MSPStoreType=image/gif&amp;s=8'
+       alt=' | mean value | % daily value | range
+total fat | 1.7 g | 3% | (1.6 to 1.8) g
+saturated fat | 336 mg | 2% | (322 to 351) mg'
+       title=' | mean value | % daily value | range
+total fat | 1.7 g | 3% | (1.6 to 1.8) g
+saturated fat | 336 mg | 2% | (322 to 351) mg'
+       width='442'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Fats:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Protein and amino acids'
+     scanner='Data'
+     id='Protein:ExpandedFoodData'
+     position='800'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+protein | 4.8 g | 10% | (4.5 to 5) g</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP9411cddd4839e0490a00000421bd6biiddab164?MSPStoreType=image/gif&amp;s=8'
+       alt=' | mean value | % daily value | range
+protein | 4.8 g | 10% | (4.5 to 5) g'
+       title=' | mean value | % daily value | range
+protein | 4.8 g | 10% | (4.5 to 5) g'
+       width='375'
+       height='68' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Protein:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Vitamins'
+     scanner='Data'
+     id='Vitamins:ExpandedFoodData'
+     position='900'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+vitamin A | 0 g | 0% | 
+vitamin C | 0 g | 0% | </plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP9421cddd4839e0490a000005c4ea66h3f26f861?MSPStoreType=image/gif&amp;s=8'
+       alt=' | mean value | % daily value | range
+vitamin A | 0 g | 0% | 
+vitamin C | 0 g | 0% | '
+       title=' | mean value | % daily value | range
+vitamin A | 0 g | 0% | 
+vitamin C | 0 g | 0% | '
+       width='355'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Vitamins:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Minerals'
+     scanner='Data'
+     id='Minerals:ExpandedFoodData'
+     position='1000'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+calcium | 20 mg | 2% | (19 to 20) mg
+iron | 926 g | 5% | (0.82 to 1) mg</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP9431cddd4839e0490a0000010c3hdh51d441ee8?MSPStoreType=image/gif&amp;s=8'
+       alt=' | mean value | % daily value | range
+calcium | 20 mg | 2% | (19 to 20) mg
+iron | 926 g | 5% | (0.82 to 1) mg'
+       title=' | mean value | % daily value | range
+calcium | 20 mg | 2% | (19 to 20) mg
+iron | 926 g | 5% | (0.82 to 1) mg'
+       width='398'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Minerals:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Sterols'
+     scanner='Data'
+     id='Sterols:ExpandedFoodData'
+     position='1100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+cholesterol | 0 g | 0% | </plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP9441cddd4839e0490a000004e4759h2f9ia3391?MSPStoreType=image/gif&amp;s=8'
+       alt=' | mean value | % daily value | range
+cholesterol | 0 g | 0% | '
+       title=' | mean value | % daily value | range
+cholesterol | 0 g | 0% | '
+       width='362'
+       height='68' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Sterols:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Alcohol content'
+     scanner='Data'
+     id='AlcoholContent:ExpandedFoodData'
+     position='1200'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | range
+volume percentage | 0% | 
+proof | 0 proof | 
+mass | 0 g | </plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP9451cddd4839e0490a00000407ff95hf1dbh7bi?MSPStoreType=image/gif&amp;s=8'
+       alt=' | mean value | range
+volume percentage | 0% | 
+proof | 0 proof | 
+mass | 0 g | '
+       title=' | mean value | range
+volume percentage | 0% | 
+proof | 0 proof | 
+mass | 0 g | '
+       width='387'
+       height='149' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='AlcoholContent:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Physical properties'
+     scanner='Data'
+     id='PhysicalProperties:ExpandedFoodData'
+     position='1300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>mass | 6.9 oz  (ounces)
+serving volume | 8 fl oz  (fluid ounces)
+serving density | 0.82 g/cm^3  (grams per cubic centimeter)</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP9461cddd4839e0490a00000663f09113g563810?MSPStoreType=image/gif&amp;s=8'
+       alt='mass | 6.9 oz  (ounces)
+serving volume | 8 fl oz  (fluid ounces)
+serving density | 0.82 g/cm^3  (grams per cubic centimeter)'
+       title='mass | 6.9 oz  (ounces)
+serving volume | 8 fl oz  (fluid ounces)
+serving density | 0.82 g/cm^3  (grams per cubic centimeter)'
+       width='408'
+       height='100' />
+  </subpod>
+ </pod>
+ <assumptions count='3'>
+  <assumption type='MultiClash'
+      word=''
+      template='Assuming ${word1} is referring to ${desc1}. Use as ${desc2} instead. Use as ${desc3} instead. Use &quot;${word4}&quot; as ${desc4}.'
+      count='4'>
+   <value name='ExpandedFood'
+       word='brown rice'
+       desc='a food'
+       input='*MC.brown+rice-_*ExpandedFood-' />
+   <value name='MusicAlbum'
+       word='brown rice'
+       desc='a music album'
+       input='*MC.brown+rice-_*MusicAlbum-' />
+   <value name='Word'
+       word='brown rice'
+       desc='a word'
+       input='*MC.brown+rice-_*Word-' />
+   <value name='University'
+       word='brown'
+       desc='a university'
+       input='*MC.brown+rice-_*University-' />
+  </assumption>
+  <assumption type='SubCategory'
+      word='brown rice'
+      template='Assuming ${desc1}. Use ${desc2} instead'
+      count='7'>
+   <value name='PreparedBrownRice'
+       desc='brown rice'
+       input='*DPClash.ExpandedFoodE.brown+rice-_*PreparedBrownRice-' />
+   <value name='RawBrownRice'
+       desc='raw brown rice'
+       input='*DPClash.ExpandedFoodE.brown+rice-_*RawBrownRice-' />
+   <value name='DryParboiledBrownRice'
+       desc='dry parboiled brown rice'
+       input='*DPClash.ExpandedFoodE.brown+rice-_*DryParboiledBrownRice-' />
+   <value name='MinuteRiceReadyToServeBrownRice'
+       desc='Minute Rice Ready to Serve brown rice'
+       input='*DPClash.ExpandedFoodE.brown+rice-_*MinuteRiceReadyToServeBrownRice-' />
+   <value name='UncleBensNaturalWholeGrainBrownReadyRice'
+       desc='Uncle Ben&apos;s natural whole grain brown Ready Rice'
+       input='*DPClash.ExpandedFoodE.brown+rice-_*UncleBensNaturalWholeGrainBrownReadyRice-' />
+   <value name='UncleBensNaturalWholeGrainBrownRiceUnprepared'
+       desc='unprepared Uncle Ben&apos;s natural whole grain brown rice'
+       input='*DPClash.ExpandedFoodE.brown+rice-_*UncleBensNaturalWholeGrainBrownRiceUnprepared-' />
+   <value name='BirdsEyeSteamfreshWholeGrainBrownRice'
+       desc='Birds Eye steamfresh whole grain brown rice'
+       input='*DPClash.ExpandedFoodE.brown+rice-_*BirdsEyeSteamfreshWholeGrainBrownRice-' />
+  </assumption>
+  <assumption type='Attribute'
+      word='PreparedBrownRice'
+      template='Assuming ${desc1}. Use ${desc2} instead'
+      count='3'>
+   <value name='PreparedBrownRice'
+       desc='any type of brown rice'
+       input='*EAC.ExpandedFood.PreparedBrownRice-_**a.PreparedBrownRice--' />
+   <value name='{Food:CookingMethod -&gt; Food:Cooked, Food:Variety -&gt; Food:LongGrain}'
+       desc='brown rice, cooked, long-grain'
+       input='*EAC.ExpandedFood.PreparedBrownRice-_**PreparedBrownRice.*Food%3ACookingMethod_Food%3ACooked.Food%3AVariety_Food%3ALongGrain---' />
+   <value name='{Food:CookingMethod -&gt; Food:Cooked, Food:Variety -&gt; Food:MediumGrain}'
+       desc='brown rice, cooked, medium-grain'
+       input='*EAC.ExpandedFood.PreparedBrownRice-_**PreparedBrownRice.*Food%3ACookingMethod_Food%3ACooked.Food%3AVariety_Food%3AMediumGrain---' />
+  </assumption>
+ </assumptions>
+ <sources count='1'>
+  <source url='http://www.wolframalpha.com/sources/ExpandedFoodDataSourceInformationNotes.html'
+      text='Expanded food data' />
+ </sources>
+</queryresult>

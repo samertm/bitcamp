@@ -1,0 +1,422 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='13'
+    datatypes='ExpandedFood'
+    timedout=''
+    timedoutpods=''
+    timing='7.098'
+    parsetiming='0.129'
+    parsetimedout='false'
+    recalculate=''
+    id='MSPa28731g7891h6dc4493ig000015b399h5g88g43ic'
+    host='http://www2.wolframalpha.com'
+    server='10'
+    related='http://www2.wolframalpha.com/api/v2/relatedQueries.jsp?id=MSPa28741g7891h6dc4493ig00005h12192c0b31f4ed&amp;s=10'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>onion | amount | 1 onion</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP28751g7891h6dc4493ig00004ghgb28787ed2340?MSPStoreType=image/gif&amp;s=10'
+       alt='onion | amount | 1 onion'
+       title='onion | amount | 1 onion'
+       width='222'
+       height='32' />
+  </subpod>
+ </pod>
+ <pod title='Nutrition facts'
+     scanner='Data'
+     id='NutritionLabelSingle:ExpandedFoodData'
+     position='200'
+     error='false'
+     numsubpods='1'
+     primary='true'>
+  <subpod title=''>
+   <plaintext>serving size 1 onion (110 g)
+total calories  44 | fat calories  1
+% daily value^* |  
+  total fat  110 mg | 0%
+       saturated fat  46 mg | 0%
+       trans fat   | 
+  cholesterol  0 g | 0%
+  sodium  4 mg | 0%
+  total carbohydrates  10 g | 3%
+       dietary fiber  2 g | 7%
+       sugar  5 g | 
+  protein  1 g | 2%
+   vitamin C  14%    |    calcium  3%   
+   iron  1%    |    thiamin  3%   
+   riboflavin  2%    |    niacin  1%   
+   vitamin B6  7%    |    folate  5%   
+   phosphorus  3%    |    magnesium  3%   
+   zinc  1%    | 
+*percent daily values are based on a 2000 calorie diet</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP28761g7891h6dc4493ig00005bhe3c9c9g9fdb60?MSPStoreType=image/gif&amp;s=10'
+       alt='serving size 1 onion (110 g)
+total calories  44 | fat calories  1
+% daily value^* |  
+  total fat  110 mg | 0%
+       saturated fat  46 mg | 0%
+       trans fat   | 
+  cholesterol  0 g | 0%
+  sodium  4 mg | 0%
+  total carbohydrates  10 g | 3%
+       dietary fiber  2 g | 7%
+       sugar  5 g | 
+  protein  1 g | 2%
+   vitamin C  14%    |    calcium  3%   
+   iron  1%    |    thiamin  3%   
+   riboflavin  2%    |    niacin  1%   
+   vitamin B6  7%    |    folate  5%   
+   phosphorus  3%    |    magnesium  3%   
+   zinc  1%    | 
+*percent daily values are based on a 2000 calorie diet'
+       title='serving size 1 onion (110 g)
+total calories  44 | fat calories  1
+% daily value^* |  
+  total fat  110 mg | 0%
+       saturated fat  46 mg | 0%
+       trans fat   | 
+  cholesterol  0 g | 0%
+  sodium  4 mg | 0%
+  total carbohydrates  10 g | 3%
+       dietary fiber  2 g | 7%
+       sugar  5 g | 
+  protein  1 g | 2%
+   vitamin C  14%    |    calcium  3%   
+   iron  1%    |    thiamin  3%   
+   riboflavin  2%    |    niacin  1%   
+   vitamin B6  7%    |    folate  5%   
+   phosphorus  3%    |    magnesium  3%   
+   zinc  1%    | 
+*percent daily values are based on a 2000 calorie diet'
+       width='276'
+       height='450' />
+  </subpod>
+ </pod>
+ <pod title='Daily value ranking'
+     scanner='Data'
+     id='DailyValuesRanking:ExpandedFoodData'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | value | % daily value
+vitamin C | 8.1 mg | 14%
+vitamin B6 | 132 g | 7%
+dietary fiber | 1.9 g | 7%
+ | (vertical ellipsis) | 
+vitamin B12 | 0 g | 0%
+cholesterol | 0 g | 0%</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP28771g7891h6dc4493ig00002b5d38h1f91h87d5?MSPStoreType=image/gif&amp;s=10'
+       alt=' | value | % daily value
+vitamin C | 8.1 mg | 14%
+vitamin B6 | 132 g | 7%
+dietary fiber | 1.9 g | 7%
+ | (vertical ellipsis) | 
+vitamin B12 | 0 g | 0%
+cholesterol | 0 g | 0%'
+       title=' | value | % daily value
+vitamin C | 8.1 mg | 14%
+vitamin B6 | 132 g | 7%
+dietary fiber | 1.9 g | 7%
+ | (vertical ellipsis) | 
+vitamin B12 | 0 g | 0%
+cholesterol | 0 g | 0%'
+       width='277'
+       height='228' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='DailyValuesRanking:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Highest nutrients compared to other foods'
+     scanner='Data'
+     id='NutrientRankingPod:ExpandedFoodData'
+     position='400'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | amount | % daily value | foods distribution | rank
+vitamin C | 8.1 mg | 14% |  | 85%
+glucose | 2.2 g |  |  | 78%
+dietary fiber | 1.9 g | 7% |  | 76%
+(distributions from log nutrient values in standard servings of 7500 common foods)</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP28781g7891h6dc4493ig00004ib6ffifcddh4084?MSPStoreType=image/gif&amp;s=10'
+       alt=' | amount | % daily value | foods distribution | rank
+vitamin C | 8.1 mg | 14% |  | 85%
+glucose | 2.2 g |  |  | 78%
+dietary fiber | 1.9 g | 7% |  | 76%
+(distributions from log nutrient values in standard servings of 7500 common foods)'
+       title=' | amount | % daily value | foods distribution | rank
+vitamin C | 8.1 mg | 14% |  | 85%
+glucose | 2.2 g |  |  | 78%
+dietary fiber | 1.9 g | 7% |  | 76%
+(distributions from log nutrient values in standard servings of 7500 common foods)'
+       width='541'
+       height='209' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='NutrientRankingPod:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Calories'
+     scanner='Data'
+     id='Calories:ExpandedFoodData'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | value | % daily value
+total calories | 44 Cal | 2%
+fat calories | 0.92 Cal | </plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP28791g7891h6dc4493ig00001idbh70gb2did5df?MSPStoreType=image/gif&amp;s=10'
+       alt=' | value | % daily value
+total calories | 44 Cal | 2%
+fat calories | 0.92 Cal | '
+       title=' | value | % daily value
+total calories | 44 Cal | 2%
+fat calories | 0.92 Cal | '
+       width='291'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Calories:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Carbohydrates'
+     scanner='Data'
+     id='Carbohydrates:ExpandedFoodData'
+     position='600'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | value | % daily value
+total carbohydrates | 10 g | 3%
+dietary fiber | 1.9 g | 7%
+sugar | 4.7 g | </plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP28801g7891h6dc4493ig0000689a2a85abd76ge2?MSPStoreType=image/gif&amp;s=10'
+       alt=' | value | % daily value
+total carbohydrates | 10 g | 3%
+dietary fiber | 1.9 g | 7%
+sugar | 4.7 g | '
+       title=' | value | % daily value
+total carbohydrates | 10 g | 3%
+dietary fiber | 1.9 g | 7%
+sugar | 4.7 g | '
+       width='318'
+       height='132' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Carbohydrates:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Fats and fatty acids'
+     scanner='Data'
+     id='Fats:ExpandedFoodData'
+     position='700'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | value | % daily value
+total fat | 110 mg | 0%
+saturated fat | 46 mg | 0%</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP28811g7891h6dc4493ig00003g7ag32dch49dbhe?MSPStoreType=image/gif&amp;s=10'
+       alt=' | value | % daily value
+total fat | 110 mg | 0%
+saturated fat | 46 mg | 0%'
+       title=' | value | % daily value
+total fat | 110 mg | 0%
+saturated fat | 46 mg | 0%'
+       width='285'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Fats:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Protein and amino acids'
+     scanner='Data'
+     id='Protein:ExpandedFoodData'
+     position='800'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | value | % daily value
+protein | 1.2 g | 2%</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP28821g7891h6dc4493ig000041a1hf62i9412022?MSPStoreType=image/gif&amp;s=10'
+       alt=' | value | % daily value
+protein | 1.2 g | 2%'
+       title=' | value | % daily value
+protein | 1.2 g | 2%'
+       width='239'
+       height='68' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Protein:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Vitamins'
+     scanner='Data'
+     id='Vitamins:ExpandedFoodData'
+     position='900'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | value | % daily value
+vitamin A | 0 g | 0%
+vitamin C | 8.1 mg | 14%</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP28831g7891h6dc4493ig0000539icggh8agbcfh2?MSPStoreType=image/gif&amp;s=10'
+       alt=' | value | % daily value
+vitamin A | 0 g | 0%
+vitamin C | 8.1 mg | 14%'
+       title=' | value | % daily value
+vitamin A | 0 g | 0%
+vitamin C | 8.1 mg | 14%'
+       width='261'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Vitamins:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Minerals'
+     scanner='Data'
+     id='Minerals:ExpandedFoodData'
+     position='1000'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | value | % daily value
+calcium | 25 mg | 3%
+iron | 231 g | 1%</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP28841g7891h6dc4493ig00004305bg6g6i3b878g?MSPStoreType=image/gif&amp;s=10'
+       alt=' | value | % daily value
+calcium | 25 mg | 3%
+iron | 231 g | 1%'
+       title=' | value | % daily value
+calcium | 25 mg | 3%
+iron | 231 g | 1%'
+       width='249'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Minerals:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Sterols'
+     scanner='Data'
+     id='Sterols:ExpandedFoodData'
+     position='1100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | value | % daily value
+cholesterol | 0 g | 0%</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP28851g7891h6dc4493ig00003chec1ig7g93i9ed?MSPStoreType=image/gif&amp;s=10'
+       alt=' | value | % daily value
+cholesterol | 0 g | 0%'
+       title=' | value | % daily value
+cholesterol | 0 g | 0%'
+       width='262'
+       height='68' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Sterols:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Alcohol content'
+     scanner='Data'
+     id='AlcoholContent:ExpandedFoodData'
+     position='1200'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>volume percentage | 0%
+proof | 0 proof
+mass | 0 g</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP28861g7891h6dc4493ig000053i73i2d40e428ei?MSPStoreType=image/gif&amp;s=10'
+       alt='volume percentage | 0%
+proof | 0 proof
+mass | 0 g'
+       title='volume percentage | 0%
+proof | 0 proof
+mass | 0 g'
+       width='245'
+       height='117' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='AlcoholContent:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Physical properties'
+     scanner='Data'
+     id='PhysicalProperties:ExpandedFoodData'
+     position='1300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>mass | 3.9 oz  (ounces)
+serving volume | 5.5 fl oz  (fluid ounces)
+serving density | 0.68 g/cm^3  (grams per cubic centimeter)</plaintext>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP28871g7891h6dc4493ig0000623ha5eb943a5001?MSPStoreType=image/gif&amp;s=10'
+       alt='mass | 3.9 oz  (ounces)
+serving volume | 5.5 fl oz  (fluid ounces)
+serving density | 0.68 g/cm^3  (grams per cubic centimeter)'
+       title='mass | 3.9 oz  (ounces)
+serving volume | 5.5 fl oz  (fluid ounces)
+serving density | 0.68 g/cm^3  (grams per cubic centimeter)'
+       width='405'
+       height='100' />
+  </subpod>
+ </pod>
+ <assumptions count='2'>
+  <assumption type='Clash'
+      word='onions'
+      template='Assuming &quot;${word}&quot; is ${desc1}. Use as ${desc2} instead'
+      count='4'>
+   <value name='ExpandedFood'
+       desc='a food'
+       input='*C.onions-_*ExpandedFood-' />
+   <value name='Plant'
+       desc='a plant'
+       input='*C.onions-_*Plant-' />
+   <value name='CommonMaterial'
+       desc='a general material'
+       input='*C.onions-_*CommonMaterial-' />
+   <value name='Word'
+       desc='a word'
+       input='*C.onions-_*Word-' />
+  </assumption>
+  <assumption type='SubCategory'
+      word='onions'
+      template='Assuming ${desc1}. Use ${desc2} instead'
+      count='2'>
+   <value name='Onion'
+       desc='onion'
+       input='*DPClash.ExpandedFoodE.onions-_*Onion-' />
+   <value name='PreparedOnion'
+       desc='prepared onion'
+       input='*DPClash.ExpandedFoodE.onions-_*PreparedOnion-' />
+  </assumption>
+ </assumptions>
+ <sources count='1'>
+  <source url='http://www.wolframalpha.com/sources/ExpandedFoodDataSourceInformationNotes.html'
+      text='Expanded food data' />
+ </sources>
+</queryresult>

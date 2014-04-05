@@ -1,0 +1,493 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='13'
+    datatypes='ExpandedFood'
+    timedout=''
+    timedoutpods=''
+    timing='8.617'
+    parsetiming='0.274'
+    parsetimedout='false'
+    recalculate=''
+    id='MSPa3374221869di93c7ah6b000035fh74g0cad69gif'
+    host='http://www4c.wolframalpha.com'
+    server='48'
+    related='http://www4c.wolframalpha.com/api/v2/relatedQueries.jsp?id=MSPa3375221869di93c7ah6b00005i7g29fb756c85df&amp;s=48'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>spaghetti | amount | 1 cup</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP3376221869di93c7ah6b000061766588d9381i26?MSPStoreType=image/gif&amp;s=48'
+       alt='spaghetti | amount | 1 cup'
+       title='spaghetti | amount | 1 cup'
+       width='232'
+       height='32' />
+  </subpod>
+ </pod>
+ <pod title='Average nutrition facts'
+     scanner='Data'
+     id='NutritionLabelSingle:ExpandedFoodData'
+     position='200'
+     error='false'
+     numsubpods='1'
+     primary='true'>
+  <subpod title=''>
+   <plaintext>serving size 1 cup (257 g)
+total calories  491 | fat calories  24
+% daily value^* |  
+  total fat  4 g | 6%
+       saturated fat  1 g | 5%
+       trans fat  66 mg | 
+  cholesterol  5 mg | 2%
+  sodium  279 mg | 12%
+  total carbohydrates  93 g | 31%
+       dietary fiber  7 g | 29%
+       sugar  5 g | 
+  protein  21 g | 41%
+   vitamin A  4%    |    vitamin C  2%   
+   calcium  6%    |    iron  22%   
+   vitamin E  3%    |    thiamin  47%   
+   riboflavin  32%    |    niacin  31%   
+   vitamin B6  14%    |    vitamin B12  1%   
+   folate  43%    |    phosphorus  29%   
+   magnesium  31%    |    zinc  18%   
+*percent daily values are based on a 2000 calorie diet
+(averaged over different types of spaghetti)</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP3377221869di93c7ah6b00005igg55dd8676h75b?MSPStoreType=image/gif&amp;s=48'
+       alt='serving size 1 cup (257 g)
+total calories  491 | fat calories  24
+% daily value^* |  
+  total fat  4 g | 6%
+       saturated fat  1 g | 5%
+       trans fat  66 mg | 
+  cholesterol  5 mg | 2%
+  sodium  279 mg | 12%
+  total carbohydrates  93 g | 31%
+       dietary fiber  7 g | 29%
+       sugar  5 g | 
+  protein  21 g | 41%
+   vitamin A  4%    |    vitamin C  2%   
+   calcium  6%    |    iron  22%   
+   vitamin E  3%    |    thiamin  47%   
+   riboflavin  32%    |    niacin  31%   
+   vitamin B6  14%    |    vitamin B12  1%   
+   folate  43%    |    phosphorus  29%   
+   magnesium  31%    |    zinc  18%   
+*percent daily values are based on a 2000 calorie diet
+(averaged over different types of spaghetti)'
+       title='serving size 1 cup (257 g)
+total calories  491 | fat calories  24
+% daily value^* |  
+  total fat  4 g | 6%
+       saturated fat  1 g | 5%
+       trans fat  66 mg | 
+  cholesterol  5 mg | 2%
+  sodium  279 mg | 12%
+  total carbohydrates  93 g | 31%
+       dietary fiber  7 g | 29%
+       sugar  5 g | 
+  protein  21 g | 41%
+   vitamin A  4%    |    vitamin C  2%   
+   calcium  6%    |    iron  22%   
+   vitamin E  3%    |    thiamin  47%   
+   riboflavin  32%    |    niacin  31%   
+   vitamin B6  14%    |    vitamin B12  1%   
+   folate  43%    |    phosphorus  29%   
+   magnesium  31%    |    zinc  18%   
+*percent daily values are based on a 2000 calorie diet
+(averaged over different types of spaghetti)'
+       width='319'
+       height='493' />
+  </subpod>
+ </pod>
+ <pod title='Average daily value ranking'
+     scanner='Data'
+     id='DailyValuesRanking:ExpandedFoodData'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+thiamin | 703 g | 47% | (0.051 to 3.1) mg
+folate | 170 g | 43% | (13 to 714) g
+protein | 21 g | 41% | (6.5 to 56) g
+ |  | (vertical ellipsis) | 
+cholesterol | 5.3 mg | 2% | (0 to 23) mg
+vitamin B12 | 0.062 g | 1% | (0 to 0.72) g
+(averaged over different types of spaghetti)</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP3378221869di93c7ah6b0000629346fe2egdaab8?MSPStoreType=image/gif&amp;s=48'
+       alt=' | mean value | % daily value | range
+thiamin | 703 g | 47% | (0.051 to 3.1) mg
+folate | 170 g | 43% | (13 to 714) g
+protein | 21 g | 41% | (6.5 to 56) g
+ |  | (vertical ellipsis) | 
+cholesterol | 5.3 mg | 2% | (0 to 23) mg
+vitamin B12 | 0.062 g | 1% | (0 to 0.72) g
+(averaged over different types of spaghetti)'
+       title=' | mean value | % daily value | range
+thiamin | 703 g | 47% | (0.051 to 3.1) mg
+folate | 170 g | 43% | (13 to 714) g
+protein | 21 g | 41% | (6.5 to 56) g
+ |  | (vertical ellipsis) | 
+cholesterol | 5.3 mg | 2% | (0 to 23) mg
+vitamin B12 | 0.062 g | 1% | (0 to 0.72) g
+(averaged over different types of spaghetti)'
+       width='445'
+       height='249' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='DailyValuesRanking:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Average highest nutrients compared to other foods'
+     scanner='Data'
+     id='NutrientRankingPod:ExpandedFoodData'
+     position='400'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | amount | % daily value | foods distribution | rank
+starch | 78 g |  |  | 98%
+selenium | 87 g |  |  | 98%
+manganese | 2.3 mg |  |  | 98%
+(distributions from log nutrient values in standard servings of 7500 common foods)</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP3379221869di93c7ah6b000028caeha14eab023a?MSPStoreType=image/gif&amp;s=48'
+       alt=' | amount | % daily value | foods distribution | rank
+starch | 78 g |  |  | 98%
+selenium | 87 g |  |  | 98%
+manganese | 2.3 mg |  |  | 98%
+(distributions from log nutrient values in standard servings of 7500 common foods)'
+       title=' | amount | % daily value | foods distribution | rank
+starch | 78 g |  |  | 98%
+selenium | 87 g |  |  | 98%
+manganese | 2.3 mg |  |  | 98%
+(distributions from log nutrient values in standard servings of 7500 common foods)'
+       width='536'
+       height='209' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='NutrientRankingPod:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Calories'
+     scanner='Data'
+     id='Calories:ExpandedFoodData'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total calories | 491 Cal | 25% | (193 to 961) Cal
+fat calories | 24 Cal |  | (4.5 to 48) Cal</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP3380221869di93c7ah6b000040ega640h51h3616?MSPStoreType=image/gif&amp;s=48'
+       alt=' | mean value | % daily value | range
+total calories | 491 Cal | 25% | (193 to 961) Cal
+fat calories | 24 Cal |  | (4.5 to 48) Cal'
+       title=' | mean value | % daily value | range
+total calories | 491 Cal | 25% | (193 to 961) Cal
+fat calories | 24 Cal |  | (4.5 to 48) Cal'
+       width='444'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Calories:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Carbohydrates'
+     scanner='Data'
+     id='Carbohydrates:ExpandedFoodData'
+     position='600'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total carbohydrates | 93 g | 31% | (29 to 193) g
+dietary fiber | 7.2 g | 29% | (3.6 to 27) g
+sugar | 4.8 g |  | (1.4 to 7.6) g</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP3381221869di93c7ah6b00003d0hf68dia496c33?MSPStoreType=image/gif&amp;s=48'
+       alt=' | mean value | % daily value | range
+total carbohydrates | 93 g | 31% | (29 to 193) g
+dietary fiber | 7.2 g | 29% | (3.6 to 27) g
+sugar | 4.8 g |  | (1.4 to 7.6) g'
+       title=' | mean value | % daily value | range
+total carbohydrates | 93 g | 31% | (29 to 193) g
+dietary fiber | 7.2 g | 29% | (3.6 to 27) g
+sugar | 4.8 g |  | (1.4 to 7.6) g'
+       width='466'
+       height='132' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Carbohydrates:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Fats and fatty acids'
+     scanner='Data'
+     id='Fats:ExpandedFoodData'
+     position='700'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total fat | 3.9 g | 6% | (0.54 to 13) g
+saturated fat | 1.1 g | 5% | (0.082 to 5.1) g
+trans fat | 66 mg |  | (0 to 386) mg</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP3382221869di93c7ah6b000022icd2025dge9b1e?MSPStoreType=image/gif&amp;s=48'
+       alt=' | mean value | % daily value | range
+total fat | 3.9 g | 6% | (0.54 to 13) g
+saturated fat | 1.1 g | 5% | (0.082 to 5.1) g
+trans fat | 66 mg |  | (0 to 386) mg'
+       title=' | mean value | % daily value | range
+total fat | 3.9 g | 6% | (0.54 to 13) g
+saturated fat | 1.1 g | 5% | (0.082 to 5.1) g
+trans fat | 66 mg |  | (0 to 386) mg'
+       width='439'
+       height='132' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Fats:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Protein and amino acids'
+     scanner='Data'
+     id='Protein:ExpandedFoodData'
+     position='800'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+protein | 21 g | 41% | (6.5 to 56) g</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP3383221869di93c7ah6b0000537bcagdia4i999f?MSPStoreType=image/gif&amp;s=48'
+       alt=' | mean value | % daily value | range
+protein | 21 g | 41% | (6.5 to 56) g'
+       title=' | mean value | % daily value | range
+protein | 21 g | 41% | (6.5 to 56) g'
+       width='383'
+       height='68' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Protein:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Vitamins'
+     scanner='Data'
+     id='Vitamins:ExpandedFoodData'
+     position='900'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+vitamin A | 8.6 g | 1% | (0 to 59) g
+vitamin C | 1.3 mg | 2% | (0 to 14) mg</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP3384221869di93c7ah6b000064686d2fc8h63119?MSPStoreType=image/gif&amp;s=48'
+       alt=' | mean value | % daily value | range
+vitamin A | 8.6 g | 1% | (0 to 59) g
+vitamin C | 1.3 mg | 2% | (0 to 14) mg'
+       title=' | mean value | % daily value | range
+vitamin A | 8.6 g | 1% | (0 to 59) g
+vitamin C | 1.3 mg | 2% | (0 to 14) mg'
+       width='398'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Vitamins:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Minerals'
+     scanner='Data'
+     id='Minerals:ExpandedFoodData'
+     position='1000'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+calcium | 57 mg | 6% | (18 to 149) mg
+iron | 4 mg | 22% | (1.3 to 11) mg</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP3385221869di93c7ah6b0000288eg88h705d044d?MSPStoreType=image/gif&amp;s=48'
+       alt=' | mean value | % daily value | range
+calcium | 57 mg | 6% | (18 to 149) mg
+iron | 4 mg | 22% | (1.3 to 11) mg'
+       title=' | mean value | % daily value | range
+calcium | 57 mg | 6% | (18 to 149) mg
+iron | 4 mg | 22% | (1.3 to 11) mg'
+       width='402'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Minerals:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Sterols'
+     scanner='Data'
+     id='Sterols:ExpandedFoodData'
+     position='1100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+cholesterol | 5.3 mg | 2% | (0 to 23) mg</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP3386221869di93c7ah6b0000300d34c0ih83be71?MSPStoreType=image/gif&amp;s=48'
+       alt=' | mean value | % daily value | range
+cholesterol | 5.3 mg | 2% | (0 to 23) mg'
+       title=' | mean value | % daily value | range
+cholesterol | 5.3 mg | 2% | (0 to 23) mg'
+       width='405'
+       height='68' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Sterols:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Alcohol content'
+     scanner='Data'
+     id='AlcoholContent:ExpandedFoodData'
+     position='1200'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | range
+volume percentage | 0 g | </plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP3387221869di93c7ah6b000068356d7i99fea0a5?MSPStoreType=image/gif&amp;s=48'
+       alt=' | mean value | range
+volume percentage | 0 g | '
+       title=' | mean value | range
+volume percentage | 0 g | '
+       width='387'
+       height='85' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='AlcoholContent:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Physical properties'
+     scanner='Data'
+     id='PhysicalProperties:ExpandedFoodData'
+     position='1300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>mass | 9.1 oz  (ounces)
+serving volume | 8 fl oz  (fluid ounces)
+serving density | 1.1 g/cm^3  (grams per cubic centimeter)</plaintext>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP3388221869di93c7ah6b00005id2e77ic9fbe176?MSPStoreType=image/gif&amp;s=48'
+       alt='mass | 9.1 oz  (ounces)
+serving volume | 8 fl oz  (fluid ounces)
+serving density | 1.1 g/cm^3  (grams per cubic centimeter)'
+       title='mass | 9.1 oz  (ounces)
+serving volume | 8 fl oz  (fluid ounces)
+serving density | 1.1 g/cm^3  (grams per cubic centimeter)'
+       width='400'
+       height='100' />
+  </subpod>
+ </pod>
+ <assumptions count='3'>
+  <assumption type='Clash'
+      word='spaghetti'
+      template='Assuming &quot;${word}&quot; is ${desc1}. Use as ${desc2} instead'
+      count='3'>
+   <value name='ExpandedFood'
+       desc='a food'
+       input='*C.spaghetti-_*ExpandedFood-' />
+   <value name='Word'
+       desc='a word'
+       input='*C.spaghetti-_*Word-' />
+   <value name='Gene'
+       desc='a gene'
+       input='*C.spaghetti-_*Gene-' />
+  </assumption>
+  <assumption type='SubCategory'
+      word='spaghetti'
+      template='Assuming ${desc1}. Use ${desc2} instead'
+      count='3'>
+   <value name='Spaghetti'
+       desc='spaghetti'
+       input='*DPClash.ExpandedFoodE.spaghetti-_*Spaghetti-' />
+   <value name='CampbellsSpaghetti'
+       desc='Campbell&apos;s spaghetti'
+       input='*DPClash.ExpandedFoodE.spaghetti-_*CampbellsSpaghetti-' />
+   <value name='PreparedMacaroni'
+       desc='macaroni'
+       input='*DPClash.ExpandedFoodE.spaghetti-_*PreparedMacaroni-' />
+  </assumption>
+  <assumption type='Attribute'
+      word='Spaghetti'
+      template='Assuming ${desc1}. Use ${desc2} instead'
+      count='19'>
+   <value name='Spaghetti'
+       desc='any type of spaghetti'
+       input='*EAC.ExpandedFood.Spaghetti-_**a.Spaghetti--' />
+   <value name='{Food:Packaging -&gt; Food:Canned}'
+       desc='spaghetti, canned'
+       input='*EAC.ExpandedFood.Spaghetti-_**Spaghetti.*Food%3APackaging_Food%3ACanned---' />
+   <value name='{Food:MadeFrom -&gt; Food:Spinach, Food:MoistureLevel -&gt; Food:Dry}'
+       desc='spaghetti, dry, spinach'
+       input='*EAC.ExpandedFood.Spaghetti-_**Spaghetti.*Food%3AMadeFrom_Food%3ASpinach.Food%3AMoistureLevel_Food%3ADry---' />
+   <value name='{Food:MoistureLevel -&gt; Food:Dry, Food:NutritionalSupplement -&gt; Food:Enriched}'
+       desc='spaghetti, dry, enriched'
+       input='*EAC.ExpandedFood.Spaghetti-_**Spaghetti.*Food%3AMoistureLevel_Food%3ADry.Food%3ANutritionalSupplement_Food%3AEnriched---' />
+   <value name='{Food:CookingMethod -&gt; Food:Cooked, Food:MadeFrom -&gt; Food:Spinach}'
+       desc='spaghetti, cooked, spinach'
+       input='*EAC.ExpandedFood.Spaghetti-_**Spaghetti.*Food%3ACookingMethod_Food%3ACooked.Food%3AMadeFrom_Food%3ASpinach---' />
+   <value name='{Food:MadeFrom -&gt; Food:WholeWheat, Food:MoistureLevel -&gt; Food:Dry}'
+       desc='spaghetti, dry, Whole Wheat'
+       input='*EAC.ExpandedFood.Spaghetti-_**Spaghetti.*Food%3AMadeFrom_Food%3AWholeWheat.Food%3AMoistureLevel_Food%3ADry---' />
+   <value name='{Food:MoistureLevel -&gt; Food:Dry, Food:NutritionalSupplement -&gt; Food:Unenriched}'
+       desc='spaghetti, dry, unenriched'
+       input='*EAC.ExpandedFood.Spaghetti-_**Spaghetti.*Food%3AMoistureLevel_Food%3ADry.Food%3ANutritionalSupplement_Food%3AUnenriched---' />
+   <value name='{Food:CookingMethod -&gt; Food:Cooked, Food:NutritionalSupplement -&gt; Food:Enriched}'
+       desc='spaghetti, cooked, enriched'
+       input='*EAC.ExpandedFood.Spaghetti-_**Spaghetti.*Food%3ACookingMethod_Food%3ACooked.Food%3ANutritionalSupplement_Food%3AEnriched---' />
+   <value name='{Food:CookingMethod -&gt; Food:Cooked, Food:MadeFrom -&gt; Food:WholeWheat}'
+       desc='spaghetti, cooked, Whole Wheat'
+       input='*EAC.ExpandedFood.Spaghetti-_**Spaghetti.*Food%3ACookingMethod_Food%3ACooked.Food%3AMadeFrom_Food%3AWholeWheat---' />
+   <value name='{Food:CookingMethod -&gt; Food:Cooked, Food:NutritionalSupplement -&gt; Food:Unenriched}'
+       desc='spaghetti, cooked, unenriched'
+       input='*EAC.ExpandedFood.Spaghetti-_**Spaghetti.*Food%3ACookingMethod_Food%3ACooked.Food%3ANutritionalSupplement_Food%3AUnenriched---' />
+   <value name='{Food:AddedFoods -&gt; Food:WithMeatballs, Food:Packaging -&gt; Food:Canned}'
+       desc='spaghetti, canned, with meatballs'
+       input='*EAC.ExpandedFood.Spaghetti-_**Spaghetti.*Food%3AAddedFoods_Food%3AWithMeatballs.Food%3APackaging_Food%3ACanned---' />
+   <value name='{Food:AddedFoods -&gt; Food:WithMeatSauce, Food:ProcessingType -&gt; Food:Frozen}'
+       desc='spaghetti, frozen, with meat sauce'
+       input='*EAC.ExpandedFood.Spaghetti-_**Spaghetti.*Food%3AAddedFoods_Food%3AWithMeatSauce.Food%3AProcessingType_Food%3AFrozen---' />
+   <value name='{Food:CookingMethod -&gt; Food:Cooked, Food:NutritionalSupplement -&gt; Food:Enriched, Food:SaltContent -&gt; Food:WithSalt}'
+       desc='spaghetti, cooked, enriched, with salt'
+       input='*EAC.ExpandedFood.Spaghetti-_**Spaghetti.*Food%3ACookingMethod_Food%3ACooked.Food%3ANutritionalSupplement_Food%3AEnriched.Food%3ASaltContent_Food%3AWithSalt---' />
+   <value name='{Food:CookingMethod -&gt; Food:Cooked, Food:NutritionalSupplement -&gt; Food:Unenriched, Food:SaltContent -&gt; Food:WithSalt}'
+       desc='spaghetti, cooked, unenriched, with salt'
+       input='*EAC.ExpandedFood.Spaghetti-_**Spaghetti.*Food%3ACookingMethod_Food%3ACooked.Food%3ANutritionalSupplement_Food%3AUnenriched.Food%3ASaltContent_Food%3AWithSalt---' />
+   <value name='{Food:MoistureLevel -&gt; Food:Dry, Food:NutritionalSupplement -&gt; Food:Enriched, Food:NutritionalSupplement -&gt; Food:ProteinFortified}'
+       desc='spaghetti, dry, enriched, protein fortified'
+       input='*EAC.ExpandedFood.Spaghetti-_**Spaghetti.*Food%3AMoistureLevel_Food%3ADry.Food%3ANutritionalSupplement_Food%3AEnriched.Food%3ANutritionalSupplement_Food%3AProteinFortified---' />
+   <value name='{Food:CookingMethod -&gt; Food:Cooked, Food:NutritionalSupplement -&gt; Food:Enriched, Food:NutritionalSupplement -&gt; Food:ProteinFortified}'
+       desc='spaghetti, cooked, enriched, protein fortified'
+       input='*EAC.ExpandedFood.Spaghetti-_**Spaghetti.*Food%3ACookingMethod_Food%3ACooked.Food%3ANutritionalSupplement_Food%3AEnriched.Food%3ANutritionalSupplement_Food%3AProteinFortified---' />
+   <value name='{Food:AddedFoods -&gt; Food:WithMeatSauce, Food:BrandName -&gt; Food:Stouffers, Food:ProcessingType -&gt; Food:Frozen, Food:SubBrandName -&gt; Food:LeanCuisine}'
+       desc='spaghetti, Stouffer&apos;s, Lean Cuisine, frozen, with meat sauce'
+       input='*EAC.ExpandedFood.Spaghetti-_**Spaghetti.*Food%3AAddedFoods_Food%3AWithMeatSauce.Food%3ABrandName_Food%3AStouffers.Food%3AProcessingType_Food%3AFrozen.Food%3ASubBrandName_Food%3ALeanCuisine---' />
+   <value name='{Food:AddedFoods -&gt; Food:WithMeatballs, Food:AddedFoods -&gt; Food:WithTomatoSauce, Food:BrandName -&gt; Food:ChefBoyardee, Food:Packaging -&gt; Food:Canned}'
+       desc='spaghetti, Chef Boyardee, canned, with meatballs, with tomato sauce'
+       input='*EAC.ExpandedFood.Spaghetti-_**Spaghetti.*Food%3AAddedFoods_Food%3AWithMeatballs.Food%3AAddedFoods_Food%3AWithTomatoSauce.Food%3ABrandName_Food%3AChefBoyardee.Food%3APackaging_Food%3ACanned---' />
+   <value name='{Food:AddedFoods -&gt; Food:WithMeatballs, Food:AddedFoods -&gt; Food:WithSauce, Food:BrandName -&gt; Food:Stouffers, Food:ProcessingType -&gt; Food:Frozen, Food:SubBrandName -&gt; Food:LeanCuisine}'
+       desc='spaghetti, Stouffer&apos;s, Lean Cuisine, frozen, with meatballs, with sauce'
+       input='*EAC.ExpandedFood.Spaghetti-_**Spaghetti.*Food%3AAddedFoods_Food%3AWithMeatballs.Food%3AAddedFoods_Food%3AWithSauce.Food%3ABrandName_Food%3AStouffers.Food%3AProcessingType_Food%3AFrozen.Food%3ASubBrandName_Food%3ALeanCuisine---' />
+  </assumption>
+ </assumptions>
+ <sources count='1'>
+  <source url='http://www.wolframalpha.com/sources/ExpandedFoodDataSourceInformationNotes.html'
+      text='Expanded food data' />
+ </sources>
+</queryresult>

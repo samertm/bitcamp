@@ -1,0 +1,520 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='13'
+    datatypes='ExpandedFood'
+    timedout=''
+    timedoutpods=''
+    timing='8.352'
+    parsetiming='0.258'
+    parsetimedout='false'
+    recalculate=''
+    id='MSPa8231c8h7851a0fdci8b00000d27gdi1966a5ab6'
+    host='http://www3.wolframalpha.com'
+    server='24'
+    related='http://www3.wolframalpha.com/api/v2/relatedQueries.jsp?id=MSPa8241c8h7851a0fdci8b0000515dgdi39ch18c01&amp;s=24'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>tomato | amount | 85 grams</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP8251c8h7851a0fdci8b000050e4ic1i8468ehfh?MSPStoreType=image/gif&amp;s=24'
+       alt='tomato | amount | 85 grams'
+       title='tomato | amount | 85 grams'
+       width='243'
+       height='32' />
+  </subpod>
+ </pod>
+ <pod title='Average nutrition facts'
+     scanner='Data'
+     id='NutritionLabelSingle:ExpandedFoodData'
+     position='200'
+     error='false'
+     numsubpods='1'
+     primary='true'>
+  <subpod title=''>
+   <plaintext>serving size 85 g
+total calories  15 | fat calories  2
+% daily value^* |  
+  total fat  181 mg | 0%
+       saturated fat  25 mg | 0%
+       trans fat   | 
+  cholesterol  0 g | 0%
+  sodium  18 mg | 1%
+  total carbohydrates  3 g | 1%
+       dietary fiber  829 mg | 3%
+       sugar  3 g | 
+  protein  897 mg | 2%
+   vitamin A  13%    |    vitamin C  22%   
+   calcium  1%    |    iron  2%   
+   vitamin E  2%    |    thiamin  3%   
+   riboflavin  2%    |    niacin  3%   
+   vitamin B6  3%    |    folate  4%   
+   phosphorus  2%    |    magnesium  2%   
+   zinc  1%    | 
+*percent daily values are based on a 2000 calorie diet
+(averaged over different types of tomato)</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP8261c8h7851a0fdci8b000022834a6f46ciafgh?MSPStoreType=image/gif&amp;s=24'
+       alt='serving size 85 g
+total calories  15 | fat calories  2
+% daily value^* |  
+  total fat  181 mg | 0%
+       saturated fat  25 mg | 0%
+       trans fat   | 
+  cholesterol  0 g | 0%
+  sodium  18 mg | 1%
+  total carbohydrates  3 g | 1%
+       dietary fiber  829 mg | 3%
+       sugar  3 g | 
+  protein  897 mg | 2%
+   vitamin A  13%    |    vitamin C  22%   
+   calcium  1%    |    iron  2%   
+   vitamin E  2%    |    thiamin  3%   
+   riboflavin  2%    |    niacin  3%   
+   vitamin B6  3%    |    folate  4%   
+   phosphorus  2%    |    magnesium  2%   
+   zinc  1%    | 
+*percent daily values are based on a 2000 calorie diet
+(averaged over different types of tomato)'
+       title='serving size 85 g
+total calories  15 | fat calories  2
+% daily value^* |  
+  total fat  181 mg | 0%
+       saturated fat  25 mg | 0%
+       trans fat   | 
+  cholesterol  0 g | 0%
+  sodium  18 mg | 1%
+  total carbohydrates  3 g | 1%
+       dietary fiber  829 mg | 3%
+       sugar  3 g | 
+  protein  897 mg | 2%
+   vitamin A  13%    |    vitamin C  22%   
+   calcium  1%    |    iron  2%   
+   vitamin E  2%    |    thiamin  3%   
+   riboflavin  2%    |    niacin  3%   
+   vitamin B6  3%    |    folate  4%   
+   phosphorus  2%    |    magnesium  2%   
+   zinc  1%    | 
+*percent daily values are based on a 2000 calorie diet
+(averaged over different types of tomato)'
+       width='299'
+       height='493' />
+  </subpod>
+ </pod>
+ <pod title='Average daily value ranking'
+     scanner='Data'
+     id='DailyValuesRanking:ExpandedFoodData'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+vitamin C | 13 mg | 22% | (7.6 to 20) mg
+vitamin A | 631 IU | 13% | (0 to 1272) IU
+potassium | 194 mg | 6% | (173 to 219) mg
+ |  | (vertical ellipsis) | 
+saturated fat | 25 mg | 0% | (21 to 31) mg
+total fat | 181 mg | 0% | (161 to 221) mg
+(averaged over different types of tomato)</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP8271c8h7851a0fdci8b00004h8hiha4b6hf2d8h?MSPStoreType=image/gif&amp;s=24'
+       alt=' | mean value | % daily value | range
+vitamin C | 13 mg | 22% | (7.6 to 20) mg
+vitamin A | 631 IU | 13% | (0 to 1272) IU
+potassium | 194 mg | 6% | (173 to 219) mg
+ |  | (vertical ellipsis) | 
+saturated fat | 25 mg | 0% | (21 to 31) mg
+total fat | 181 mg | 0% | (161 to 221) mg
+(averaged over different types of tomato)'
+       title=' | mean value | % daily value | range
+vitamin C | 13 mg | 22% | (7.6 to 20) mg
+vitamin A | 631 IU | 13% | (0 to 1272) IU
+potassium | 194 mg | 6% | (173 to 219) mg
+ |  | (vertical ellipsis) | 
+saturated fat | 25 mg | 0% | (21 to 31) mg
+total fat | 181 mg | 0% | (161 to 221) mg
+(averaged over different types of tomato)'
+       width='442'
+       height='249' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='DailyValuesRanking:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Average highest nutrients compared to other foods'
+     scanner='Data'
+     id='NutrientRankingPod:ExpandedFoodData'
+     position='400'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | amount | % daily value | foods distribution | rank
+vitamin C | 13 mg | 22% |  | 89%
+vitamin A | 631 IU | 13% |  | 86%
+vitamin K | 7.7 g |  |  | 83%
+(distributions from log nutrient values in standard servings of 7500 common foods)</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP8281c8h7851a0fdci8b00005edd00c8gh81bf14?MSPStoreType=image/gif&amp;s=24'
+       alt=' | amount | % daily value | foods distribution | rank
+vitamin C | 13 mg | 22% |  | 89%
+vitamin A | 631 IU | 13% |  | 86%
+vitamin K | 7.7 g |  |  | 83%
+(distributions from log nutrient values in standard servings of 7500 common foods)'
+       title=' | amount | % daily value | foods distribution | rank
+vitamin C | 13 mg | 22% |  | 89%
+vitamin A | 631 IU | 13% |  | 86%
+vitamin K | 7.7 g |  |  | 83%
+(distributions from log nutrient values in standard servings of 7500 common foods)'
+       width='525'
+       height='209' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='NutrientRankingPod:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Calories'
+     scanner='Data'
+     id='Calories:ExpandedFoodData'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total calories | 15 Cal | 1% | (13 to 20) Cal
+fat calories | 1.5 Cal |  | (1.4 to 1.8) Cal</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP8291c8h7851a0fdci8b0000415efhb11gc89752?MSPStoreType=image/gif&amp;s=24'
+       alt=' | mean value | % daily value | range
+total calories | 15 Cal | 1% | (13 to 20) Cal
+fat calories | 1.5 Cal |  | (1.4 to 1.8) Cal'
+       title=' | mean value | % daily value | range
+total calories | 15 Cal | 1% | (13 to 20) Cal
+fat calories | 1.5 Cal |  | (1.4 to 1.8) Cal'
+       width='436'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Calories:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Carbohydrates'
+     scanner='Data'
+     id='Carbohydrates:ExpandedFoodData'
+     position='600'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total carbohydrates | 3.2 g | 1% | (2.5 to 4.3) g
+dietary fiber | 829 mg | 3% | (0.59 to 1) g
+sugar | 2.8 g |  | (2.2 to 3.4) g</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP8301c8h7851a0fdci8b00003c9i9177i80842g8?MSPStoreType=image/gif&amp;s=24'
+       alt=' | mean value | % daily value | range
+total carbohydrates | 3.2 g | 1% | (2.5 to 4.3) g
+dietary fiber | 829 mg | 3% | (0.59 to 1) g
+sugar | 2.8 g |  | (2.2 to 3.4) g'
+       title=' | mean value | % daily value | range
+total carbohydrates | 3.2 g | 1% | (2.5 to 4.3) g
+dietary fiber | 829 mg | 3% | (0.59 to 1) g
+sugar | 2.8 g |  | (2.2 to 3.4) g'
+       width='466'
+       height='132' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Carbohydrates:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Fats and fatty acids'
+     scanner='Data'
+     id='Fats:ExpandedFoodData'
+     position='700'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+total fat | 181 mg | 0% | (161 to 221) mg
+saturated fat | 25 mg | 0% | (21 to 31) mg</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP8311c8h7851a0fdci8b00003e497dbfc608e5hc?MSPStoreType=image/gif&amp;s=24'
+       alt=' | mean value | % daily value | range
+total fat | 181 mg | 0% | (161 to 221) mg
+saturated fat | 25 mg | 0% | (21 to 31) mg'
+       title=' | mean value | % daily value | range
+total fat | 181 mg | 0% | (161 to 221) mg
+saturated fat | 25 mg | 0% | (21 to 31) mg'
+       width='442'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Fats:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Protein and amino acids'
+     scanner='Data'
+     id='Protein:ExpandedFoodData'
+     position='800'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+protein | 897 mg | 2% | (0.75 to 1) g</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP8321c8h7851a0fdci8b00000cfcifig6f8beage?MSPStoreType=image/gif&amp;s=24'
+       alt=' | mean value | % daily value | range
+protein | 897 mg | 2% | (0.75 to 1) g'
+       title=' | mean value | % daily value | range
+protein | 897 mg | 2% | (0.75 to 1) g'
+       width='383'
+       height='68' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Protein:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Vitamins'
+     scanner='Data'
+     id='Vitamins:ExpandedFoodData'
+     position='900'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+vitamin A | 32 g | 2% | (0 to 64) g
+vitamin C | 13 mg | 22% | (7.6 to 20) mg</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP8331c8h7851a0fdci8b00001di1gf8689h4c6b9?MSPStoreType=image/gif&amp;s=24'
+       alt=' | mean value | % daily value | range
+vitamin A | 32 g | 2% | (0 to 64) g
+vitamin C | 13 mg | 22% | (7.6 to 20) mg'
+       title=' | mean value | % daily value | range
+vitamin A | 32 g | 2% | (0 to 64) g
+vitamin C | 13 mg | 22% | (7.6 to 20) mg'
+       width='410'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Vitamins:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Minerals'
+     scanner='Data'
+     id='Minerals:ExpandedFoodData'
+     position='1000'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+calcium | 8.3 mg | 1% | (4.2 to 11) mg
+iron | 370 g | 2% | (230 to 434) g</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP8341c8h7851a0fdci8b00002ghga7b6d7100ea5?MSPStoreType=image/gif&amp;s=24'
+       alt=' | mean value | % daily value | range
+calcium | 8.3 mg | 1% | (4.2 to 11) mg
+iron | 370 g | 2% | (230 to 434) g'
+       title=' | mean value | % daily value | range
+calcium | 8.3 mg | 1% | (4.2 to 11) mg
+iron | 370 g | 2% | (230 to 434) g'
+       width='407'
+       height='100' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Minerals:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Sterols'
+     scanner='Data'
+     id='Sterols:ExpandedFoodData'
+     position='1100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | % daily value | range
+cholesterol | 0 g | 0% | </plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP8351c8h7851a0fdci8b000062af9f51idd2ehd1?MSPStoreType=image/gif&amp;s=24'
+       alt=' | mean value | % daily value | range
+cholesterol | 0 g | 0% | '
+       title=' | mean value | % daily value | range
+cholesterol | 0 g | 0% | '
+       width='362'
+       height='68' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='Sterols:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Alcohol content'
+     scanner='Data'
+     id='AlcoholContent:ExpandedFoodData'
+     position='1200'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext> | mean value | range
+volume percentage | 0 g | </plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP8361c8h7851a0fdci8b0000619g85i34fach47d?MSPStoreType=image/gif&amp;s=24'
+       alt=' | mean value | range
+volume percentage | 0 g | '
+       title=' | mean value | range
+volume percentage | 0 g | '
+       width='387'
+       height='85' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='AlcoholContent:ExpandedFoodData__More' />
+  </states>
+ </pod>
+ <pod title='Physical properties'
+     scanner='Data'
+     id='PhysicalProperties:ExpandedFoodData'
+     position='1300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>mass | 3 oz  (ounces)
+serving volume | 2.7 fl oz  (fluid ounces)
+serving density | 1.1 g/cm^3  (grams per cubic centimeter)</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP8371c8h7851a0fdci8b00002eg8bdc8070ace87?MSPStoreType=image/gif&amp;s=24'
+       alt='mass | 3 oz  (ounces)
+serving volume | 2.7 fl oz  (fluid ounces)
+serving density | 1.1 g/cm^3  (grams per cubic centimeter)'
+       title='mass | 3 oz  (ounces)
+serving volume | 2.7 fl oz  (fluid ounces)
+serving density | 1.1 g/cm^3  (grams per cubic centimeter)'
+       width='400'
+       height='100' />
+  </subpod>
+ </pod>
+ <assumptions count='3'>
+  <assumption type='Clash'
+      word='tomato'
+      template='Assuming &quot;${word}&quot; is ${desc1}. Use as ${desc2} instead'
+      count='6'>
+   <value name='ExpandedFood'
+       desc='a food'
+       input='*C.tomato-_*ExpandedFood-' />
+   <value name='Plant'
+       desc='a plant'
+       input='*C.tomato-_*Plant-' />
+   <value name='Color'
+       desc='a color'
+       input='*C.tomato-_*Color-' />
+   <value name='CommonMaterial'
+       desc='a general material'
+       input='*C.tomato-_*CommonMaterial-' />
+   <value name='Word'
+       desc='a word'
+       input='*C.tomato-_*Word-' />
+   <value name='Person'
+       desc='a person'
+       input='*C.tomato-_*Person-' />
+  </assumption>
+  <assumption type='SubCategory'
+      word='tomato'
+      template='Assuming ${desc1}. Use ${desc2} instead'
+      count='24'>
+   <value name='Tomato'
+       desc='tomato'
+       input='*DPClash.ExpandedFoodE.tomato-_*Tomato-' />
+   <value name='PreparedTomatoes'
+       desc='prepared tomatoes'
+       input='*DPClash.ExpandedFoodE.tomato-_*PreparedTomatoes-' />
+   <value name='DicedTomatoesInJuice'
+       desc='diced tomatoes in juice'
+       input='*DPClash.ExpandedFoodE.tomato-_*DicedTomatoesInJuice-' />
+   <value name='WholePlumTomatoes'
+       desc='whole plum tomatoes'
+       input='*DPClash.ExpandedFoodE.tomato-_*WholePlumTomatoes-' />
+   <value name='PetiteCutNoSaltAddedDicedTomatoes'
+       desc='petite cut no salt added diced tomatoes'
+       input='*DPClash.ExpandedFoodE.tomato-_*PetiteCutNoSaltAddedDicedTomatoes-' />
+   <value name='PetiteCutDicedTomatoes'
+       desc='petite cut diced tomatoes'
+       input='*DPClash.ExpandedFoodE.tomato-_*PetiteCutDicedTomatoes-' />
+   <value name='PeeledTomatoes'
+       desc='peeled tomatoes'
+       input='*DPClash.ExpandedFoodE.tomato-_*PeeledTomatoes-' />
+   <value name='NoSaltAddedDicedTomatoes'
+       desc='no salt added diced tomatoes'
+       input='*DPClash.ExpandedFoodE.tomato-_*NoSaltAddedDicedTomatoes-' />
+   <value name='ChoppedVineRipenedTomatoesInPuree'
+       desc='chopped vine ripened tomatoes in puree'
+       input='*DPClash.ExpandedFoodE.tomato-_*ChoppedVineRipenedTomatoesInPuree-' />
+   <value name='ItalianPeeledWholeTomatoesWithBasil'
+       desc='Italian peeled whole tomatoes with basil'
+       input='*DPClash.ExpandedFoodE.tomato-_*ItalianPeeledWholeTomatoesWithBasil-' />
+   <value name='SanMarzanoCertifiedPeeledWholeTomatoesWithBasilLeaf'
+       desc='San Marzano whole peeled tomatoes with basil'
+       input='*DPClash.ExpandedFoodE.tomato-_*SanMarzanoCertifiedPeeledWholeTomatoesWithBasilLeaf-' />
+   <value name='ItalianWholePeeledTomatoes'
+       desc='Italian whole peeled tomatoes'
+       input='*DPClash.ExpandedFoodE.tomato-_*ItalianWholePeeledTomatoes-' />
+   <value name='DicedTomatoesInSauce'
+       desc='diced tomatoes in sauce'
+       input='*DPClash.ExpandedFoodE.tomato-_*DicedTomatoesInSauce-' />
+   <value name='BasilAndOreganoStewedTomatoes'
+       desc='basil and oregano stewed tomatoes'
+       input='*DPClash.ExpandedFoodE.tomato-_*BasilAndOreganoStewedTomatoes-' />
+   <value name='BasilGarlicAndOreganoStewedTomatoes'
+       desc='basil, garlic, and oregano stewed tomatoes'
+       input='*DPClash.ExpandedFoodE.tomato-_*BasilGarlicAndOreganoStewedTomatoes-' />
+   <value name='GarlicAndOliveOilPetiteDicedTomatoes'
+       desc='garlic and olive oil petite diced tomatoes'
+       input='*DPClash.ExpandedFoodE.tomato-_*GarlicAndOliveOilPetiteDicedTomatoes-' />
+   <value name='ItalianBasilGarlicAndOreganoDicedTomatoes'
+       desc='basil, garlic, and oregano diced tomatoes'
+       input='*DPClash.ExpandedFoodE.tomato-_*ItalianBasilGarlicAndOreganoDicedTomatoes-' />
+   <value name='DicedTomatoesWithMildGreenChilies'
+       desc='diced tomatoes with green chilies'
+       input='*DPClash.ExpandedFoodE.tomato-_*DicedTomatoesWithMildGreenChilies-' />
+   <value name='MexicanStyleJalapenoCuminRedPepperStewedTomatoes'
+       desc='Mexican style stewed tomatoes wtih jalapeo, cumin, and red pepper'
+       input='*DPClash.ExpandedFoodE.tomato-_*MexicanStyleJalapenoCuminRedPepperStewedTomatoes-' />
+   <value name='FireRoastedDicedTomatoes'
+       desc='diced fire roasted tomatoes'
+       input='*DPClash.ExpandedFoodE.tomato-_*FireRoastedDicedTomatoes-' />
+   <value name='FireRoastedWithGarlicDicedTomatoes'
+       desc='fire roasted garlic diced tomatoes'
+       input='*DPClash.ExpandedFoodE.tomato-_*FireRoastedWithGarlicDicedTomatoes-' />
+   <value name='OnionCeleryAndGreenPepperPetiteDicedTomatoes'
+       desc='onion, celery, and green pepper petite diced tomatoes'
+       input='*DPClash.ExpandedFoodE.tomato-_*OnionCeleryAndGreenPepperPetiteDicedTomatoes-' />
+   <value name='OnionCeleryAndGreenPepperStewedTomatoes'
+       desc='onion, celery, and green pepper stewed tomatoes'
+       input='*DPClash.ExpandedFoodE.tomato-_*OnionCeleryAndGreenPepperStewedTomatoes-' />
+   <value name='RoastedGarlicAndOnionDicedTomatoes'
+       desc='roasted garlic and onion diced tomatoes'
+       input='*DPClash.ExpandedFoodE.tomato-_*RoastedGarlicAndOnionDicedTomatoes-' />
+  </assumption>
+  <assumption type='Attribute'
+      word='Tomato'
+      template='Assuming ${desc1}. Use ${desc2} instead'
+      count='5'>
+   <value name='Tomato'
+       desc='any type of tomato'
+       input='*EAC.ExpandedFood.Tomato-_**a.Tomato--' />
+   <value name='{Food:Variety -&gt; Food:Red}'
+       desc='tomato, red'
+       input='*EAC.ExpandedFood.Tomato-_**Tomato.*Food%3AVariety_Food%3ARed---' />
+   <value name='{Food:Variety -&gt; Food:Green}'
+       desc='tomato, green'
+       input='*EAC.ExpandedFood.Tomato-_**Tomato.*Food%3AVariety_Food%3AGreen---' />
+   <value name='{Food:Variety -&gt; Food:Orange}'
+       desc='tomato, orange'
+       input='*EAC.ExpandedFood.Tomato-_**Tomato.*Food%3AVariety_Food%3AOrange---' />
+   <value name='{Food:Variety -&gt; Food:Yellow}'
+       desc='tomato, yellow'
+       input='*EAC.ExpandedFood.Tomato-_**Tomato.*Food%3AVariety_Food%3AYellow---' />
+  </assumption>
+ </assumptions>
+ <sources count='1'>
+  <source url='http://www.wolframalpha.com/sources/ExpandedFoodDataSourceInformationNotes.html'
+      text='Expanded food data' />
+ </sources>
+</queryresult>
