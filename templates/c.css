@@ -1,3 +1,35 @@
-tbmargin{
-margin:100px 50px;
+.splash {
+  height: 50em;
+  padding-top: 0em;
+  margin-bottom: 2em;
+  background-size: cover;
+  text-align: center;
 }
+body {
+background-image:url("rice.jpg");
+background-repeat:repeat;
+}
+.textubocksu{
+max-width:100px;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+white-space: nowrap;
+display: block;
+}
+.topkek{
+    display: inline-block;
+    width: 100%;
+    height: 38px;
+    padding: 8px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #666;
+    background-color: #FFF;
+    background-image: none;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+
