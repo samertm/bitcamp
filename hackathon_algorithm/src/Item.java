@@ -9,7 +9,7 @@ public class Item {
     public int sodium;
     public int cost;
 
-	public Item(String name, int cal, int fat, int sodium, int sugar, int cost) {
+    public Item(String name, int cal, int fat, int sodium, int sugar, int cost) {
         this.name = name;
         this.cal = cal;
         this.fat = fat;

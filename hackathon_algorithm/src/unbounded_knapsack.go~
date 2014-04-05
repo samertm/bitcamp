@@ -1,0 +1,188 @@
+package main
+
+import "math"
+import "fmt"
+
+	var items = [4]item {
+		item{name: "rice", cal: 120, fat: 10, sodium: 4, sugar: 20, cost: 3},
+		item{name: "beans", cal: 90, fat: 12, sodium: 2, sugar: 7, cost: 4},
+		item{name: "carrots", cal: 100, fat: 5, sodium: 3, sugar: 4, cost: 2},
+		item{name: "celery", cal: 60, fat: 2, sodium: 1, sugar: 7, cost: 1},
+	}
+
+	const n int = len(items)
+	var constraints item = item{name: "price", cal: 2000, fat: 60,sodium: 20, sugar: 200, cost: 55}
+
+	var bestcalitem item = item{name: "best", cal: 0, fat: 0, sodium: 0, sugar: 0,cost: 0}
+	var bestfatitem item = item{name: "best", cal: 0, fat: 0, sodium: 0, sugar: 0,cost: 0}
+	var bestsoditem item = item{name: "best", cal: 0, fat: 0, sodium: 0, sugar: 0,cost: 0}
+	var bestsugitem item = item{name: "best", cal: 0, fat: 0, sodium: 0, sugar: 0,cost: 0}
+
+    var maxItcal [n]int
+    var maxItfat [n]int
+    var maxItsod [n]int
+    var maxItsug [n]int
+
+    var ical [n]int
+    var ifat [n]int
+    var isod [n]int
+    var isug [n]int
+
+    var bestcal [n]int
+    var bestfat [n]int
+    var bestsod [n]int
+    var bestsug [n]int
+
+func UnboundedKnapsack() {
+	for i := 0; i < n; i++ {
+            maxItcal [i] = int(math.Min(
+		            float64 (constraints.cal / items[i].cal),//2000 is the cal constraint
+			    float64 (constraints.cost / items[i].cost)))// 50 in the cost contraint
+            maxItfat [i] = int(math.Min(
+                            float64 (constraints.fat / items[i].fat),//2000 is the cal constraint
+                            float64 (constraints.cost / items[i].cost)))// 50 in the cost contraint
+            maxItsod [i] = int(math.Min(
+                            float64 (constraints.sodium / items[i].sodium),//2000 is the cal constraint
+                            float64 (constraints.cost / items[i].cost)))// 50 in the cost contraint
+            maxItsug [i] = int(math.Min(
+                            float64 (constraints.sugar / items[i].sugar),//2000 is the cal constraint
+                            float64 (constraints.cost / items[i].cost)))// 50 in the cost contraint
+	}
+
+        // calc the solution:
+	calcWithRecursion(0)
+
+        // Print out the solution:
+        fmt.Println("Maximum value achievable for cals is: " + string (bestcalitem.cal))
+        fmt.Printf("This is achieved by carrying (one solution): ")
+	for i := 0; i < n; i++ {
+            fmt.Print(string (bestcal[i]) + " " + string (items[i].name) + ", ")
+            fmt.Print(string (bestfat[i]) + " " + string (items[i].name) + ", ")
+            fmt.Print(string (bestsod[i]) + " " + string (items[i].name) + ", ")
+            fmt.Print(string (bestsug[i]) + " " + string (items[i].name) + ", ")
+        }
+        fmt.Println()
+        fmt.Println("The calories you will have is: " + string (bestcalitem.cal) +
+                           "   and the total amount used is: " + string (bestcalitem.cost))
+        fmt.Println("The fat you will have is: " + string (bestfatitem.fat) +
+                "   and the total amount used is: " + string (bestfatitem.cost))
+        fmt.Println("The sodium you will have is: " + string (bestsoditem.sodium) +
+                "   and the total amount used is: " + string (bestsoditem.cost))
+        fmt.Println("The sugar you will have is: " + string (bestsugitem.sugar) +
+                "   and the total amount used is: " + string (bestsugitem.cost))
+}
+
+func calcWithRecursion(item int) {
+	for i := 0; i <= maxItcal[item]; i++ {
+            ical[item] = i;
+            if item < n-1 {
+                calcWithRecursion(item+1);
+            } else {
+                currVal := 0;   // current value
+                currWei := 0; // current weight
+		currVol := 0; // current Volume
+		for j := 0; j < n; j++ {
+                    currVal += ical[j] * items[j].cal;
+                    currWei += ical[j] * items[j].cal;
+                    currVol += ical[j] * items[j].cost;
+                }
+
+                if currVal > constraints.cost && currVol <= constraints.cost {
+
+                    bestcalitem.cal = (currVal);
+                    bestcalitem.cal = (currWei);
+                    bestcalitem.cost = (currVol);
+		    for j := 0; j < n; j++ {
+			    bestcal[j] = ical[j]
+		    }
+
+                } // if (...)
+            } // else
+        } // for (i)
+
+	for i := 0; i <= maxItfat[item]; i++ {
+            ifat[item] = i;
+            if item < n-1 {
+                calcWithRecursion(item+1);
+            } else {
+                currVal := 0;   // current value
+                currWei := 0; // current weight
+		currVol := 0; // current Volume
+		for j := 0; j < n; j++ {
+                    currVal += ifat[j] * items[j].fat;
+                    currWei += ifat[j] * items[j].fat;
+                    currVol += ifat[j] * items[j].cost;
+                }
+
+                if currVal > constraints.cost && currVol <= constraints.cost {
+
+                    bestfatitem.fat = (currVal);
+                    bestfatitem.fat = (currWei);
+                    bestfatitem.cost = (currVol);
+		    for j := 0; j < n; j++ {
+			    bestfat[j] = ifat[j]
+		    }
+
+                } // if (...)
+            } // else
+        } // for (i)
+
+	for i := 0; i <= maxItsod[item]; i++ {
+            isod[item] = i;
+            if item < n-1 {
+                calcWithRecursion(item+1);
+            } else {
+                currVal := 0;   // current value
+                currWei := 0; // current weight
+		currVol := 0; // current Volume
+		for j := 0; j < n; j++ {
+                    currVal += isod[j] * items[j].sodium;
+                    currWei += isod[j] * items[j].sodium;
+                    currVol += isod[j] * items[j].cost;
+                }
+
+                if currVal > constraints.cost && currVol <= constraints.cost {
+
+                    bestsoditem.sodium = (currVal);
+                    bestsoditem.sodium = (currWei);
+                    bestsoditem.cost = (currVol);
+		    for j := 0; j < n; j++ {
+			    bestsod[j] = isod[j]
+		    }
+
+                } // if (...)
+            } // else
+        } // for (i)
+
+	for i := 0; i <= maxItsug[item]; i++ {
+            isug[item] = i;
+            if item < n-1 {
+                calcWithRecursion(item+1);
+            } else {
+                currVal := 0;   // current value
+                currWei := 0; // current weight
+		currVol := 0; // current Volume
+		for j := 0; j < n; j++ {
+                    currVal += isug[j] * items[j].sugar;
+                    currWei += isug[j] * items[j].sugar;
+                    currVol += isug[j] * items[j].cost;
+                }
+
+                if currVal > constraints.cost && currVol <= constraints.cost {
+
+                    bestsugitem.sugar = (currVal);
+                    bestsugitem.sugar = (currWei);
+                    bestsugitem.cost = (currVol);
+		    for j := 0; j < n; j++ {
+			    bestsod[j] = isod[j]
+		    }
+
+                } // if (...)
+            } // else
+        } // for (i)
+
+}
+
+func main() {
+	UnboundedKnapsack()
+}
