@@ -43,6 +43,7 @@ func ListenAndServe(ip string, f foodstore.FoodStore) {
 	store = f
 	fmt.Printf("Running server on %s.\n", ip)
 	http.HandleFunc("/", serveRoot)
+	http.HandleFunc("/food/", serveFood)
 	http.HandleFunc("/about/", serveAbout)
 	http.HandleFunc("/contact/", serveContact)
 	log.Fatal(http.ListenAndServe(ip, nil))
