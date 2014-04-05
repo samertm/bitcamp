@@ -140,17 +140,41 @@ def convertToInt(val):
     if tokens[1] == 'g':
         return 1000 * int(tokens[0])
     return int(tokens[0])
+
+prices = {
+    "almond": 0.54,
+    "banana": 0.36,
+    "black bean": 0.66,
+    "bread": 0.31,
+    "brown rice": 1.10,
+    "butter": 0.03,
+    "carrot": 0.05,
+    "cheddar cheese": 0.24,
+    "egg": 0.35,
+    "milk": 0.27,
+    "oats": 0.88,
+    "onion": 0.99,
+    "peanut": 0.25,
+    "prepared potato": 0.57,
+    "prepared sweet pepper": 1.99,
+    "prepared sweet potato": 0.72,
+    "red beans": 0.08,
+    "spaghetti": 0.67,
+    "tomato": 1.49,
+    "white rice": 0.71,
+}
     
 def writeDatabase():
     foods = makeFoods()
-    conn = sqlite3.connect('example.db')
+    conn = sqlite3.connect('foods.db')
     c = conn.cursor()
     c.execute('''CREATE TABLE foods
-    (name text, fiber integer, calories integer, sugar integer,
+    (name text, price real, fiber integer, calories integer, sugar integer,
     fat integer, sodium integer, carbohydrates integer, serving integer,
     cholesterol integer, protein integer)''')
     for f in foods:
         vals = (f['name'],
+                prices[f['name']],
                 convertToInt(f.get('dietary fiber', 'NULL')),
                 convertToInt(f.get('calories', 'NULL')),
                 convertToInt(f.get('sugar', 'NULL')),
@@ -160,6 +184,6 @@ def writeDatabase():
                 convertToInt(f.get('serving size', 'NULL')),
                 convertToInt(f.get('cholesterol', 'NULL')),
                 convertToInt(f.get('protein', 'NULL')))
-        c.execute("INSERT INTO foods VALUES (?,?,?,?,?,?,?,?,?,?)", vals)
+        c.execute("INSERT INTO foods VALUES (?,?,?,?,?,?,?,?,?,?,?)", vals)
     conn.commit()
     conn.close()
