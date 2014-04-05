@@ -4,6 +4,7 @@ import (
 	"net/http"
 	"html/template"
 	"fmt"
+	"github.com/samertm/bitcamp/foodstore"
 )
 
 func serveRoot(w http.ResponseWriter, req *http.Request) {
@@ -15,7 +16,7 @@ func serveFood(w http.ResponseWriter, req *http.Request) {
 	
 }
 
-func ListenAndServe(ip string) {
+func ListenAndServe(ip string, f foodstore.FoodStore) {
 	fmt.Printf("Running server on %s.\n", ip)
 	http.HandleFunc("/", serveRoot)
 	http.ListenAndServe(ip, nil)

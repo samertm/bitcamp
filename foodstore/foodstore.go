@@ -25,12 +25,12 @@ type Food struct {
 // always equal.
 type FoodStore map[string]Food
 
-func New() *FoodStore {
+func New() FoodStore {
 	f := make(FoodStore)
-	return &f
+	return f
 }
 
-func NewFromDb() *FoodStore {
+func NewFromDb() FoodStore {
 	dbName := "./foods.db"
 	db, err := sql.Open("sqlite3", dbName)
 	if err != nil {
@@ -44,7 +44,7 @@ select name, price, fiber, calories, sugar, fat, sodium, carbohydrates, serving,
 		log.Fatal(err)
 	}
 	defer rows.Close()
-	store := New()
+	var store FoodStore = New()
 	for rows.Next() {
 		var name string
 		var price float64
@@ -53,7 +53,7 @@ select name, price, fiber, calories, sugar, fat, sodium, carbohydrates, serving,
 		rows.Scan(&name, &price, &fiber, &calories, &sugar, &fat,
 			&sodium, &carbohydrates, &serving, &cholesterol,
 			&protein)
-		store[name] = &Food{
+		store[name] = Food{
 			name,
 			price,
 			fiber,
