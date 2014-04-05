@@ -6,7 +6,7 @@
   text-align: center;
 }
 body {
-background-image:url("rice.jpg");
+background-image:url("img/rice.jpg");
 background-repeat:repeat;
 }
 .textubocksu{
@@ -15,7 +15,7 @@ text-align: center;
 margin-left: auto;
 margin-right: auto;
 white-space: nowrap;
-display: block;
+display: inline-block;
 }
 .topkek{
     display: inline-block;
@@ -32,4 +32,6 @@ display: block;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
     transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
 }
-
+th{
+text-align:center;
+}
