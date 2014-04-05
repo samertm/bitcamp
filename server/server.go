@@ -31,7 +31,7 @@ func serveContact(w http.ResponseWriter, req *http.Request) {
 func ListenAndServe(ip string, f foodstore.FoodStore) {
 	fmt.Printf("Running server on %s.\n", ip)
 	http.HandleFunc("/", serveRoot)
-	http.HandleFunc("/about", serveAbout)
-	http.HandleFunc("/contact", serveContact)
+	http.HandleFunc("/about/", serveAbout)
+	http.HandleFunc("/contact/", serveContact)
 	log.Fatal(http.ListenAndServe(ip, nil))
 }
