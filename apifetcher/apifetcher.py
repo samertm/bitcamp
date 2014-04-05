@@ -187,3 +187,9 @@ def writeDatabase():
         c.execute("INSERT INTO foods VALUES (?,?,?,?,?,?,?,?,?,?,?)", vals)
     conn.commit()
     conn.close()
+
+def main():
+    writeDatabase()
+
+if __name__ == "__main__":
+    main()
