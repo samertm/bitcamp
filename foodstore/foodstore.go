@@ -31,7 +31,7 @@ func New() FoodStore {
 }
 
 func NewFromDb() FoodStore {
-	dbName := "./foods.db"
+	dbName := "./apifetcher/foods.db"
 	db, err := sql.Open("sqlite3", dbName)
 	if err != nil {
 		log.Fatal(err)
