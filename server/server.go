@@ -1,9 +1,11 @@
 package server
 
 import (
-	"net/http"
-	"html/template"
 	"fmt"
+	"html/template"
+	"log"
+	"net/http"
+
 	"github.com/samertm/bitcamp/foodstore"
 )
 
@@ -13,11 +15,11 @@ func serveRoot(w http.ResponseWriter, req *http.Request) {
 }
 
 func serveFood(w http.ResponseWriter, req *http.Request) {
-	
+
 }
 
 func ListenAndServe(ip string, f foodstore.FoodStore) {
 	fmt.Printf("Running server on %s.\n", ip)
 	http.HandleFunc("/", serveRoot)
-	http.ListenAndServe(ip, nil)
+	log.Fatal(http.ListenAndServe(ip, nil))
 }
