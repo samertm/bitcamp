@@ -17,14 +17,14 @@ func serveRoot(w http.ResponseWriter, req *http.Request) {
 }
 
 type FoodWrapper struct {
-     Foods []foodstore.Food
+	Foods []foodstore.Food
 }
 
 func serveFood(w http.ResponseWriter, req *http.Request) {
 	foods := runAlgorithm(15)
-	temp := FoodWrapper{ foods }
-        t, _ := template.ParseFiles("templates/food.html")
-	t.Execute(w, temp)
+	wrapper := FoodWrapper{foods}
+	t, _ := template.ParseFiles("templates/food.html")
+	t.Execute(w, wrapper)
 }
 
 func serveAbout(w http.ResponseWriter, req *http.Request) {
@@ -43,7 +43,7 @@ func runAlgorithm(money int) []foodstore.Food {
 		store["brown rice"],
 	}
 }
-	
+
 func ListenAndServe(ip string, f foodstore.FoodStore) {
 	store = f
 	fmt.Printf("Running server on %s.\n", ip)
