@@ -96,7 +96,8 @@ loop:
 		switch {
 		case makeup.Calories < constraints.Calories:
 			for _, f := range Sortedfoods.Calories {
-				if makeup.Price+Store[f].Price < money {
+				if makeup.Calories+Store[f].Calories < constraints.Calories &&
+					makeup.Price+Store[f].Price < money {
 					add(makeup, Store[f])
 					numfoods[f] += 1
 					continue loop
@@ -105,7 +106,8 @@ loop:
 			fallthrough
 		case makeup.Protein < constraints.Protein:
 			for _, f := range Sortedfoods.Protein {
-				if makeup.Price+Store[f].Price < money {
+				if makeup.Protein+Store[f].Protein < constraints.Protein &&
+					makeup.Price+Store[f].Price < money {
 					add(makeup, Store[f])
 					numfoods[f] += 1
 					continue loop
@@ -114,7 +116,8 @@ loop:
 			fallthrough
 		case makeup.Carbohydrates < constraints.Carbohydrates:
 			for _, f := range Sortedfoods.Carbohydrates {
-				if makeup.Price+Store[f].Price < money {
+				if makeup.Carbohydrates+Store[f].Carbohydrates < constraints.Carbohydrates &&
+					makeup.Price+Store[f].Price < money {
 					add(makeup, Store[f])
 					numfoods[f] += 1
 					continue loop
@@ -123,7 +126,8 @@ loop:
 			fallthrough
 		case makeup.Fat < constraints.Fat:
 			for _, f := range Sortedfoods.Fat {
-				if makeup.Price+Store[f].Price < money {
+				if makeup.Fat+Store[f].Fat < constraints.Fat &&
+					makeup.Price+Store[f].Price < money {
 					add(makeup, Store[f])
 					numfoods[f] += 1
 					continue loop
@@ -132,7 +136,8 @@ loop:
 			fallthrough
 		case makeup.Fiber < constraints.Fiber:
 			for _, f := range Sortedfoods.Fiber {
-				if makeup.Price+Store[f].Price < money {
+				if makeup.Fiber+Store[f].Fiber < constraints.Fiber &&
+					makeup.Price+Store[f].Price < money {
 					add(makeup, Store[f])
 					numfoods[f] += 1
 					continue loop
