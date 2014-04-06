@@ -33,6 +33,7 @@ func serveFood(w http.ResponseWriter, req *http.Request) {
 			return
 		}
 		foods := foodstore.OptimalFoods(num)
+				   fmt.Println(foods)
 		wrapper := FoodWrapper{foods}
 		t, _ := template.ParseFiles("templates/food.html")
 		t.Execute(w, wrapper)
