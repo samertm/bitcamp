@@ -3,7 +3,7 @@ package server
 import (
 	"fmt"
 	"strconv"
-	"ioutil"
+	"io/ioutil"
 	"html/template"
 	"log"
 	"net/http"
