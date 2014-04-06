@@ -68,7 +68,6 @@
                   <th>Sodium</th>
 	          <th>Sugar</th>
                   <th>Fiber</th>
-                  <th>Cholesterol</th>
                 </tr>
 		</thead>
               <tbody>
@@ -77,15 +76,14 @@
                 <tr>
                   <td class="name">{{.Name}}</td>
                   <td>{{.Serving}}</td>
-                  <td>{{.Price}}</td>
+                  <td class="price">{{.Price}}</td>
                   <td>{{.Calories}}</td>
-                  <td>{{.Protein}}</td>
-	          <td>{{.Fat}}</td>
-                  <td>{{.Carbohydrates}}</td>
-                  <td>{{.Sodium}}</td>
-                  <td>{{.Sugar}}</td>
-                  <td>{{.Fiber}}</td>
-                  <td>{{.Cholesterol}}</td>
+                  <td class="macro">{{.Protein}}</td>
+	          <td class="macro">{{.Fat}}</td>
+                  <td class="macro">{{.Carbohydrates}}</td>
+                  <td class="macro">{{.Sodium}}</td>
+                  <td class="macro">{{.Sugar}}</td>
+                  <td class="macro">{{.Fiber}}</td>
                 </tr>
                 {{end}}
                 {{end}}
