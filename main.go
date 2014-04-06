@@ -7,5 +7,5 @@ import (
 
 func main() {
 	foodstore.NewFromDb() // TODO change to init
-        server.ListenAndServe(":8889", f)
+        server.ListenAndServe(":8889")
 }
