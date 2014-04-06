@@ -23,6 +23,7 @@ type FoodWrapper struct {
 func serveFood(w http.ResponseWriter, req *http.Request) {
 	if req.Method == "POST" {
 		data, _ := ioutil.ReadAll(req.Body)
+		fmt.Println(string(data))
 		num, err := strconv.ParseFloat(string(data), 64)
 		if err != nil {
 			fmt.Fprintf(w, "error: not a number.")
