@@ -34,6 +34,7 @@ func serveFood(w http.ResponseWriter, req *http.Request) {
 		t, _ := template.ParseFiles("templates/food.html")
 		t.Execute(w, wrapper)
 	} else {
+		fmt.Println(req.Method)
 		serveRoot(w, req)
 	}
 }
