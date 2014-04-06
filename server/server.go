@@ -16,10 +16,15 @@ func serveRoot(w http.ResponseWriter, req *http.Request) {
 	t.Execute(w, nil)
 }
 
+type FoodWrapper struct {
+     Foods []foodstore.Food
+}
+
 func serveFood(w http.ResponseWriter, req *http.Request) {
 	foods := runAlgorithm(15)
-	t, _ := template.ParseFiles("templates/food.html")
-	t.Execute(w, foods)
+	temp := FoodWrapper{ foods }
+        t, _ := template.ParseFiles("templates/food.html")
+	t.Execute(w, temp)
 }
 
 func serveAbout(w http.ResponseWriter, req *http.Request) {
