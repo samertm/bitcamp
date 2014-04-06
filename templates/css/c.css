@@ -10,7 +10,6 @@ background-image:url("/img/rice.jpg");
 background-repeat:repeat;
 }
 .textubocksu{
-max-width:100px;
 text-align: center;
 margin-left: auto;
 margin-right: auto;
@@ -19,7 +18,7 @@ display: inline-block;
 }
 .topkek{
     display: inline-block;
-    width: 100%;
+    width: 25%;
     height: 38px;
     padding: 8px 12px;
     font-size: 14px;
