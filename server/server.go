@@ -2,6 +2,8 @@ package server
 
 import (
 	"fmt"
+	"strconv"
+	"ioutil"
 	"html/template"
 	"log"
 	"net/http"
@@ -19,10 +21,20 @@ type FoodWrapper struct {
 }
 
 func serveFood(w http.ResponseWriter, req *http.Request) {
-	foods := foodstore.OptimalFoods(15)
-	wrapper := FoodWrapper{foods}
-	t, _ := template.ParseFiles("templates/food.html")
-	t.Execute(w, wrapper)
+	if req.Method == "POST" {
+		data := ioutil.ReadAll(req.Body)
+		num, err := strconv.ParseInt(string(data), 10, 0)
+		if err != nil {
+			fmt.Fprintf(w, "error: not a number.")
+			return
+		}
+		foods := foodstore.OptimalFoods(int(num))
+		wrapper := FoodWrapper{foods}
+		t, _ := template.ParseFiles("templates/food.html")
+		t.Execute(w, wrapper)
+	} else {
+		serveRoot(w, req)
+	}
 }
 
 func serveAbout(w http.ResponseWriter, req *http.Request) {
