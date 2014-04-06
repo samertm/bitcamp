@@ -97,7 +97,12 @@ loop:
 		case makeup.Calories < constraints.Calories:
 			for _, f := range Sortedfoods.Calories {
 				if makeup.Calories+Store[f].Calories < constraints.Calories &&
+					makeup.Protein+Store[f].Protein < constraints.Protein &&
+					makeup.Carbohydrates+Store[f].Carbohydrates < constraints.Carbohydrates &&
+					makeup.Fat+Store[f].Fat < constraints.Fat &&
+					makeup.Fiber+Store[f].Fiber < constraints.Fiber &&
 					makeup.Price+Store[f].Price < money {
+
 					add(makeup, Store[f])
 					numfoods[f] += 1
 					continue loop
@@ -108,7 +113,11 @@ loop:
 			for _, f := range Sortedfoods.Protein {
 				if makeup.Calories+Store[f].Calories < constraints.Calories &&
 					makeup.Protein+Store[f].Protein < constraints.Protein &&
+					makeup.Carbohydrates+Store[f].Carbohydrates < constraints.Carbohydrates &&
+					makeup.Fat+Store[f].Fat < constraints.Fat &&
+					makeup.Fiber+Store[f].Fiber < constraints.Fiber &&
 					makeup.Price+Store[f].Price < money {
+
 					add(makeup, Store[f])
 					numfoods[f] += 1
 					continue loop
@@ -120,7 +129,10 @@ loop:
 				if makeup.Calories+Store[f].Calories < constraints.Calories &&
 					makeup.Protein+Store[f].Protein < constraints.Protein &&
 					makeup.Carbohydrates+Store[f].Carbohydrates < constraints.Carbohydrates &&
+					makeup.Fat+Store[f].Fat < constraints.Fat &&
+					makeup.Fiber+Store[f].Fiber < constraints.Fiber &&
 					makeup.Price+Store[f].Price < money {
+
 					add(makeup, Store[f])
 					numfoods[f] += 1
 					continue loop
@@ -133,6 +145,7 @@ loop:
 					makeup.Protein+Store[f].Protein < constraints.Protein &&
 					makeup.Carbohydrates+Store[f].Carbohydrates < constraints.Carbohydrates &&
 					makeup.Fat+Store[f].Fat < constraints.Fat &&
+					makeup.Fiber+Store[f].Fiber < constraints.Fiber &&
 					makeup.Price+Store[f].Price < money {
 					add(makeup, Store[f])
 					numfoods[f] += 1
