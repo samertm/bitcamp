@@ -5,14 +5,14 @@ import (
 )
 
 var constraints = Food{
-	Name:          "contraint",
-	Fiber:         38000,
-	Calories:      2000,
+	Name:          "constraint",
+	Fiber:         266000,
+	Calories:      14000,
 	Sugar:         0,
-	Fat:           60000,
-	Sodium:        2300,
-	Carbohydrates: 250000,
-	Protein:       65000,
+	Fat:           420000,
+	Sodium:        16100,
+	Carbohydrates: 1750000,
+	Protein:       455000,
 }
 
 type ByCalories []string
