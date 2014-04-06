@@ -106,7 +106,8 @@ loop:
 			fallthrough
 		case makeup.Protein < constraints.Protein:
 			for _, f := range Sortedfoods.Protein {
-				if makeup.Protein+Store[f].Protein < constraints.Protein &&
+				if makeup.Calories+Store[f].Calories < constraints.Calories &&
+					makeup.Protein+Store[f].Protein < constraints.Protein &&
 					makeup.Price+Store[f].Price < money {
 					add(makeup, Store[f])
 					numfoods[f] += 1
@@ -116,7 +117,9 @@ loop:
 			fallthrough
 		case makeup.Carbohydrates < constraints.Carbohydrates:
 			for _, f := range Sortedfoods.Carbohydrates {
-				if makeup.Carbohydrates+Store[f].Carbohydrates < constraints.Carbohydrates &&
+				if makeup.Calories+Store[f].Calories < constraints.Calories &&
+					makeup.Protein+Store[f].Protein < constraints.Protein &&
+					makeup.Carbohydrates+Store[f].Carbohydrates < constraints.Carbohydrates &&
 					makeup.Price+Store[f].Price < money {
 					add(makeup, Store[f])
 					numfoods[f] += 1
@@ -126,7 +129,10 @@ loop:
 			fallthrough
 		case makeup.Fat < constraints.Fat:
 			for _, f := range Sortedfoods.Fat {
-				if makeup.Fat+Store[f].Fat < constraints.Fat &&
+				if makeup.Calories+Store[f].Calories < constraints.Calories &&
+					makeup.Protein+Store[f].Protein < constraints.Protein &&
+					makeup.Carbohydrates+Store[f].Carbohydrates < constraints.Carbohydrates &&
+					makeup.Fat+Store[f].Fat < constraints.Fat &&
 					makeup.Price+Store[f].Price < money {
 					add(makeup, Store[f])
 					numfoods[f] += 1
@@ -136,7 +142,11 @@ loop:
 			fallthrough
 		case makeup.Fiber < constraints.Fiber:
 			for _, f := range Sortedfoods.Fiber {
-				if makeup.Fiber+Store[f].Fiber < constraints.Fiber &&
+				if makeup.Calories+Store[f].Calories < constraints.Calories &&
+					makeup.Protein+Store[f].Protein < constraints.Protein &&
+					makeup.Carbohydrates+Store[f].Carbohydrates < constraints.Carbohydrates &&
+					makeup.Fat+Store[f].Fat < constraints.Fat &&
+					makeup.Fiber+Store[f].Fiber < constraints.Fiber &&
 					makeup.Price+Store[f].Price < money {
 					add(makeup, Store[f])
 					numfoods[f] += 1
