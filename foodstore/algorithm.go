@@ -95,7 +95,7 @@ func InitSortedFoods() {
 	sort.Sort(ByFiber(Sortedfoods.Fiber))
 }
 
-func OptimalFoods(money float64) []Food { // append makeup?
+func OptimalFoods(money float64) ([]Food, *Food) { // append makeup?
 	// number of each food item. Each item is zeroed (yay go :D).
 	numfoods := make(map[string]int)
 	// the person's nutritional/price makeup
@@ -167,5 +167,5 @@ loop:
 	for key, value := range numfoods {
 		foods = append(foods, multiply(key, value))
 	}
-	return foods
+	return foods, makeup
 }

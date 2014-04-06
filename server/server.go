@@ -17,6 +17,7 @@ func serveRoot(w http.ResponseWriter, req *http.Request) {
 
 type FoodWrapper struct {
 	Foods []foodstore.Food
+        Makeup *foodstore.Food
 }
 
 func serveFood(w http.ResponseWriter, req *http.Request) {
@@ -32,9 +33,8 @@ func serveFood(w http.ResponseWriter, req *http.Request) {
 			fmt.Fprintf(w, "error: not a number.")
 			return
 		}
-		foods := foodstore.OptimalFoods(num)
-				   fmt.Println(foods)
-		wrapper := FoodWrapper{foods}
+		foods, makeup := foodstore.OptimalFoods(num)
+		wrapper := FoodWrapper{foods, makeup}
 		t, _ := template.ParseFiles("templates/food.html")
 		t.Execute(w, wrapper)
 	} else {

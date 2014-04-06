@@ -1,20 +1,20 @@
 .splash {
-  height: 50em;
-  padding-top: 0em;
-  margin-bottom: 2em;
-  background-size: cover;
-  text-align: center;
+    height: 50em;
+    padding-top: 0em;
+    margin-bottom: 2em;
+    background-size: cover;
+    text-align: center;
 }
 body {
-background-image:url("/img/rice.jpg");
-background-repeat:repeat;
+    background-image:url("/img/rice.jpg");
+    background-repeat:repeat;
 }
 .textubocksu{
-text-align: center;
-margin-left: auto;
-margin-right: auto;
-white-space: nowrap;
-display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+    display: inline-block;
 }
 .topkek{
     display: inline-block;
@@ -32,5 +32,5 @@ display: inline-block;
     transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
 }
 th{
-text-align:center;
+    text-align:center;
 }

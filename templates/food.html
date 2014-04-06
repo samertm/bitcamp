@@ -1,9 +1,10 @@
-	<!DOCTYPE html>
-	<html lang="en"><head>
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-		<meta charset="utf-8">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" href="/img/dogeswag.jpg">
@@ -53,47 +54,60 @@
 
         <div class="jumbotron">
           <h1>Calculator</h1>
-
-          <div class="table-responsive">
-            <table class="table table-striped">
-		<thead>
-                <tr>
-                  <th>Name</th>
-                  <th>Servings</th>
-                  <th>Price</th>
-                  <th>Calories</th>
-                  <th>Protein</th>
-                  <th>Fat</th>
-                  <th>Carbohydrates</th>
-                  <th>Sodium</th>
-	          <th>Sugar</th>
-                  <th>Fiber</th>
-                </tr>
-		</thead>
-              <tbody>
-                {{with .Foods}}
-                {{range .}}
-                <tr>
-                  <td class="name">{{.Name}}</td>
-                  <td>{{.Serving}}</td>
-                  <td class="price">{{.Price}}</td>
-                  <td>{{.Calories}}</td>
-                  <td class="macro">{{.Protein}}</td>
-	          <td class="macro">{{.Fat}}</td>
-                  <td class="macro">{{.Carbohydrates}}</td>
-                  <td class="macro">{{.Sodium}}</td>
-                  <td class="macro">{{.Sugar}}</td>
-                  <td class="macro">{{.Fiber}}</td>
-                </tr>
-                {{end}}
-                {{end}}
-              </tbody>
-            </table>
-          </div>
+          <div class="row">
+            <div class="col-md-8">
+              <div class="table-responsive">
+                <table class="table table-striped">
+		  <thead>
+                    <tr>
+                      <th>Name</th>
+                      <th>Servings</th>
+                      <th>Price</th>
+                      <th>Calories</th>
+                      <th>Protein</th>
+                      <th>Fat</th>
+                      <th>Carbohydrates</th>
+                      <th>Sodium</th>
+	              <th>Sugar</th>
+                      <th>Fiber</th>
+                    </tr>
+		  </thead>
+                  <tbody>
+                    {{with .Foods}}
+                    {{range .}}
+                    <tr>
+                      <td class="name">{{.Name}}</td>
+                      <td>{{.Serving}}</td>
+                      <td class="price">{{.Price}}</td>
+                      <td>{{.Calories}}</td>
+                      <td class="macro">{{.Protein}}</td>
+	              <td class="macro">{{.Fat}}</td>
+                      <td class="macro">{{.Carbohydrates}}</td>
+                      <td class="macro">{{.Sodium}}</td>
+                      <td class="macro">{{.Sugar}}</td>
+                      <td class="macro">{{.Fiber}}</td>
+                    </tr>
+                    {{end}}
+                    {{end}}
+                  </tbody>
+                </table>
+              </div>
+            </div><!-- col-md-8 -->
+            <div class="col-md-4 nutrition">
+              <h2>Your Nutrition</h2>
+              {{with .Makeup}}
+              <p>Cost: $<span class="price">{{.Price}}</span></p>
+              <p>Calories: {{.Calories}}</p>
+              <p>Protein: <span class="macro">{{.Protein}}</span></p>
+              <p>Fat: <span class="macro">{{.Fat}}</span></p>
+              <p>Carbs: <span class="macro">{{.Carbohydrates}}</span></p>
+              <p>Fiber: <span class="macro">{{.Fiber}}</span></p>
+              {{end}}
+            </div>
+          </div><!-- row -->
         </div>
       </div>
     </div>
-
 
 
 

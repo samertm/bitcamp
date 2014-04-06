@@ -4,7 +4,7 @@ $(".name").replaceWith(function() {
 
 $(".price").text(function() {
     if ($(this).text().length - $(this).text().indexOf(".") > 3) {
-        return $(this).text().substring($(this).text().indexOf("."), $(this).text().indexOf(".") + 2);
+        return $(this).text().substring(0, $(this).text().indexOf(".") + 3);
     } else {
         return $(this).text()
     }
