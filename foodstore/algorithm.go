@@ -71,12 +71,22 @@ type SortedFoods struct {
 var Sortedfoods SortedFoods
 
 func InitSortedFoods() {
-	for key, _ := range Store {
-		Sortedfoods.Calories = append(Sortedfoods.Calories, key)
-		Sortedfoods.Protein = append(Sortedfoods.Protein, key)
-		Sortedfoods.Carbohydrates = append(Sortedfoods.Carbohydrates, key)
-		Sortedfoods.Fat = append(Sortedfoods.Fat, key)
-		Sortedfoods.Fiber = append(Sortedfoods.Fiber, key)
+	for key, v := range Store {
+		if v.Calories != 0 {
+			Sortedfoods.Calories = append(Sortedfoods.Calories, key)
+		}
+		if v.Protein != 0 {
+			Sortedfoods.Protein = append(Sortedfoods.Protein, key)
+		}
+		if v.Carbohydrates != 0 {
+			Sortedfoods.Carbohydrates = append(Sortedfoods.Carbohydrates, key)
+		}
+		if v.Fat != 0 {
+			Sortedfoods.Fat = append(Sortedfoods.Fat, key)
+		}
+		if v.Fiber != 0 {
+			Sortedfoods.Fiber = append(Sortedfoods.Fiber, key)
+		}
 	}
 	sort.Sort(ByCalories(Sortedfoods.Calories))
 	sort.Sort(ByProtein(Sortedfoods.Protein))
