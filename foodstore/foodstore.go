@@ -9,7 +9,7 @@ import (
 type Food struct {
 	Name string
 	// All of the following are per serving. Sizes are in grams.
-n	Price         float64
+	Price         float64
 	Fiber         int
 	Calories      int
 	Sugar         int
