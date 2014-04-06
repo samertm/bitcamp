@@ -131,7 +131,7 @@ def makeFoods():
 
 def convertToInt(val):
     if val == 'NULL':
-        return 'NULL'
+        return 0
     tokens = val.split()
     if len(tokens) == 1:
         return int(tokens[0])
@@ -147,7 +147,7 @@ prices = {
     "black bean": 0.66,
     "bread": 0.31,
     "brown rice": 1.10,
-    "butter": 0.03,
+    "butter": 0.06,
     "carrot": 0.05,
     "cheddar cheese": 0.24,
     "egg": 0.35,

@@ -1,6 +1,3 @@
-
-
-
 public class Item {
     public String name;
     public int cal;
@@ -65,8 +62,4 @@ public class Item {
     	public void setSodium(int sodium) {
     		this.sodium = sodium;
     	}
-    
- 
-   
- 
 } // class

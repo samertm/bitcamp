@@ -2,10 +2,15 @@ package main
 
 import (
 	"github.com/samertm/bitcamp/foodstore"
-	"github.com/samertm/bitcamp/server"
+	_ "github.com/samertm/bitcamp/server"
+
+	//DEBUG
+	"fmt"
 )
 
 func main() {
-	f := foodstore.NewFromDb()
-        server.ListenAndServe(":8889", f)
+	foodstore.NewFromDb() // TODO change to init
+	fmt.Println(foodstore.OptimalFoods(10.0))
+	fmt.Println(foodstore.Sortedfoods.Calories)
+        //server.ListenAndServe(":8889", f)
 }

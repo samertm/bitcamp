@@ -25,12 +25,44 @@ type Food struct {
 // always equal.
 type FoodStore map[string]Food
 
-func New() FoodStore {
-	f := make(FoodStore)
-	return f
+var Store FoodStore
+
+func New() {
+	Store = make(FoodStore)
 }
 
-func NewFromDb() FoodStore {
+// Add f2 to f1. Modify f1.
+func add(f1 *Food, f2 Food) {
+	f1.Price += f2.Price
+	f1.Fiber += f2.Fiber
+	f1.Calories += f2.Calories
+	f1.Sugar += f2.Sugar
+	f1.Fat += f2.Fat
+	f1.Sodium += f2.Sodium
+	f1.Carbohydrates += f2.Carbohydrates
+	f1.Protein += f2.Protein
+	f1.Cholesterol += f2.Cholesterol
+}
+
+func multiply(name string, times int) Food {
+	f := Store[name]
+	return Food{
+		f.Name,
+		f.Price * float64(times),
+		f.Fiber * times,
+		f.Calories * times,
+		f.Sugar * times,
+		f.Fat * times,
+		f.Sodium * times,
+		f.Carbohydrates * times,
+		f.Serving * times,
+		f.Cholesterol * times,
+		f.Protein * times,
+	}
+}
+
+
+func NewFromDb() {
 	dbName := "./apifetcher/foods.db"
 	db, err := sql.Open("sqlite3", dbName)
 	if err != nil {
@@ -44,7 +76,7 @@ select name, price, fiber, calories, sugar, fat, sodium, carbohydrates, serving,
 		log.Fatal(err)
 	}
 	defer rows.Close()
-	var store FoodStore = New()
+	New()
 	for rows.Next() {
 		var name string
 		var price float64
@@ -53,7 +85,7 @@ select name, price, fiber, calories, sugar, fat, sodium, carbohydrates, serving,
 		rows.Scan(&name, &price, &fiber, &calories, &sugar, &fat,
 			&sodium, &carbohydrates, &serving, &cholesterol,
 			&protein)
-		store[name] = Food{
+		Store[name] = Food{
 			name,
 			price,
 			fiber,
@@ -67,5 +99,4 @@ select name, price, fiber, calories, sugar, fat, sodium, carbohydrates, serving,
 			protein,
 		}
 	}
-	return store
 }

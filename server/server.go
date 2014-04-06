@@ -9,8 +9,6 @@ import (
 	"github.com/samertm/bitcamp/foodstore"
 )
 
-var store foodstore.FoodStore
-
 func serveRoot(w http.ResponseWriter, req *http.Request) {
 	t, _ := template.ParseFiles("templates/index.html")
 	t.Execute(w, nil)
@@ -21,7 +19,7 @@ type FoodWrapper struct {
 }
 
 func serveFood(w http.ResponseWriter, req *http.Request) {
-	foods := runAlgorithm(15)
+	foods := foodstore.OptimalFoods(15)
 	wrapper := FoodWrapper{foods}
 	t, _ := template.ParseFiles("templates/food.html")
 	t.Execute(w, wrapper)
@@ -37,15 +35,7 @@ func serveContact(w http.ResponseWriter, req *http.Request) {
 	t.Execute(w, nil)
 }
 
-func runAlgorithm(money int) []foodstore.Food {
-	return []foodstore.Food{
-		store["white rice"],
-		store["brown rice"],
-	}
-}
-
-func ListenAndServe(ip string, f foodstore.FoodStore) {
-	store = f
+func ListenAndServe(ip string) {
 	fmt.Printf("Running server on %s.\n", ip)
 	http.HandleFunc("/", serveRoot)
 	http.HandleFunc("/food/", serveFood)
